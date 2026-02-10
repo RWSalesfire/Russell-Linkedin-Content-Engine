@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "date": "2026-02-10",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Practical eCommerce",
+      "angle": "Google's first Discover-focused core update signals shift in traffic distribution strategy."
+    },
+    {
+      "date": "2026-02-10",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Algorithmic Bridge",
+      "angle": "Weekly AI news roundup covering culture, philosophy, and business trends."
+    },
+    {
+      "date": "2026-02-10",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Practical eCommerce",
+      "angle": "Expert guidance on whether eCommerce merchants should block AI bots from accessing inventory."
+    },
+    {
+      "date": "2026-02-10",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Retail Dive",
+      "angle": "Eddie Bauer winds down all 175 US and Canadian stores by April 30."
+    }
+  ]
+}

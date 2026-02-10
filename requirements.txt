@@ -1,0 +1,7 @@
+feedparser
+beautifulsoup4
+anthropic
+google-api-python-client
+google-auth-oauthlib
+python-dotenv
+requests

@@ -1,0 +1,64 @@
+{
+  "feeds": [
+    {
+      "url": "https://oneusefulthing.substack.com/feed",
+      "name": "One Useful Thing",
+      "category_hint": "AI"
+    },
+    {
+      "url": "https://www.bensbites.com/feed",
+      "name": "Ben's Bites",
+      "category_hint": "AI"
+    },
+    {
+      "url": "https://tldr.tech/api/rss/ai",
+      "name": "TLDR AI",
+      "category_hint": "AI"
+    },
+    {
+      "url": "https://tldr.tech/api/rss/marketing",
+      "name": "TLDR Marketing",
+      "category_hint": "Email Marketing"
+    },
+    {
+      "url": "https://thealgorithmicbridge.substack.com/feed",
+      "name": "The Algorithmic Bridge",
+      "category_hint": "AI"
+    },
+    {
+      "url": "https://www.practicalecommerce.com/feed",
+      "name": "Practical eCommerce",
+      "category_hint": "eCommerce"
+    },
+    {
+      "url": "https://feeds.feedburner.com/ecommercefuel",
+      "name": "eCommerce Fuel",
+      "category_hint": "eCommerce"
+    },
+    {
+      "url": "https://blog.hubspot.com/sales/rss.xml",
+      "name": "HubSpot Sales",
+      "category_hint": "Sales"
+    },
+    {
+      "url": "https://www.saleshacker.com/feed/",
+      "name": "Sales Hacker",
+      "category_hint": "Sales"
+    },
+    {
+      "url": "https://www.retaildive.com/feeds/news/",
+      "name": "Retail Dive",
+      "category_hint": "eCommerce"
+    },
+    {
+      "url": "https://feeds.feedburner.com/neilpatel",
+      "name": "Neil Patel",
+      "category_hint": "Email Marketing"
+    },
+    {
+      "url": "https://www.behavioralscientist.org/feed/",
+      "name": "Behavioral Scientist",
+      "category_hint": "Behavioural Science"
+    }
+  ]
+}
