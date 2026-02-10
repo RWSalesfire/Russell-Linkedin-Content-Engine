@@ -27,6 +27,27 @@
       "persona": "The Human",
       "source": "Retail Dive",
       "angle": "Eddie Bauer winds down all 175 US and Canadian stores by April 30."
+    },
+    {
+      "date": "2026-02-10",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Retail Dive",
+      "angle": "Eddie Bauer closes all 175 US and Canadian stores by April 30."
+    },
+    {
+      "date": "2026-02-10",
+      "category": "Email Marketing",
+      "persona": "The Honest AI User",
+      "source": "TLDR Marketing",
+      "angle": "Marketing trends from Super Bowl ads and email strategy insights for seasonal campaigns."
+    },
+    {
+      "date": "2026-02-10",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Retail Dive",
+      "angle": "Francesca's files second bankruptcy with $30M in secured debt."
     }
   ]
 }
