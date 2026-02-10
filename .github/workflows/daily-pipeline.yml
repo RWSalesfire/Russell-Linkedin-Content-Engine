@@ -5,6 +5,9 @@ on:
     - cron: '0 6 * * 1-5'  # 6am UTC Mon-Fri
   workflow_dispatch:  # Manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   generate-content:
     runs-on: ubuntu-latest
