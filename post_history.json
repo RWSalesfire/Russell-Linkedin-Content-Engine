@@ -48,6 +48,27 @@
       "persona": "The Human",
       "source": "Retail Dive",
       "angle": "Francesca's files second bankruptcy with $30M in secured debt."
+    },
+    {
+      "date": "2026-02-11",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Retail Dive",
+      "angle": "Target cuts 500 corporate roles while significantly boosting store labor investment."
+    },
+    {
+      "date": "2026-02-11",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Neil Patel",
+      "angle": "Entity-based SEO shifts focus from keywords to semantic meaning and Google Knowledge Graph."
+    },
+    {
+      "date": "2026-02-11",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Ben's Bites",
+      "angle": "Builder creates file-explorer tool for managing remote machines with AI agents."
     }
   ]
 }
