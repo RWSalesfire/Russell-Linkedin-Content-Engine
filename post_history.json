@@ -90,6 +90,27 @@
       "persona": "The Sales Realist",
       "source": "HubSpot Sales",
       "angle": "Personalization beyond first names: 72% of B2B buyers expect contextual sales experiences."
+    },
+    {
+      "date": "2026-02-13",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Ben's Bites",
+      "angle": "Former GitHub CEO launches $60M agent-human collaboration platform challenging traditional code paradigm."
+    },
+    {
+      "date": "2026-02-13",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Retail Dive",
+      "angle": "December retail data shows consumers still spending but luxury buyers becoming cautious about 2026."
+    },
+    {
+      "date": "2026-02-13",
+      "category": "AI in eCommerce",
+      "persona": "The Sales Realist",
+      "source": "Retail Dive",
+      "angle": "Target tests contextual ads in ChatGPT via Roundel, signaling retail media networks adopting AI chatbots."
     }
   ]
 }
