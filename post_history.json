@@ -111,6 +111,27 @@
       "persona": "The Sales Realist",
       "source": "Retail Dive",
       "angle": "Target tests contextual ads in ChatGPT via Roundel, signaling retail media networks adopting AI chatbots."
+    },
+    {
+      "date": "2026-02-16",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Practical eCommerce",
+      "angle": "Google Analytics 'direct traffic' is mislabeled and misleading eCommerce tracking."
+    },
+    {
+      "date": "2026-02-16",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Behavioral Scientist",
+      "angle": "Rational choice theory oversimplifies human decision-making complexity and values."
+    },
+    {
+      "date": "2026-02-16",
+      "category": "Behavioural Science",
+      "persona": "The Honest AI User",
+      "source": "Behavioral Scientist",
+      "angle": "Behavioral science research must maintain equity focus despite controversy and backlash."
     }
   ]
 }
