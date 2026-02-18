@@ -39,11 +39,18 @@ def get_google_creds():
         b64_creds = b64_creds.strip()
         print(f"DEBUG: After strip length: {len(b64_creds)}")
         try:
-            token_data = base64.b64decode(b64_creds).decode()
-            # Strip whitespace from the decoded data too
-            token_data = token_data.strip()
-            print(f"DEBUG: Final token length: {len(token_data)}")
-            print(f"DEBUG: Final token first 100: {repr(token_data[:100])}")
+            # First base64 decode
+            first_decode = base64.b64decode(b64_creds).decode().strip()
+            print(f"DEBUG: First decode result: {repr(first_decode[:100])}")
+
+            # Check if we need to decode again (if it starts with base64 characters)
+            if first_decode.startswith('eyJ'):  # Looks like base64 JSON
+                # Second base64 decode
+                token_data = base64.b64decode(first_decode).decode().strip()
+                print(f"DEBUG: Double-decoded token: {repr(token_data[:100])}")
+            else:
+                token_data = first_decode
+
             if not token_data:
                 raise ValueError("Token data is empty after decoding and stripping")
             token_dict = json.loads(token_data)
