@@ -160,6 +160,41 @@
       "persona": "The Sales Realist",
       "source": "HubSpot Sales",
       "angle": "Multi-channel sales sequences transform manual outreach into repeatable, scalable pipeline generation system."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Voice AI tool Lemon enables task delegation and workflow automation for workers."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Guide for using Gemini Flash to create brand-consistent infographics at scale."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "SaaStr AI Intelligence",
+      "angle": "SaaS market declined 1.74% with mixed performance across 25 index stocks."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "The Rundown AI",
+      "angle": "Anthropic and Pentagon clash over AI defense policy and military applications."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "PPC Ninja",
+      "angle": "Explores prompt injection risks in AI-driven eCommerce workflow automation."
     }
   ]
 }
