@@ -1,0 +1,64 @@
+{
+  "newsletters": [
+    {
+      "sender_patterns": ["ritu@ppc-ninja.com", "ppc-ninja.com"],
+      "name": "PPC Ninja",
+      "category_hint": "Email Marketing"
+    },
+    {
+      "sender_patterns": ["no-reply@substack.com", "substack.com"],
+      "name": "Substack Digest",
+      "category_hint": "AI"
+    },
+    {
+      "sender_patterns": ["tldr.tech", "dan@tldrnewsletter.com"],
+      "name": "TLDR AI",
+      "category_hint": "AI"
+    },
+    {
+      "sender_patterns": ["hi@mail.aiforecommercenewsletter.com", "aiforecommercenewsletter.com"],
+      "name": "AI for eCommerce Newsletter",
+      "category_hint": "AI in eCommerce"
+    },
+    {
+      "sender_patterns": ["superhuman@mail.joinsuperhuman.ai", "joinsuperhuman.ai"],
+      "name": "Superhuman AI",
+      "category_hint": "AI"
+    },
+    {
+      "sender_patterns": ["news@daily.therundown.ai", "therundown.ai"],
+      "name": "The Rundown AI",
+      "category_hint": "AI"
+    },
+    {
+      "sender_patterns": ["desiree.echevarria@email.close.com", "close.com"],
+      "name": "Close Sales",
+      "category_hint": "Sales"
+    },
+    {
+      "sender_patterns": ["intelligence@saastrmatch.com", "saastrmatch.com"],
+      "name": "SaaStr AI Intelligence",
+      "category_hint": "AI in Sales"
+    },
+    {
+      "sender_patterns": ["levelingup@mail.beehiiv.com", "eric siu"],
+      "name": "Leveling Up (Eric Siu)",
+      "category_hint": "Sales"
+    },
+    {
+      "sender_patterns": ["oneusefulthing.substack.com", "ethan@oneusefulthing"],
+      "name": "One Useful Thing",
+      "category_hint": "AI"
+    },
+    {
+      "sender_patterns": ["bensbites.co", "ben@bensbites.co"],
+      "name": "Ben's Bites",
+      "category_hint": "AI"
+    },
+    {
+      "sender_patterns": ["hubspot.com", "noreply@hubspot.com"],
+      "name": "HubSpot Sales",
+      "category_hint": "Sales"
+    }
+  ]
+}
