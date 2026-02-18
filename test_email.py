@@ -51,6 +51,32 @@ sample_drafts = [
             "category": "Sales",
             "total_score": 44
         }
+    },
+    {
+        "persona": "The Human",
+        "post": "My 4-year-old asked me why adults make everything so complicated.\n\nI was explaining why we can't just \"buy the nice biscuits\" every time we shop.\n\nThen I realised: I spend hours debating email sequences that could just say \"Hi, this might help you.\"\n\nWe overcomplicate because we're scared of being too simple.\n\nBut simple works.\n\nMy daughter gets more excited about a cardboard box than the expensive toy that came in it.\n\nMaybe we should ask: what's our cardboard box?",
+        "alt_hook_1": "Adults overcomplicate everything. Kids don't.",
+        "alt_hook_2": "My daughter taught me something about marketing this week.",
+        "image_prompt": "Parent and child playing with simple cardboard box, expensive toys ignored in background",
+        "article": {
+            "title": "The Psychology of Simplicity in Consumer Behavior",
+            "source": "Behavioral Economics Review",
+            "category": "Behavioural Science",
+            "total_score": 41
+        }
+    },
+    {
+        "persona": "The eCommerce Observer",
+        "post": "Klaviyo's new predictive analytics dashboard launched yesterday.\n\nEveryone's raving about the AI predictions.\n\nI tested it on 3 client accounts.\n\nThe predictions? Impressive.\nThe actionable insights? Disappointing.\n\n\"Customer X will spend £200 next month\" - great.\n\"Send them this exact email on Tuesday at 2pm\" - even better.\n\nBut that second bit isn't there yet.\n\nPrediction without prescription is just expensive fortune telling.",
+        "alt_hook_1": "Klaviyo's new AI is impressive but incomplete.",
+        "alt_hook_2": "Predictive analytics that don't predict actions are useless.",
+        "image_prompt": "Split screen: crystal ball vs actionable dashboard interface, showing prediction vs prescription",
+        "article": {
+            "title": "Klaviyo Launches Advanced Predictive Analytics Suite",
+            "source": "Email Marketing Weekly",
+            "category": "Email Marketing",
+            "total_score": 46
+        }
     }
 ]
 

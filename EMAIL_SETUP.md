@@ -4,7 +4,7 @@ The LinkedIn Content Engine now supports sending daily email digests in addition
 
 ## Features
 
-- **Daily HTML Email Digest**: Professional formatted email with all 3 LinkedIn drafts
+- **Daily HTML Email Digest**: Professional formatted email with all 5 LinkedIn drafts
 - **Email Recommendation**: Highlights the best draft based on source score
 - **Content Balance Overview**: Shows category distribution from past 7 days
 - **Graceful Fallback**: Email failures don't break the pipeline
@@ -72,7 +72,7 @@ This will:
 The email includes:
 - **Header**: Date and branding
 - **Source Summary**: List of articles with scores
-- **3 Draft Sections**: Each with persona, post content, alternative hooks, and image prompt
+- **5 Draft Sections**: Each with persona, post content, alternative hooks, and image prompt
 - **Recommendation**: Highlights the best draft
 - **Content Balance**: 7-day category distribution
 - **Professional Styling**: Clean HTML format with fallback plain text
