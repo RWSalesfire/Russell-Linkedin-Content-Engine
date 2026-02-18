@@ -33,30 +33,20 @@ def get_google_creds():
     # CI path: base64-encoded credentials in env var
     b64_creds = os.getenv("GOOGLE_CREDENTIALS")
     if b64_creds:
-        print(f"DEBUG: Raw secret length: {len(b64_creds)}")
-        print(f"DEBUG: Raw secret first 50: {repr(b64_creds[:50])}")
         # Strip whitespace from the base64 data (GitHub might add extra formatting)
         b64_creds = b64_creds.strip()
-        print(f"DEBUG: After strip length: {len(b64_creds)}")
-        try:
-            # First base64 decode
-            first_decode = base64.b64decode(b64_creds).decode().strip()
-            print(f"DEBUG: First decode result: {repr(first_decode[:100])}")
 
-            # Check if we need to decode again (if it starts with base64 characters)
-            if first_decode.startswith('eyJ'):  # Looks like base64 JSON
-                # Second base64 decode
-                token_data = base64.b64decode(first_decode).decode().strip()
-                print(f"DEBUG: Double-decoded token: {repr(token_data[:100])}")
-            else:
-                token_data = first_decode
+        # First base64 decode
+        first_decode = base64.b64decode(b64_creds).decode().strip()
 
-            if not token_data:
-                raise ValueError("Token data is empty after decoding and stripping")
-            token_dict = json.loads(token_data)
-        except Exception as e:
-            print(f"DEBUG: Exception: {e}")
-            raise
+        # Check if we need to decode again (if it starts with base64 characters)
+        if first_decode.startswith('eyJ'):  # Looks like base64 JSON
+            # Second base64 decode for double-encoded secrets
+            token_data = base64.b64decode(first_decode).decode().strip()
+        else:
+            token_data = first_decode
+
+        token_dict = json.loads(token_data)
         creds = Credentials.from_authorized_user_info(token_dict, SCOPES)
         if creds.expired and creds.refresh_token:
             creds.refresh(Request())
