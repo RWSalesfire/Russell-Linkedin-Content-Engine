@@ -195,6 +195,41 @@
       "persona": "The eCommerce Observer",
       "source": "PPC Ninja",
       "angle": "Explores prompt injection risks in AI-driven eCommerce workflow automation."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Voice AI tool Lemon enables task delegation via conversation, redefining worker productivity."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "SaaStr AI Intelligence",
+      "angle": "SaaS market shows mixed signals with 1.74% decline; Okta drops 5.5%, FIG gains 2.6%."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "PPC Ninja",
+      "angle": "Exploring prompt injection risks as eCommerce leaders experiment with AI tools."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "TLDR AI",
+      "angle": "Qwen 3.5 Plus delivers breakthrough reasoning, coding performance; inference economics shifting."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Guide for creating brand-consistent infographics using Gemini Flash Image for eCommerce."
     }
   ]
 }
