@@ -33,17 +33,12 @@ def get_google_creds():
     # CI path: base64-encoded credentials in env var
     b64_creds = os.getenv("GOOGLE_CREDENTIALS")
     if b64_creds:
-        print(f"DEBUG: Base64 length: {len(b64_creds)}")
-        print(f"DEBUG: Base64 first 50 chars: {b64_creds[:50]}")
-        try:
-            token_data = base64.b64decode(b64_creds).decode()
-            print(f"DEBUG: Decoded length: {len(token_data)}")
-            print(f"DEBUG: Decoded first 100 chars: {token_data[:100]}")
-            token_dict = json.loads(token_data)
-        except Exception as e:
-            print(f"DEBUG: Error during decoding/parsing: {e}")
-            print(f"DEBUG: Full decoded data: {repr(token_data)}")
-            raise
+        # Strip whitespace from the base64 data (GitHub might add extra formatting)
+        b64_creds = b64_creds.strip()
+        token_data = base64.b64decode(b64_creds).decode()
+        # Strip whitespace from the decoded data too
+        token_data = token_data.strip()
+        token_dict = json.loads(token_data)
         creds = Credentials.from_authorized_user_info(token_dict, SCOPES)
         if creds.expired and creds.refresh_token:
             creds.refresh(Request())
