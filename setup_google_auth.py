@@ -1,4 +1,4 @@
-"""One-time OAuth setup for Google Docs API.
+"""One-time OAuth setup for Google Docs and Gmail APIs.
 
 Run locally: python setup_google_auth.py
 This will:
@@ -13,7 +13,11 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 
-SCOPES = ["https://www.googleapis.com/auth/documents"]
+SCOPES = [
+    "https://www.googleapis.com/auth/documents",
+    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/gmail.send"
+]
 CREDENTIALS_FILE = "credentials.json"
 TOKEN_FILE = "token.json"
 

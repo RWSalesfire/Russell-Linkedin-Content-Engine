@@ -74,7 +74,11 @@ def get_google_creds():
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
 
-    SCOPES = ["https://www.googleapis.com/auth/documents"]
+    SCOPES = [
+        "https://www.googleapis.com/auth/documents",
+        "https://www.googleapis.com/auth/gmail.readonly",
+        "https://www.googleapis.com/auth/gmail.send"
+    ]
 
     # CI path: base64-encoded credentials in env var
     b64_creds = os.getenv("GOOGLE_CREDENTIALS")

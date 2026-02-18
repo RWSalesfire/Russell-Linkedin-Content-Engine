@@ -11,6 +11,9 @@ GOOGLE_DOC_ID = os.getenv("GOOGLE_DOC_ID")
 GOOGLE_CREDENTIALS_PATH = os.getenv("GOOGLE_CREDENTIALS_PATH", "credentials.json")
 GOOGLE_TOKEN_PATH = os.getenv("GOOGLE_TOKEN_PATH", "token.json")
 
+# Email configuration
+RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL")
+
 # Model IDs
 HAIKU_MODEL = "claude-haiku-4-5-20251001"
 SONNET_MODEL = "claude-sonnet-4-5-20250929"
