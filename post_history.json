@@ -139,6 +139,27 @@
       "persona": "The eCommerce Observer",
       "source": "Practical eCommerce",
       "angle": "Bing launches AI Performance Report, new visibility tool for eCommerce merchants."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "eCommerce Fuel",
+      "angle": "Benchmarking data from 200+ ecom owners reveals when and how to safely extract capital."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Ben's Bites",
+      "angle": "Non-technical founder builds personal AI agent via conversational coding without writing code."
+    },
+    {
+      "date": "2026-02-18",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "HubSpot Sales",
+      "angle": "Multi-channel sales sequences transform manual outreach into repeatable, scalable pipeline generation system."
     }
   ]
 }
