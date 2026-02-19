@@ -230,6 +230,41 @@
       "persona": "The eCommerce Observer",
       "source": "AI for eCommerce Newsletter",
       "angle": "Guide for creating brand-consistent infographics using Gemini Flash Image for eCommerce."
+    },
+    {
+      "date": "2026-02-19",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI agents drive real revenue when guardrails and limited permissions prevent misuse."
+    },
+    {
+      "date": "2026-02-19",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Google Ads campaign structure disrupted by AI; traditional 2015-2026 approach obsolete."
+    },
+    {
+      "date": "2026-02-19",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Superhuman AI",
+      "angle": "Claude Sonnet 4.6 delivers Opus-level performance at 40% lower cost."
+    },
+    {
+      "date": "2026-02-19",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Newsletter digest highlighting GTM ideas from 2025 without specific details."
+    },
+    {
+      "date": "2026-02-19",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "TLDR AI",
+      "angle": "Claude Sonnet 4.6 improves coding, planning, and long-context reasoning capabilities."
     }
   ]
 }
