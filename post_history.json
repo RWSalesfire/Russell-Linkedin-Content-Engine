@@ -265,6 +265,41 @@
       "persona": "The eCommerce Observer",
       "source": "TLDR AI",
       "angle": "Claude Sonnet 4.6 improves coding, planning, and long-context reasoning capabilities."
+    },
+    {
+      "date": "2026-02-20",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Sellers facing margin compression and rising costs need strategic shifts, not repetition."
+    },
+    {
+      "date": "2026-02-20",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Amazon AI seller prompts leave revenue on table without optimization."
+    },
+    {
+      "date": "2026-02-20",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "TLDR AI",
+      "angle": "Google Gemini integrates music generation, World Labs raises $1B for AI dev tools."
+    },
+    {
+      "date": "2026-02-20",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "OpenAI launches security benchmark; GPT-5.3-Codex scores 72% on vulnerability exploitation."
+    },
+    {
+      "date": "2026-02-20",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Free Amazon PPC audit tool offers detailed optimization for eCommerce sellers."
     }
   ]
 }
