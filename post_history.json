@@ -300,6 +300,34 @@
       "persona": "The eCommerce Observer",
       "source": "AI for eCommerce Newsletter",
       "angle": "Free Amazon PPC audit tool offers detailed optimization for eCommerce sellers."
+    },
+    {
+      "date": "2026-02-23",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "SaaS growth plateau warning: Why doubling ARR becomes increasingly difficult at scale."
+    },
+    {
+      "date": "2026-02-23",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "Ownership versus subscription model debate: Building proprietary AI beats relying on third-party tools."
+    },
+    {
+      "date": "2026-02-23",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Decision tree framework for selecting optimal pricing models for product go-to-market strategy."
+    },
+    {
+      "date": "2026-02-23",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "Antarctic shark discovery challenges scientific assumptions about species survival in extreme environments."
     }
   ]
 }
