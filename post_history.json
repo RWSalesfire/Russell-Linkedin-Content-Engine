@@ -328,6 +328,41 @@
       "persona": "The eCommerce Observer",
       "source": "Superhuman AI",
       "angle": "Antarctic shark discovery challenges scientific assumptions about species survival in extreme environments."
+    },
+    {
+      "date": "2026-02-24",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "TLDR AI",
+      "angle": "Anthropic releases Claude Code Security scanner, triggering immediate cybersecurity stock declines."
+    },
+    {
+      "date": "2026-02-24",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Amazon threatens to shut down sellers using certain AI tools, restricting automation."
+    },
+    {
+      "date": "2026-02-24",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI-generated content drives 100K views, but distribution and positioning trump traffic metrics."
+    },
+    {
+      "date": "2026-02-24",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Two menu words increased restaurant sales 18%\u2014social proof drives purchasing without price changes."
+    },
+    {
+      "date": "2026-02-24",
+      "category": "AI in Sales",
+      "persona": "The eCommerce Observer",
+      "source": "SaaStr AI Intelligence",
+      "angle": "SaaS market tumbles 7.35% as 25 stocks decline amid AI disruption concerns."
     }
   ]
 }
