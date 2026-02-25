@@ -1,10 +1,8 @@
-import base64
-import json
 import logging
 import os
 from datetime import datetime
 
-from config import GOOGLE_CREDENTIALS_PATH, GOOGLE_DOC_ID, GOOGLE_TOKEN_PATH
+from config import GOOGLE_DOC_ID
 
 logger = logging.getLogger(__name__)
 
@@ -71,45 +69,8 @@ def format_drafts(drafts, category_distribution):
 
 def get_google_creds():
     """Load Google credentials from token file or base64 env var."""
-    from google.auth.transport.requests import Request
-    from google.oauth2.credentials import Credentials
-
-    SCOPES = [
-        "https://www.googleapis.com/auth/documents",
-        "https://www.googleapis.com/auth/gmail.readonly",
-        "https://www.googleapis.com/auth/gmail.send"
-    ]
-
-    # CI path: base64-encoded credentials in env var
-    b64_creds = os.getenv("GOOGLE_CREDENTIALS")
-    if b64_creds:
-        # Strip whitespace and handle potential double-encoding
-        b64_creds = b64_creds.strip()
-        # First base64 decode
-        first_decode = base64.b64decode(b64_creds).decode().strip()
-
-        # Check if we need to decode again (if it starts with base64 characters)
-        if first_decode.startswith('eyJ'):  # Looks like base64 JSON
-            # Second base64 decode
-            token_data = base64.b64decode(first_decode).decode().strip()
-        else:
-            token_data = first_decode
-
-        token_dict = json.loads(token_data)
-        creds = Credentials.from_authorized_user_info(token_dict, SCOPES)
-        if creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        return creds
-
-    # Local path: token.json file
-    token_path = GOOGLE_TOKEN_PATH
-    if os.path.exists(token_path):
-        creds = Credentials.from_authorized_user_file(token_path, SCOPES)
-        if creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        return creds
-
-    return None
+    from gmail_feeds import get_google_creds as _get_creds
+    return _get_creds()
 
 
 def push_to_google_doc(text):
