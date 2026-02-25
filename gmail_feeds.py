@@ -209,7 +209,7 @@ def fetch_newsletter_emails(cutoff, newsletters_config):
                     pub_date = parsedate_to_datetime(date_str)
                     if pub_date.tzinfo is None:
                         pub_date = pub_date.replace(tzinfo=timezone.utc)
-                except:
+                except (ValueError, TypeError):
                     pub_date = datetime.now(timezone.utc)
 
                 # Skip if before cutoff

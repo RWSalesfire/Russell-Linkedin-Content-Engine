@@ -1,59 +1,22 @@
 """Email sending functionality for daily LinkedIn drafts digest."""
 import base64
-import json
+import html
 import logging
-import os
 from datetime import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from google.auth.transport.requests import Request
-from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
-from config import GOOGLE_CREDENTIALS_PATH, GOOGLE_TOKEN_PATH, RECIPIENT_EMAIL
+from config import RECIPIENT_EMAIL
 
 logger = logging.getLogger(__name__)
 
 
 def get_google_creds_with_send():
     """Load Google credentials with Gmail send access."""
-    SCOPES = [
-        "https://www.googleapis.com/auth/documents",
-        "https://www.googleapis.com/auth/gmail.readonly",
-        "https://www.googleapis.com/auth/gmail.send"
-    ]
-
-    # CI path: base64-encoded credentials in env var
-    b64_creds = os.getenv("GOOGLE_CREDENTIALS")
-    if b64_creds:
-        # Strip whitespace and handle potential double-encoding
-        b64_creds = b64_creds.strip()
-        # First base64 decode
-        first_decode = base64.b64decode(b64_creds).decode().strip()
-
-        # Check if we need to decode again (if it starts with base64 characters)
-        if first_decode.startswith('eyJ'):  # Looks like base64 JSON
-            # Second base64 decode
-            token_data = base64.b64decode(first_decode).decode().strip()
-        else:
-            token_data = first_decode
-
-        token_dict = json.loads(token_data)
-        creds = Credentials.from_authorized_user_info(token_dict, SCOPES)
-        if creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        return creds
-
-    # Local path: token.json file
-    token_path = GOOGLE_TOKEN_PATH
-    if os.path.exists(token_path):
-        creds = Credentials.from_authorized_user_file(token_path, SCOPES)
-        if creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        return creds
-
-    return None
+    from gmail_feeds import get_google_creds
+    return get_google_creds()
 
 
 def create_html_email_template(drafts, category_distribution):
@@ -64,37 +27,46 @@ def create_html_email_template(drafts, category_distribution):
     # Find the best draft (highest score)
     best_draft = max(drafts, key=lambda d: d["article"].get("total_score", 0)) if drafts else None
 
-    # Generate source list with scores
+    # Generate source list with scores (escape user-supplied data to prevent HTML injection)
     sources_html = ""
     for i, draft in enumerate(drafts, 1):
         article = draft["article"]
         score = article.get("total_score", 0)
-        sources_html += f"    <li><strong>{article['title']}</strong> ({article['source']}) - Score: {score}/50</li>\n"
+        title = html.escape(article['title'])
+        source = html.escape(article['source'])
+        sources_html += f"    <li><strong>{title}</strong> ({source}) - Score: {score}/50</li>\n"
 
     # Generate drafts HTML
     drafts_html = ""
     for i, draft in enumerate(drafts, 1):
         article = draft["article"]
 
-        # Format post content with line breaks
-        post_content = draft["post"].replace("\n", "<br>")
+        # Format post content with line breaks (escape first, then add <br>)
+        post_content = html.escape(draft["post"]).replace("\n", "<br>")
+        persona = html.escape(draft['persona'])
+        category = html.escape(article.get('category', 'General'))
+        title = html.escape(article['title'])
+        source = html.escape(article['source'])
+        alt_hook_1 = html.escape(draft['alt_hook_1'])
+        alt_hook_2 = html.escape(draft['alt_hook_2'])
+        image_prompt = html.escape(draft['image_prompt'])
 
         drafts_html += f"""
     <div class="draft">
-        <h2>Draft {i}: {draft['persona']} | {article.get('category', 'General')}</h2>
-        <p class="source"><strong>Source:</strong> {article['title']} ({article['source']})</p>
+        <h2>Draft {i}: {persona} | {category}</h2>
+        <p class="source"><strong>Source:</strong> {title} ({source})</p>
         <div class="post-content">
             {post_content}
         </div>
         <div class="alt-hooks">
             <p><strong>Alternative Hooks:</strong></p>
             <ol>
-                <li>{draft['alt_hook_1']}</li>
-                <li>{draft['alt_hook_2']}</li>
+                <li>{alt_hook_1}</li>
+                <li>{alt_hook_2}</li>
             </ol>
         </div>
         <div class="image-prompt">
-            <p><strong>Image Prompt:</strong> {draft['image_prompt']}</p>
+            <p><strong>Image Prompt:</strong> {image_prompt}</p>
         </div>
     </div>
     """
@@ -102,17 +74,20 @@ def create_html_email_template(drafts, category_distribution):
     # Generate recommendation
     recommendation_html = ""
     if best_draft:
+        best_persona = html.escape(best_draft['persona'])
+        best_title = html.escape(best_draft['article']['title'])
+        best_score = best_draft['article'].get('total_score', 0)
         recommendation_html = f"""
     <div class="recommendation">
         <h2>🎯 Recommendation</h2>
-        <p><strong>Draft by {best_draft['persona']}</strong> on "{best_draft['article']['title']}" - highest source score ({best_draft['article'].get('total_score', 0)}/50)</p>
+        <p><strong>Draft by {best_persona}</strong> on "{best_title}" - highest source score ({best_score}/50)</p>
     </div>
     """
 
     # Generate content balance
     balance_html = ""
     for cat, count in category_distribution.items():
-        balance_html += f"    <li>{cat}: {count} posts</li>\n"
+        balance_html += f"    <li>{html.escape(cat)}: {count} posts</li>\n"
 
     html_content = f"""<!DOCTYPE html>
 <html>
@@ -269,16 +244,13 @@ def send_daily_digest(drafts, category_distribution, recipient_email=None, dry_r
         subject = f"Daily LinkedIn Drafts - {now.strftime('%d %B %Y')}"
         html_content = create_html_email_template(drafts, category_distribution)
 
-        # Create MIME message
+        # Create MIME message (RFC 2046: parts in increasing preference order,
+        # so plain text first, HTML last — email clients pick the last they can render)
         message = MIMEMultipart('alternative')
         message['to'] = recipient_email
         message['subject'] = subject
 
-        # Create HTML part
-        html_part = MIMEText(html_content, 'html')
-        message.attach(html_part)
-
-        # Create plain text fallback
+        # Create plain text fallback (attached first = least preferred)
         plain_text = f"""Daily LinkedIn Drafts - {now.strftime('%A, %d %B %Y')}
 
 TODAY'S SOURCES:
@@ -316,6 +288,10 @@ TODAY'S SOURCES:
 
         plain_part = MIMEText(plain_text, 'plain')
         message.attach(plain_part)
+
+        # Create HTML part (attached last = most preferred)
+        html_part = MIMEText(html_content, 'html')
+        message.attach(html_part)
 
         # Encode and send
         raw_message = base64.urlsafe_b64encode(message.as_bytes()).decode('utf-8')

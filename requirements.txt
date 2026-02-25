@@ -1,7 +1,7 @@
-feedparser
-beautifulsoup4
-anthropic
-google-api-python-client
-google-auth-oauthlib
-python-dotenv
-requests
+feedparser>=6.0,<7.0
+beautifulsoup4>=4.12,<5.0
+anthropic>=0.40,<1.0
+google-api-python-client>=2.100,<3.0
+google-auth-oauthlib>=1.0,<2.0
+python-dotenv>=1.0,<2.0
+requests>=2.31,<3.0
