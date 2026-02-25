@@ -244,16 +244,13 @@ def send_daily_digest(drafts, category_distribution, recipient_email=None, dry_r
         subject = f"Daily LinkedIn Drafts - {now.strftime('%d %B %Y')}"
         html_content = create_html_email_template(drafts, category_distribution)
 
-        # Create MIME message
+        # Create MIME message (RFC 2046: parts in increasing preference order,
+        # so plain text first, HTML last — email clients pick the last they can render)
         message = MIMEMultipart('alternative')
         message['to'] = recipient_email
         message['subject'] = subject
 
-        # Create HTML part
-        html_part = MIMEText(html_content, 'html')
-        message.attach(html_part)
-
-        # Create plain text fallback
+        # Create plain text fallback (attached first = least preferred)
         plain_text = f"""Daily LinkedIn Drafts - {now.strftime('%A, %d %B %Y')}
 
 TODAY'S SOURCES:
@@ -291,6 +288,10 @@ TODAY'S SOURCES:
 
         plain_part = MIMEText(plain_text, 'plain')
         message.attach(plain_part)
+
+        # Create HTML part (attached last = most preferred)
+        html_part = MIMEText(html_content, 'html')
+        message.attach(html_part)
 
         # Encode and send
         raw_message = base64.urlsafe_b64encode(message.as_bytes()).decode('utf-8')
