@@ -363,6 +363,41 @@
       "persona": "The eCommerce Observer",
       "source": "SaaStr AI Intelligence",
       "angle": "SaaS market tumbles 7.35% as 25 stocks decline amid AI disruption concerns."
+    },
+    {
+      "date": "2026-02-25",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Ignore 95% of AI advice circulating; focus on what actually matters for mastery."
+    },
+    {
+      "date": "2026-02-25",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "SaaStr AI Intelligence",
+      "angle": "SaaS market index rises 3.17% with 21 of 25 stocks gaining on February 24."
+    },
+    {
+      "date": "2026-02-25",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Tutorial on integrating Claude AI into PowerPoint presentations for eCommerce sellers."
+    },
+    {
+      "date": "2026-02-25",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "Pika Labs launches digital twins that talk, remember, and evolve over time."
+    },
+    {
+      "date": "2026-02-25",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "Anthropic accuses Chinese AI labs of scraping Claude's reasoning data for training."
     }
   ]
 }
