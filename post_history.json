@@ -398,6 +398,41 @@
       "persona": "The eCommerce Observer",
       "source": "Superhuman AI",
       "angle": "Anthropic accuses Chinese AI labs of scraping Claude's reasoning data for training."
+    },
+    {
+      "date": "2026-02-26",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "Pentagon issues ultimatum to Claude, signaling government AI policy tightening."
+    },
+    {
+      "date": "2026-02-26",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Claude Code plus OpenClaw creates AI business OS replacing thinking-doing gaps."
+    },
+    {
+      "date": "2026-02-26",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "Claude Cowork adds enterprise plugins enabling faster AI-driven knowledge work."
+    },
+    {
+      "date": "2026-02-26",
+      "category": "AI in eCommerce",
+      "persona": "The Human",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Reddit monetizes user opinions through AI, raising implications for eCommerce data."
+    },
+    {
+      "date": "2026-02-26",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "TLDR AI",
+      "angle": "Anthropic launches Claude Cowork connectors, KiloClaw agents for knowledge workers."
     }
   ]
 }
