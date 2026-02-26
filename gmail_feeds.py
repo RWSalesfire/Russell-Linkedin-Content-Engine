@@ -4,8 +4,6 @@ import logging
 import os
 import re
 from datetime import datetime, timedelta, timezone
-from email.mime.text import MIMEText
-
 from bs4 import BeautifulSoup
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -27,7 +25,6 @@ def get_google_creds():
     SCOPES = [
         "https://www.googleapis.com/auth/documents",
         "https://www.googleapis.com/auth/gmail.readonly",
-        "https://www.googleapis.com/auth/gmail.send"
     ]
 
     # CI path: base64-encoded credentials in env var

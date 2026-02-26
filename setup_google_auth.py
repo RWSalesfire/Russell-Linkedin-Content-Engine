@@ -16,7 +16,6 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 SCOPES = [
     "https://www.googleapis.com/auth/documents",
     "https://www.googleapis.com/auth/gmail.readonly",
-    "https://www.googleapis.com/auth/gmail.send"
 ]
 CREDENTIALS_FILE = "credentials.json"
 TOKEN_FILE = "token.json"
