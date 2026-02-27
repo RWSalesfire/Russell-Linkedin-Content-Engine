@@ -433,6 +433,41 @@
       "persona": "The eCommerce Observer",
       "source": "TLDR AI",
       "angle": "Anthropic launches Claude Cowork connectors, KiloClaw agents for knowledge workers."
+    },
+    {
+      "date": "2026-02-27",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "AI-powered Amazon ads need human oversight; automated bidding alone risks ROI losses."
+    },
+    {
+      "date": "2026-02-27",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "AI prompts designed to build authentic relationships via social media DMs."
+    },
+    {
+      "date": "2026-02-27",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "Perplexity Computer and DeepSeek updates highlight multi-model AI workflow capabilities."
+    },
+    {
+      "date": "2026-02-27",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Amazon sellers losing shoppers due to ineffective listings and A+ content."
+    },
+    {
+      "date": "2026-02-27",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "SaaStr AI Intelligence",
+      "angle": "SaaS market index shows +3.86% gains with 23 of 25 stocks rising."
     }
   ]
 }
