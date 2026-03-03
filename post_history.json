@@ -485,38 +485,38 @@
     },
     {
       "date": "2026-03-03",
-      "category": "Sales",
-      "persona": "The Sales Realist",
-      "source": "Leveling Up (Eric Siu)",
-      "angle": "Using OpenClaw system increased X post views from 6.5K to 85K+ through engineering, not writing."
-    },
-    {
-      "date": "2026-03-03",
-      "category": "Behavioural Science",
-      "persona": "The Human",
-      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
-      "angle": "Chimpanzee power dynamics reveal insights into human workplace behavior and influence."
-    },
-    {
-      "date": "2026-03-03",
-      "category": "eCommerce",
-      "persona": "The eCommerce Observer",
-      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
-      "angle": "Newsletter teaser about discontinuing Amazon product sales strategy."
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "TLDR AI",
+      "angle": "OpenAI secures $110B at $730B valuation; Pentagon AI restrictions spark debate."
     },
     {
       "date": "2026-03-03",
       "category": "AI in Sales",
-      "persona": "The Honest AI User",
+      "persona": "The Sales Realist",
       "source": "SaaStr AI Intelligence",
-      "angle": "SaaS market index up 1.3% with 16 of 25 stocks gaining on March 2, 2026."
+      "angle": "SaaS market index gains 1.3% with 16 of 25 stocks rising on March 2."
+    },
+    {
+      "date": "2026-03-03",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "Anthropic-Pentagon clash over Claude military use drives record app downloads."
+    },
+    {
+      "date": "2026-03-03",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "Vercel enables AI agents to control desktop apps with single-line code setup."
     },
     {
       "date": "2026-03-03",
       "category": "Email Marketing",
       "persona": "The eCommerce Observer",
-      "source": "Substack Digest",
-      "angle": "Substack digest digest listing with minimal substantive content."
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Engineering content systems beats writing: 85K views per post using OpenClaw."
     }
   ]
 }

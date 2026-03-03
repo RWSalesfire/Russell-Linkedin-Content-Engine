@@ -29,6 +29,8 @@ class DocBuilder:
         return start, self.cursor
 
     def add_heading1(self, text):
+        if not text:
+            return
         s, e = self._append(text + "\n")
         self.format_requests.append({"updateParagraphStyle": {
             "range": {"startIndex": s, "endIndex": e},
@@ -51,6 +53,8 @@ class DocBuilder:
         }})
 
     def add_heading2(self, text):
+        if not text:
+            return
         s, e = self._append(text + "\n")
         self.format_requests.append({"updateParagraphStyle": {
             "range": {"startIndex": s, "endIndex": e},
@@ -73,6 +77,8 @@ class DocBuilder:
         }})
 
     def add_bold(self, text):
+        if not text:
+            return
         s, e = self._append(text)
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e},
@@ -81,6 +87,8 @@ class DocBuilder:
         }})
 
     def add_italic(self, text):
+        if not text:
+            return
         s, e = self._append(text)
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e},
@@ -89,6 +97,8 @@ class DocBuilder:
         }})
 
     def add_grey(self, text):
+        if not text:
+            return
         s, e = self._append(text)
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e},
@@ -104,6 +114,8 @@ class DocBuilder:
 
     def add_post_block(self, text):
         """Add post content with green left border and italic styling."""
+        if not text:
+            return
         s, e = self._append(text + "\n")
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e - 1},
@@ -126,6 +138,8 @@ class DocBuilder:
 
     def add_recommendation(self, text):
         """Add recommendation with amber background."""
+        if not text:
+            return
         s, e = self._append(text + "\n")
         self.format_requests.append({"updateParagraphStyle": {
             "range": {"startIndex": s, "endIndex": e},
