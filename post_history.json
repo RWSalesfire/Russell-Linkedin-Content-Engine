@@ -482,6 +482,41 @@
       "persona": "The eCommerce Observer",
       "source": "Superhuman AI",
       "angle": "China develops UFO-shaped electric aircraft capable of carrying half-ton payloads."
+    },
+    {
+      "date": "2026-03-03",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Using OpenClaw system increased X post views from 6.5K to 85K+ through engineering, not writing."
+    },
+    {
+      "date": "2026-03-03",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Chimpanzee power dynamics reveal insights into human workplace behavior and influence."
+    },
+    {
+      "date": "2026-03-03",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Newsletter teaser about discontinuing Amazon product sales strategy."
+    },
+    {
+      "date": "2026-03-03",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "SaaStr AI Intelligence",
+      "angle": "SaaS market index up 1.3% with 16 of 25 stocks gaining on March 2, 2026."
+    },
+    {
+      "date": "2026-03-03",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Substack digest digest listing with minimal substantive content."
     }
   ]
 }
