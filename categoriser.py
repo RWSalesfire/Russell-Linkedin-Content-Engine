@@ -19,6 +19,8 @@ For each article, you must:
    - audience_relevance: How relevant to eCommerce founders and sales leaders?
    - timeliness: Is this breaking/trending news vs evergreen?
    - personal_angle_potential: Could a personal story or opinion be woven in?
+   - specificity_score: Does the article contain specific numbers, company names, dates, or timeframes? Higher = more concrete details.
+   - confession_potential: Could someone credibly say "I got this wrong" or "I tried this and failed" about this topic? Higher = stronger personal failure/learning angle.
 
 3. Write a one-line summary (max 20 words) capturing the key insight.
 
@@ -31,7 +33,9 @@ Return your response as a JSON array. Each element:
     "contrarian_potential": <1-10>,
     "audience_relevance": <1-10>,
     "timeliness": <1-10>,
-    "personal_angle_potential": <1-10>
+    "personal_angle_potential": <1-10>,
+    "specificity_score": <1-10>,
+    "confession_potential": <1-10>
   }},
   "one_line_summary": "<summary>"
 }}
@@ -92,7 +96,7 @@ def categorise_and_score(articles):
         for article in articles:
             article["category"] = article.get("category_hint", "AI")
             article["scores"] = {c: 5 for c in SCORING_CRITERIA}
-            article["total_score"] = 25
+            article["total_score"] = 35
             article["one_line_summary"] = article["title"][:80]
         return sorted(articles, key=lambda a: a["total_score"], reverse=True)
 
@@ -109,7 +113,7 @@ def categorise_and_score(articles):
         else:
             article["category"] = article.get("category_hint", "AI")
             article["scores"] = {c: 5 for c in SCORING_CRITERIA}
-            article["total_score"] = 25
+            article["total_score"] = 35
             article["one_line_summary"] = article["title"][:80]
 
     articles.sort(key=lambda a: a["total_score"], reverse=True)

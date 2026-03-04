@@ -68,7 +68,22 @@ def get_category_distribution(history):
     return {cat: counts.get(cat, 0) for cat in CATEGORIES}
 
 
-def record_post(history, date, category, persona, source, angle):
+def get_format_distribution(history, days=HISTORY_LOOKBACK_DAYS):
+    """Get content format counts for the last N days."""
+    recent = get_recent_posts(history, days)
+    counts = Counter(p.get("content_format", "text") for p in recent)
+    return dict(counts)
+
+
+def would_break_format_rule(history, content_format, max_consecutive=3):
+    """Check if using this format would create too many consecutive same-format posts."""
+    if content_format != "text":
+        return False  # only enforce for text posts
+    recent = get_last_n_posts(history, max_consecutive)
+    return all(p.get("content_format", "text") == "text" for p in recent) if recent else False
+
+
+def record_post(history, date, category, persona, source, angle, content_format="text"):
     """Add a post to history."""
     history["posts"].append({
         "date": date,
@@ -76,5 +91,6 @@ def record_post(history, date, category, persona, source, angle):
         "persona": persona,
         "source": source,
         "angle": angle,
+        "content_format": content_format,
     })
     return history

@@ -2,7 +2,7 @@ import logging
 import os
 from datetime import datetime
 
-from config import GOOGLE_DOC_ID
+from config import ENGAGEMENT_TARGETS, GOOGLE_DOC_ID
 
 logger = logging.getLogger(__name__)
 
@@ -11,6 +11,7 @@ BLUE = {"red": 0.0, "green": 0.4, "blue": 0.8}
 DARK_GREY = {"red": 0.42, "green": 0.46, "blue": 0.49}
 GREEN = {"red": 0.16, "green": 0.65, "blue": 0.27}
 AMBER_BG = {"red": 1.0, "green": 0.95, "blue": 0.8}
+RED_BG = {"red": 1.0, "green": 0.9, "blue": 0.9}
 
 
 class DocBuilder:
@@ -160,9 +161,26 @@ class DocBuilder:
             "fields": "bold",
         }})
 
+    def add_story_prompt_block(self, text):
+        """Add story prompt content with red/amber background to highlight it needs input."""
+        if not text:
+            return
+        s, e = self._append(text + "\n")
+        self.format_requests.append({"updateParagraphStyle": {
+            "range": {"startIndex": s, "endIndex": e},
+            "paragraphStyle": {
+                "shading": {
+                    "backgroundColor": {"color": {"rgbColor": RED_BG}}
+                },
+                "indentStart": {"magnitude": 14, "unit": "PT"},
+                "indentEnd": {"magnitude": 8, "unit": "PT"},
+            },
+            "fields": "shading.backgroundColor,indentStart,indentEnd",
+        }})
+
     def add_separator(self):
         """Add a thin styled separator line."""
-        s, e = self._append("━" * 60 + "\n")
+        s, e = self._append("\u2501" * 60 + "\n")
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e - 1},
             "textStyle": {
@@ -184,7 +202,164 @@ class DocBuilder:
         return [insert_request] + self.format_requests
 
 
-def build_formatted_doc(drafts, category_distribution):
+def get_todays_engagement_targets():
+    """Return 5 engagement targets for today, rotating based on priority and day."""
+    today = datetime.now().weekday()
+
+    daily = [t for t in ENGAGEMENT_TARGETS if t["priority"] == "daily"]
+    three_x = [t for t in ENGAGEMENT_TARGETS if t["priority"] == "3x_week"]
+    weekly = [t for t in ENGAGEMENT_TARGETS if t["priority"] == "weekly"]
+
+    targets = list(daily)  # always include daily targets
+
+    # Rotate 3x_week targets: pick 2 based on day of week
+    if three_x:
+        start = (today * 2) % len(three_x)
+        targets.append(three_x[start % len(three_x)])
+        targets.append(three_x[(start + 1) % len(three_x)])
+
+    # Add 1 weekly target on Mon/Wed/Fri
+    if today in (0, 2, 4) and weekly:
+        idx = (today // 2) % len(weekly)
+        targets.append(weekly[idx])
+
+    return targets[:8]
+
+
+def format_draft_content(draft, doc_builder=None, plain_lines=None):
+    """Render a single draft in the appropriate format. Works for both Doc and plain text."""
+    content_format = draft.get("content_format", "text")
+
+    if content_format == "carousel":
+        _render_carousel(draft, doc_builder, plain_lines)
+    elif content_format == "poll":
+        _render_poll(draft, doc_builder, plain_lines)
+    elif content_format == "story_prompt":
+        _render_story_prompt(draft, doc_builder, plain_lines)
+    elif content_format == "opinion":
+        _render_opinion(draft, doc_builder, plain_lines)
+    else:
+        _render_text(draft, doc_builder, plain_lines)
+
+
+def _render_text(draft, doc, lines):
+    """Render standard text post."""
+    if doc:
+        doc.add_post_block(draft.get("post", ""))
+        doc.add_text("\n")
+        doc.add_bold("Alternative Hooks:\n")
+        doc.add_text(f"1. {draft.get('alt_hook_1', '')}\n")
+        doc.add_text(f"2. {draft.get('alt_hook_2', '')}\n")
+        doc.add_text("\n")
+        doc.add_bold("Image Prompt: ")
+        doc.add_grey(f"{draft.get('image_prompt', '')}\n")
+    if lines is not None:
+        lines.append(draft.get("post", ""))
+        lines.append("")
+        lines.append("Alternative Hooks:")
+        lines.append(f"1. {draft.get('alt_hook_1', '')}")
+        lines.append(f"2. {draft.get('alt_hook_2', '')}")
+        lines.append("")
+        lines.append(f"Image Prompt: {draft.get('image_prompt', '')}")
+
+
+def _render_carousel(draft, doc, lines):
+    """Render carousel slides."""
+    slides = []
+    for i in range(1, 7):
+        slide = draft.get(f"slide_{i}", "")
+        if slide:
+            slides.append(slide)
+
+    if doc:
+        doc.add_bold("CAROUSEL - Paste into aiCarousels.com\n")
+        doc.add_text("\n")
+        for i, slide in enumerate(slides, 1):
+            doc.add_bold(f"Slide {i}:\n")
+            doc.add_post_block(slide)
+            doc.add_text("\n")
+        caption = draft.get("caption", "")
+        if caption:
+            doc.add_bold("LinkedIn Caption:\n")
+            doc.add_post_block(caption)
+    if lines is not None:
+        lines.append("[CAROUSEL - Paste into aiCarousels.com]")
+        lines.append("")
+        for i, slide in enumerate(slides, 1):
+            lines.append(f"  Slide {i}: {slide}")
+            lines.append("")
+        caption = draft.get("caption", "")
+        if caption:
+            lines.append(f"LinkedIn Caption: {caption}")
+
+
+def _render_poll(draft, doc, lines):
+    """Render poll with context, question, and options."""
+    context = draft.get("context", "")
+    question = draft.get("question", "")
+    options = [draft.get(f"option_{i}", "") for i in range(1, 5)]
+
+    if doc:
+        doc.add_bold("POLL\n")
+        doc.add_text("\n")
+        if context:
+            doc.add_post_block(context)
+            doc.add_text("\n")
+        doc.add_bold(f"Question: {question}\n")
+        doc.add_text("\n")
+        for i, opt in enumerate(options, 1):
+            if opt:
+                doc.add_text(f"  {i}. {opt}\n")
+    if lines is not None:
+        lines.append("[POLL]")
+        lines.append("")
+        if context:
+            lines.append(f"Context: {context}")
+            lines.append("")
+        lines.append(f"Question: {question}")
+        lines.append("")
+        for i, opt in enumerate(options, 1):
+            if opt:
+                lines.append(f"  {i}. {opt}")
+
+
+def _render_story_prompt(draft, doc, lines):
+    """Render story prompt scaffold with highlight."""
+    scaffold = draft.get("story_scaffold", "")
+
+    if doc:
+        doc.add_bold("WRITING PROMPT - Needs Russell's input\n")
+        doc.add_text("\n")
+        doc.add_story_prompt_block(scaffold)
+    if lines is not None:
+        lines.append("[WRITING PROMPT - NEEDS RUSSELL'S INPUT]")
+        lines.append("")
+        lines.append(scaffold)
+
+
+def _render_opinion(draft, doc, lines):
+    """Render opinion/hot take post."""
+    if doc:
+        doc.add_bold("HOT TAKE\n")
+        doc.add_text("\n")
+        doc.add_post_block(draft.get("post", ""))
+        doc.add_text("\n")
+        if draft.get("alt_hook_1"):
+            doc.add_bold("Alternative Hooks:\n")
+            doc.add_text(f"1. {draft.get('alt_hook_1', '')}\n")
+            doc.add_text(f"2. {draft.get('alt_hook_2', '')}\n")
+    if lines is not None:
+        lines.append("[HOT TAKE]")
+        lines.append("")
+        lines.append(draft.get("post", ""))
+        lines.append("")
+        if draft.get("alt_hook_1"):
+            lines.append("Alternative Hooks:")
+            lines.append(f"1. {draft.get('alt_hook_1', '')}")
+            lines.append(f"2. {draft.get('alt_hook_2', '')}")
+
+
+def build_formatted_doc(drafts, category_distribution, format_distribution=None):
     """Build rich-formatted Google Docs API requests for the daily digest."""
     doc = DocBuilder()
 
@@ -192,7 +367,7 @@ def build_formatted_doc(drafts, category_distribution):
     date_str = now.strftime("%A, %d %B %Y")
 
     # Title
-    doc.add_heading1(f"Daily LinkedIn Drafts \u2014 {date_str}")
+    doc.add_heading1(f"Daily LinkedIn Drafts - {date_str}")
     doc.add_text("\n")
 
     # Sources summary
@@ -200,43 +375,37 @@ def build_formatted_doc(drafts, category_distribution):
     for draft in drafts:
         article = draft["article"]
         score = article.get("total_score", 0)
-        doc.add_text(f"\u2022 {article['title']} ({article['source']}) \u2014 Score: {score}/50\n")
+        fmt = draft.get("content_format", "text")
+        hook_score = draft.get("hook_score", "-")
+        doc.add_text(f"\u2022 [{fmt.upper()}] {article['title']} ({article['source']}) - Score: {score}/70 | Hook: {hook_score}\n")
     doc.add_text("\n")
     doc.add_separator()
 
     # Each draft
     for i, draft in enumerate(drafts, 1):
         article = draft["article"]
+        fmt = draft.get("content_format", "text")
+        composite = draft.get("composite_score", "-")
 
         doc.add_heading2(
-            f"Draft {i}  |  {draft['persona']}  |  {article.get('category', 'General')}"
+            f"Draft {i}  |  {fmt.upper()}  |  {draft.get('persona', '')}  |  {article.get('category', 'General')}"
         )
-        doc.add_grey(f"Source: {article['title']} ({article['source']})\n")
+        doc.add_grey(f"Source: {article['title']} ({article['source']}) | Composite: {composite}\n")
         doc.add_text("\n")
 
-        # Post content with green left border
-        doc.add_post_block(draft["post"])
-        doc.add_text("\n")
+        # Format-specific rendering
+        format_draft_content(draft, doc_builder=doc)
 
-        # Alternative hooks
-        doc.add_bold("Alternative Hooks:\n")
-        doc.add_text(f"1. {draft['alt_hook_1']}\n")
-        doc.add_text(f"2. {draft['alt_hook_2']}\n")
-        doc.add_text("\n")
-
-        # Image prompt
-        doc.add_bold("Image Prompt: ")
-        doc.add_grey(f"{draft['image_prompt']}\n")
         doc.add_text("\n")
         doc.add_separator()
 
-    # Recommendation
+    # Recommendation (weighted scoring)
     if drafts:
-        best = max(drafts, key=lambda d: d["article"].get("total_score", 0))
+        best = max(drafts, key=lambda d: d.get("composite_score", 0))
         doc.add_heading2("\U0001f3af  Recommendation")
         doc.add_recommendation(
-            f"Draft by {best['persona']} on \"{best['article']['title']}\" "
-            f"\u2014 highest source score ({best['article'].get('total_score', 0)}/50)"
+            f"Draft by {best.get('persona', '')} [{best.get('content_format', 'text').upper()}] on \"{best['article']['title']}\" "
+            f"- composite score {best.get('composite_score', 0)} (article: {best['article'].get('total_score', 0)}/70, hook: {best.get('hook_score', 0)}/100)"
         )
         doc.add_text("\n")
 
@@ -244,6 +413,22 @@ def build_formatted_doc(drafts, category_distribution):
     doc.add_heading2("\U0001f4ca  Content Balance (Last 7 Days)")
     for cat, count in category_distribution.items():
         doc.add_text(f"\u2022 {cat}: {count} posts\n")
+    if format_distribution:
+        doc.add_text("\n")
+        doc.add_bold("Format Distribution:\n")
+        for fmt, count in format_distribution.items():
+            doc.add_text(f"\u2022 {fmt}: {count}\n")
+    doc.add_text("\n")
+    doc.add_separator()
+
+    # Engagement plan
+    doc.add_heading2("\U0001f4ac  Today's Engagement Plan")
+    targets = get_todays_engagement_targets()
+    doc.add_bold("Comment on these accounts BEFORE posting:\n")
+    for t in targets:
+        doc.add_text(f"\u2022 {t['name']} ({t['niche']}) [{t['priority']}]\n")
+    doc.add_text("\n")
+    doc.add_italic("Reminder: Reply to every comment within 60 minutes of posting.\n")
     doc.add_text("\n")
     doc.add_separator()
     doc.add_text("\n")
@@ -251,7 +436,7 @@ def build_formatted_doc(drafts, category_distribution):
     return doc.build()
 
 
-def format_drafts(drafts, category_distribution):
+def format_drafts(drafts, category_distribution, format_distribution=None):
     """Format all drafts as plain text for console output."""
     now = datetime.now()
     date_str = now.strftime("%A, %d %B %Y")
@@ -267,35 +452,37 @@ def format_drafts(drafts, category_distribution):
     for draft in drafts:
         article = draft["article"]
         score = article.get("total_score", 0)
-        lines.append(f"- {article['title']} ({article['source']}) - Score: {score}/50")
+        fmt = draft.get("content_format", "text")
+        hook_score = draft.get("hook_score", "-")
+        lines.append(f"- [{fmt.upper()}] {article['title']} ({article['source']}) - Score: {score}/70 | Hook: {hook_score}")
     lines.append("")
     lines.append("-" * 50)
 
     # Each draft
     for i, draft in enumerate(drafts, 1):
         article = draft["article"]
+        fmt = draft.get("content_format", "text")
+        composite = draft.get("composite_score", "-")
         lines.append("")
-        lines.append(f"DRAFT {i} | {draft['persona']} | {article.get('category', 'General')}")
+        lines.append(f"DRAFT {i} | {fmt.upper()} | {draft.get('persona', '')} | {article.get('category', 'General')} | Composite: {composite}")
         lines.append(f"Source: {article['title']} ({article['source']})")
         lines.append("-" * 40)
         lines.append("")
-        lines.append(draft["post"])
+
+        # Format-specific rendering
+        format_draft_content(draft, plain_lines=lines)
+
         lines.append("")
-        lines.append("Alternative Hooks:")
-        lines.append(f"1. {draft['alt_hook_1']}")
-        lines.append(f"2. {draft['alt_hook_2']}")
-        lines.append("")
-        lines.append(f"Image Prompt: {draft['image_prompt']}")
         lines.append("-" * 40)
 
     # Recommendation
     lines.append("")
     if drafts:
-        best = max(drafts, key=lambda d: d["article"].get("total_score", 0))
+        best = max(drafts, key=lambda d: d.get("composite_score", 0))
         lines.append(
-            f"RECOMMENDATION: Draft by {best['persona']} on "
-            f"\"{best['article']['title']}\" - highest source score "
-            f"({best['article'].get('total_score', 0)}/50)"
+            f"RECOMMENDATION: [{best.get('content_format', 'text').upper()}] Draft by {best.get('persona', '')} on "
+            f"\"{best['article']['title']}\" - composite score {best.get('composite_score', 0)} "
+            f"(article: {best['article'].get('total_score', 0)}/70, hook: {best.get('hook_score', 0)}/100)"
         )
 
     # 7-day balance
@@ -303,6 +490,23 @@ def format_drafts(drafts, category_distribution):
     lines.append("CONTENT BALANCE (LAST 7 DAYS):")
     for cat, count in category_distribution.items():
         lines.append(f"- {cat}: {count} posts")
+    if format_distribution:
+        lines.append("")
+        lines.append("FORMAT DISTRIBUTION:")
+        for fmt, count in format_distribution.items():
+            lines.append(f"- {fmt}: {count}")
+
+    # Engagement plan
+    lines.append("")
+    lines.append("=" * 50)
+    lines.append("TODAY'S ENGAGEMENT PLAN")
+    lines.append("=" * 50)
+    targets = get_todays_engagement_targets()
+    lines.append("Comment on these accounts BEFORE posting:")
+    for t in targets:
+        lines.append(f"- {t['name']} ({t['niche']}) [{t['priority']}]")
+    lines.append("")
+    lines.append("Reminder: Reply to every comment within 60 minutes of posting.")
 
     lines.append("")
     lines.append("=" * 50)
@@ -317,7 +521,7 @@ def get_google_creds():
     return _get_creds()
 
 
-def push_to_google_doc(drafts, category_distribution):
+def push_to_google_doc(drafts, category_distribution, format_distribution=None):
     """Push richly formatted drafts to Google Doc."""
     from googleapiclient.discovery import build
 
@@ -332,7 +536,7 @@ def push_to_google_doc(drafts, category_distribution):
 
     try:
         service = build("docs", "v1", credentials=creds)
-        requests = build_formatted_doc(drafts, category_distribution)
+        requests = build_formatted_doc(drafts, category_distribution, format_distribution)
 
         service.documents().batchUpdate(
             documentId=GOOGLE_DOC_ID,
@@ -357,17 +561,28 @@ def save_markdown_fallback(text):
     return filename
 
 
-def output_drafts(drafts, category_distribution, dry_run=False):
+def output_drafts(drafts, category_distribution, format_distribution=None, dry_run=False):
     """Format and output drafts to Google Doc or fallback to markdown."""
-    text = format_drafts(drafts, category_distribution)
+    text = format_drafts(drafts, category_distribution, format_distribution)
 
     if dry_run:
         print(text)
         return text
 
-    success = push_to_google_doc(drafts, category_distribution)
+    success = push_to_google_doc(drafts, category_distribution, format_distribution)
     if not success:
         logger.warning("Google Docs push failed, saving markdown fallback")
         save_markdown_fallback(text)
+
+    # Sync to Obsidian vault (non-fatal)
+    try:
+        from obsidian_output import sync_post_log, update_content_calendar, write_story_scaffold
+        sync_post_log(drafts, datetime.now())
+        update_content_calendar(drafts, datetime.now())
+        for draft in drafts:
+            if draft.get("content_format") == "story_prompt":
+                write_story_scaffold(draft)
+    except Exception as e:
+        logger.warning(f"Obsidian sync failed (non-fatal): {e}")
 
     return text

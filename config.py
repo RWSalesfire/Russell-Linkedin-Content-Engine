@@ -11,16 +11,69 @@ GOOGLE_DOC_ID = os.getenv("GOOGLE_DOC_ID")
 GOOGLE_CREDENTIALS_PATH = os.getenv("GOOGLE_CREDENTIALS_PATH", "credentials.json")
 GOOGLE_TOKEN_PATH = os.getenv("GOOGLE_TOKEN_PATH", "token.json")
 
+# Obsidian vault
+OBSIDIAN_VAULT_PATH = os.getenv(
+    "OBSIDIAN_VAULT_PATH",
+    "/Users/salesfire/Documents/Obsidian Vault"
+)
+
 # Model IDs
 HAIKU_MODEL = "claude-haiku-4-5-20251001"
 SONNET_MODEL = "claude-sonnet-4-5-20250929"
 
 # Pipeline settings
 LOOKBACK_HOURS = 24
-DRAFT_COUNT = 5
-WORD_RANGE = (100, 150)
+DRAFT_COUNT = 3
+WORD_RANGE = (200, 300)
 DEDUP_THRESHOLD = 0.65
 MAX_RETRIES = 1
+
+# Content formats
+CONTENT_FORMATS = ["text", "carousel", "poll", "opinion", "story_prompt"]
+
+# Day-of-week format assignments (0=Monday, 4=Friday)
+DAY_FORMAT_MAP = {
+    0: "text",           # Monday: news-react
+    1: "story_prompt",   # Tuesday: personal story scaffold
+    2: "carousel",       # Wednesday: data carousel
+    3: "opinion",        # Thursday: hot take
+    4: "poll",           # Friday: research poll
+}
+
+# Content pillars
+CONTENT_PILLARS = {
+    "The Digital Outsider": "Lessons from traditional media (radio, OOH) that digital people have forgotten. Single-minded propositions. Brand building over click optimisation.",
+    "Fix the Basics First": "eCommerce brands chasing trends while checkout flows bleed customers. What actually matters vs what gets measured.",
+    "The AI Realist": "Practical AI wins and honest failures. What tools actually do vs what LinkedIn says they do.",
+    "Sales Without the Script": "Why sales training doesn't survive real conversations. Real objections, real lessons.",
+}
+
+# Hook quality patterns
+HOOK_PATTERNS = {
+    "confession": ["I spent", "I lost", "I was wrong", "I've been", "Nobody tells you"],
+    "specific_number": [r"\d+%", r"£\d+", r"\d+ years", r"\d+ companies"],
+    "bold_claim": ["is dead", "is broken", "doesn't work", "is wrong", "stop doing"],
+    "question": ["Why do", "What if", "How many", "When did"],
+}
+
+# Engagement targets (LinkedIn accounts to comment on daily)
+ENGAGEMENT_TARGETS = [
+    {"name": "Richard Moore", "niche": "sales psychology", "priority": "daily"},
+    {"name": "Daniel Disney", "niche": "sales content", "priority": "daily"},
+    {"name": "Dean Seddon", "niche": "social selling", "priority": "daily"},
+    {"name": "Charlie Hills", "niche": "AI in business", "priority": "daily"},
+    {"name": "Lea Turner", "niche": "UK SMB founders", "priority": "daily"},
+    {"name": "Holly Allen", "niche": "outbound sales", "priority": "3x_week"},
+    {"name": "Tom Boston", "niche": "social selling", "priority": "3x_week"},
+    {"name": "Jack Frimston", "niche": "cold calling", "priority": "3x_week"},
+    {"name": "Chloe Thomas", "niche": "eCommerce strategy", "priority": "3x_week"},
+    {"name": "Richard Hill", "niche": "eCommerce growth", "priority": "3x_week"},
+    {"name": "Katelyn Bourgoin", "niche": "buyer psychology", "priority": "3x_week"},
+    {"name": "Chris Ritson", "niche": "SDR training", "priority": "weekly"},
+    {"name": "Penn Frank", "niche": "GTM engineering", "priority": "weekly"},
+    {"name": "Peep Laja", "niche": "CRO", "priority": "weekly"},
+    {"name": "Depesh Mandalia", "niche": "eCommerce paid", "priority": "weekly"},
+]
 
 # Categories
 CATEGORIES = [
@@ -73,6 +126,8 @@ SCORING_CRITERIA = [
     "audience_relevance",
     "timeliness",
     "personal_angle_potential",
+    "specificity_score",
+    "confession_potential",
 ]
 
 # Voice & tone system prompt
