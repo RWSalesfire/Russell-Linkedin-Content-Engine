@@ -517,6 +517,41 @@
       "persona": "The eCommerce Observer",
       "source": "Leveling Up (Eric Siu)",
       "angle": "Engineering content systems beats writing: 85K views per post using OpenClaw."
+    },
+    {
+      "date": "2026-03-04",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "PPC Ninja",
+      "angle": "Weekly eCommerce experiments and AI trends newsletter with searchable archive."
+    },
+    {
+      "date": "2026-03-04",
+      "category": "AI in eCommerce",
+      "persona": "The Honest AI User",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Guide to building viral TikTok scripts with AI for eCommerce sellers."
+    },
+    {
+      "date": "2026-03-04",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "The Rundown AI",
+      "angle": "Supreme Court avoids ruling on AI copyright liability in landmark case."
+    },
+    {
+      "date": "2026-03-04",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "Claude outage causes mass ChatGPT-to-Claude migration following OpenAI Pentagon deal backlash."
+    },
+    {
+      "date": "2026-03-04",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "TLDR AI",
+      "angle": "Cursor revenue leaks amid rapid growth; Anthropic $60B round at risk amid Claude outage."
     }
   ]
 }
