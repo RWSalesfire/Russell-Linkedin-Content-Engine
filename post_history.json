@@ -552,6 +552,30 @@
       "persona": "The eCommerce Observer",
       "source": "TLDR AI",
       "angle": "Cursor revenue leaks amid rapid growth; Anthropic $60B round at risk amid Claude outage."
+    },
+    {
+      "date": "2026-03-05",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Building AI second brain with Claude, Python, and Telegram\u2014practical automation tutorial.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-05",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Persistent AI agents handle pipeline revival, follow-ups, and deal resurrection automatically.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-03-05",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "OpenAI's GPT-5.3 Instant prioritizes practical performance over benchmark competition.",
+      "content_format": "text"
     }
   ]
 }
