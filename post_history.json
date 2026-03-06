@@ -576,6 +576,30 @@
       "source": "Superhuman AI",
       "angle": "OpenAI's GPT-5.3 Instant prioritizes practical performance over benchmark competition.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-06",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Amazon listing images should leverage customer data, not vibes or competitor designs.",
+      "content_format": "poll"
+    },
+    {
+      "date": "2026-03-06",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (armand farrokh <armand@talk.30mpc.com>)",
+      "angle": "Multi-channel outbound sequences achieving 20%+ reply rates through strategic touch sequencing.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-06",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (marketing week morning briefing <bulletins@em.marketingweek.com>)",
+      "angle": "BrewDog brand health hit record low before acquisition; Legal & General uses behavioural science.",
+      "content_format": "text"
     }
   ]
 }
