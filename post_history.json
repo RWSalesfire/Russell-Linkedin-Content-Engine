@@ -600,6 +600,30 @@
       "source": "Unknown Newsletter (marketing week morning briefing <bulletins@em.marketingweek.com>)",
       "angle": "BrewDog brand health hit record low before acquisition; Legal & General uses behavioural science.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-09",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Google rankings irrelevant as ChatGPT disrupts B2B SaaS content strategy\u2014$4.1M revenue at risk.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-09",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "The Rundown AI",
+      "angle": "AI augments engineering workflows by amplifying human creativity rather than replacing engineers entirely.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-09",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (marketing week weekend briefing <bulletins@em.marketingweek.com>)",
+      "angle": "Unilever's food division shifts marketing strategy toward influencer partnerships and digital-first approach.",
+      "content_format": "text"
     }
   ]
 }
