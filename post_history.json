@@ -624,6 +624,30 @@
       "source": "Unknown Newsletter (marketing week weekend briefing <bulletins@em.marketingweek.com>)",
       "angle": "Unilever's food division shifts marketing strategy toward influencer partnerships and digital-first approach.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-10",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Pricing expert challenges nine-ending price myth; effectiveness varies by product type.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-10",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "TLDR AI",
+      "angle": "Claude Opus 4.6 finds more Firefox bugs in two weeks than typical two-month baseline.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-10",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Close Sales",
+      "angle": "Five-Minute Rule teaches fastest ways to contact inbound leads for higher conversion rates.",
+      "content_format": "story_prompt"
     }
   ]
 }
