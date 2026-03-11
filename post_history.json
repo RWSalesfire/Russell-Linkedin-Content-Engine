@@ -648,6 +648,30 @@
       "source": "Close Sales",
       "angle": "Five-Minute Rule teaches fastest ways to contact inbound leads for higher conversion rates.",
       "content_format": "story_prompt"
+    },
+    {
+      "date": "2026-03-11",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "UPDF combines traditional PDF tools with AI assistance to simplify document workflow.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-11",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Anthropic launches Claude Code Review with autonomous agents replacing traditional coding copilots.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-11",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (armand farrokh <armand@talk.30mpc.com>)",
+      "angle": "18 cold call objection scripts help reps handle inevitable pushback with proven responses.",
+      "content_format": "carousel"
     }
   ]
 }
