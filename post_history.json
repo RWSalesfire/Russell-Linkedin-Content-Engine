@@ -672,6 +672,30 @@
       "source": "Unknown Newsletter (armand farrokh <armand@talk.30mpc.com>)",
       "angle": "18 cold call objection scripts help reps handle inevitable pushback with proven responses.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-03-12",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "SaaStr AI Intelligence",
+      "angle": "SaaS market mixed performance with 12 gains, 13 declines; DOCN +9.9%, HUBS -4.0% on March 11, 2026.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-12",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Amazon plans ad integration into AI conversations, raising privacy and monetization concerns for sellers.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-03-12",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (marketing week morning briefing <bulletins@em.marketingweek.com>)",
+      "angle": "Compare the Market CMO discusses failed sales promotions; Sage integrates synthetic insights into products.",
+      "content_format": "text"
     }
   ]
 }
