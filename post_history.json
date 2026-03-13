@@ -696,6 +696,30 @@
       "source": "Unknown Newsletter (marketing week morning briefing <bulletins@em.marketingweek.com>)",
       "angle": "Compare the Market CMO discusses failed sales promotions; Sage integrates synthetic insights into products.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-13",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "Replit Agent 4 enables parallel AI agents; Cursor valued at $50B.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-13",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "Perplexity launches always-on Personal Computer AI system integrating local files and apps.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-13",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (armand farrokh <boringemails@30mpc.com>)",
+      "angle": "Forwardable email framework writes through champions to their bosses, not to them.",
+      "content_format": "poll"
     }
   ]
 }
