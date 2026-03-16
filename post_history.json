@@ -720,6 +720,30 @@
       "source": "Unknown Newsletter (armand farrokh <boringemails@30mpc.com>)",
       "angle": "Forwardable email framework writes through champions to their bosses, not to them.",
       "content_format": "poll"
+    },
+    {
+      "date": "2026-03-16",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (armand farrokh <armand@talk.30mpc.com>)",
+      "angle": "AI writes better cold emails when fed rich persona and trigger data.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-16",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "AI fundamentally outperforms sales reps due to inherent advantages.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-16",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (marketing week weekend briefing <bulletins@em.marketingweek.com>)",
+      "angle": "Brands evolve influencer gifting strategies toward authentic storytelling.",
+      "content_format": "text"
     }
   ]
 }
