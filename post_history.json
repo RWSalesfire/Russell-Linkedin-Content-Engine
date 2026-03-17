@@ -744,6 +744,30 @@
       "source": "Unknown Newsletter (marketing week weekend briefing <bulletins@em.marketingweek.com>)",
       "angle": "Brands evolve influencer gifting strategies toward authentic storytelling.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-17",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "World's best restaurant built using psychology and behavioural science for superior experiences.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-17",
+      "category": "Behavioural Science",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (marketing week morning briefing <bulletins@em.marketingweek.com>)",
+      "angle": "Marketing mothers face disproportionate career progression barriers compared to marketing fathers.",
+      "content_format": "story_prompt"
+    },
+    {
+      "date": "2026-03-17",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Anthropic doubles Claude usage limits for two weeks with 1M token memory promotion.",
+      "content_format": "text"
     }
   ]
 }
