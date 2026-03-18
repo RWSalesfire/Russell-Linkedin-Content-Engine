@@ -768,6 +768,30 @@
       "source": "Superhuman AI",
       "angle": "Anthropic doubles Claude usage limits for two weeks with 1M token memory promotion.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-18",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (armand farrokh <armand@talk.30mpc.com>)",
+      "angle": "Switching from product-selling to problem-solving doubled sales pipeline.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-18",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (armand farrokh <boringemails@30mpc.com>)",
+      "angle": "Comedian performs live B2B cold calls using real sales tactics; entertainment-education hybrid.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-18",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Nashville eCommerce conference bridges gap between 2-5x growth ambitions and sub-20% reality.",
+      "content_format": "carousel"
     }
   ]
 }
