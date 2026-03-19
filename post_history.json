@@ -792,6 +792,30 @@
       "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
       "angle": "Nashville eCommerce conference bridges gap between 2-5x growth ambitions and sub-20% reality.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-03-19",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Google patents AI ability to auto-replace eCommerce landing pages.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-03-19",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "TLDR AI",
+      "angle": "OpenAI releases GPT-5.4 mini and nano for cost-effective high-volume workloads.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-19",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "K-shaped economy: AI masters thrive while low-agency users become replaceable.",
+      "content_format": "text"
     }
   ]
 }
