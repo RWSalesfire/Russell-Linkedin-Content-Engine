@@ -816,6 +816,30 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "K-shaped economy: AI masters thrive while low-agency users become replaceable.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-20",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (armand farrokh <boringemails@30mpc.com>)",
+      "angle": "Standup comedian finds cold calling harder than performing; reveals four attention-earning takeaways.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-20",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Google Stitch enables AI-powered vibe design for websites, pressuring Figma valuation.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-20",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "MiniMax M2.7 trained itself through 100+ autonomous loops, rivaling frontier AI models.",
+      "content_format": "poll"
     }
   ]
 }
