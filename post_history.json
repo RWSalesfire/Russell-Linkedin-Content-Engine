@@ -840,6 +840,30 @@
       "source": "Superhuman AI",
       "angle": "MiniMax M2.7 trained itself through 100+ autonomous loops, rivaling frontier AI models.",
       "content_format": "poll"
+    },
+    {
+      "date": "2026-03-23",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "BDSS Nashville reveals overlooked feature that changes ecommerce seller strategy.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-23",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (marketing week weekend briefing <bulletins@em.marketingweek.com>)",
+      "angle": "McDonald's launches collectible card game featuring Ronald McDonald comeback.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-23",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "Essential deployment checklist for AI SDR implementations in sales organizations.",
+      "content_format": "text"
     }
   ]
 }
