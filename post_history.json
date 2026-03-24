@@ -864,6 +864,30 @@
       "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
       "angle": "Essential deployment checklist for AI SDR implementations in sales organizations.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-24",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Algorithm penalized clickbait; trust and intent now matter more than clicks.",
+      "content_format": "story_prompt"
+    },
+    {
+      "date": "2026-03-24",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Startup achieves 99% accuracy on AI agent long-term memory without vector databases.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-24",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "The Rundown AI",
+      "angle": "Elon Musk's Terafab is $20 billion AI chip manufacturing facility initiative.",
+      "content_format": "text"
     }
   ]
 }
