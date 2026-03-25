@@ -888,6 +888,30 @@
       "source": "The Rundown AI",
       "angle": "Elon Musk's Terafab is $20 billion AI chip manufacturing facility initiative.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-25",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (marketing week morning briefing <bulletins@em.marketingweek.com>)",
+      "angle": "Marketing industry shows London bias: 53.9% of marketers based in South East.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-25",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "TLDR AI",
+      "angle": "OpenAI pursuing PE partnerships for capital and AI product adoption acceleration.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-25",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "SaaStr AI Intelligence",
+      "angle": "SaaS market down 5.5% with 25 of 25 stocks declining on March 24, 2026.",
+      "content_format": "carousel"
     }
   ]
 }
