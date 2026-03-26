@@ -912,6 +912,30 @@
       "source": "SaaStr AI Intelligence",
       "angle": "SaaS market down 5.5% with 25 of 25 stocks declining on March 24, 2026.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-03-26",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Treat AI as an employee, not assistant\u2014author achieved 85K+ content views through systematization.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-03-26",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "SMS-based AI coming soon; Moda's AI design agent claims to end AI slop with 2M+ viral views.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-26",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "The Rundown AI",
+      "angle": "OpenAI discontinues Sora video generation product after earlier launch.",
+      "content_format": "text"
     }
   ]
 }
