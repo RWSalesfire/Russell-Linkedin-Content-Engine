@@ -936,6 +936,30 @@
       "source": "The Rundown AI",
       "angle": "OpenAI discontinues Sora video generation product after earlier launch.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-27",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "TLDR AI",
+      "angle": "Google TurboQuant compression algorithm reduces LLM memory while boosting speed.",
+      "content_format": "poll"
+    },
+    {
+      "date": "2026-03-27",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Specific discount strategy boosts conversions for eCommerce sellers.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-27",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (marketing week morning briefing <bulletins@em.marketingweek.com>)",
+      "angle": "Unilever home care brands shift marketing model closer to culture.",
+      "content_format": "text"
     }
   ]
 }
