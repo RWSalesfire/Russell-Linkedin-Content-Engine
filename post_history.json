@@ -960,6 +960,30 @@
       "source": "Unknown Newsletter (marketing week morning briefing <bulletins@em.marketingweek.com>)",
       "angle": "Unilever home care brands shift marketing model closer to culture.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-30",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "Single CRM powering six AI sales agents operating 24/7 transforms sales operations.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-30",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "The Rundown AI",
+      "angle": "Alibaba.com executive Kuo Zhang discusses AI's role in global eCommerce platform.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-30",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Founder-led sales playbook and AI resources curated for modern go-to-market.",
+      "content_format": "text"
     }
   ]
 }
