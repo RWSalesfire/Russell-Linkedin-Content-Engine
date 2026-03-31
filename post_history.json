@@ -984,6 +984,30 @@
       "source": "Substack Digest",
       "angle": "Founder-led sales playbook and AI resources curated for modern go-to-market.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-03-31",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI answers crush publisher traffic 60-97%; optimize for revenue, not clicks.",
+      "content_format": "story_prompt"
+    },
+    {
+      "date": "2026-03-31",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Midjourney engineer's TypeScript library accelerates web layouts 500x faster.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-03-31",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "Anthropic's 'Mythos' model leaks; new powerful tier surpasses Opus capabilities.",
+      "content_format": "text"
     }
   ]
 }
