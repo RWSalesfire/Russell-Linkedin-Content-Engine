@@ -21,6 +21,7 @@ For each article, you must:
    - personal_angle_potential: Could a personal story or opinion be woven in?
    - specificity_score: Does the article contain specific numbers, company names, dates, or timeframes? Higher = more concrete details.
    - confession_potential: Could someone credibly say "I got this wrong" or "I tried this and failed" about this topic? Higher = stronger personal failure/learning angle.
+   - carousel_suitability: Could this article be broken into 8-10 distinct points for a slide carousel? Score HIGH (7-10) if it contains: a list of tips/steps, a framework with multiple parts, multiple data points that compare things, a how-to process, or myth-vs-reality pairs. Score LOW (1-3) if it's a single opinion, a news announcement, or a narrative that doesn't decompose into discrete points.
 
 3. Write a one-line summary (max 20 words) capturing the key insight.
 
@@ -35,7 +36,8 @@ Return your response as a JSON array. Each element:
     "timeliness": <1-10>,
     "personal_angle_potential": <1-10>,
     "specificity_score": <1-10>,
-    "confession_potential": <1-10>
+    "confession_potential": <1-10>,
+    "carousel_suitability": <1-10>
   }},
   "one_line_summary": "<summary>"
 }}

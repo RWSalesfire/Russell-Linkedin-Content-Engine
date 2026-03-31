@@ -59,6 +59,36 @@
       "sender_patterns": ["hubspot.com", "noreply@hubspot.com"],
       "name": "HubSpot Sales",
       "category_hint": "Sales"
+    },
+    {
+      "sender_patterns": ["retailbrew.com", "morning_brew"],
+      "name": "Retail Brew",
+      "category_hint": "eCommerce"
+    },
+    {
+      "sender_patterns": ["2pml.com", "web@2pml.com"],
+      "name": "2PM by Web Smith",
+      "category_hint": "eCommerce"
+    },
+    {
+      "sender_patterns": ["nudgenewsletter.com", "phill@nudgenewsletter.com"],
+      "name": "Nudge by Phill Agnew",
+      "category_hint": "Behavioural Science"
+    },
+    {
+      "sender_patterns": ["ariyh.com", "thomas@ariyh.com"],
+      "name": "Ariyh",
+      "category_hint": "Behavioural Science"
+    },
+    {
+      "sender_patterns": ["marketingweek.com", "newsletters@marketingweek.com"],
+      "name": "Marketing Week",
+      "category_hint": "eCommerce"
+    },
+    {
+      "sender_patterns": ["litmus.com", "email@litmus.com"],
+      "name": "Litmus",
+      "category_hint": "Email Marketing"
     }
   ]
 }

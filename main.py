@@ -19,6 +19,7 @@ from generator import assign_personas, generate_drafts, select_stories
 from hook_scorer import rank_drafts
 from output import output_drafts
 from processor import process_articles
+from config import REALTIME_ENABLED
 
 logging.basicConfig(
     level=logging.INFO,
@@ -28,7 +29,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def run_pipeline(dry_run=False, feeds_only=False, forced_format=None):
+def run_pipeline(dry_run=False, feeds_only=False, forced_format=None, no_realtime=False):
     """Execute the full content pipeline."""
     logger.info("Starting LinkedIn Content Engine pipeline")
 
@@ -40,16 +41,34 @@ def run_pipeline(dry_run=False, feeds_only=False, forced_format=None):
         sys.exit(1)
     logger.info(f"Fetched {len(articles)} articles")
 
+    # Step 1b: Fetch Hacker News real-time stories
+    if REALTIME_ENABLED and not no_realtime:
+        logger.info("Step 1b: Fetching Hacker News real-time stories")
+        try:
+            from realtime_feeds import fetch_hacker_news
+            hn_articles = fetch_hacker_news()
+            if hn_articles:
+                articles.extend(hn_articles)
+                logger.info(f"Added {len(hn_articles)} HN articles ({len(articles)} total)")
+            else:
+                logger.info("No HN articles passed filters")
+        except Exception as e:
+            logger.warning(f"Hacker News fetch failed (non-fatal): {e}")
+    elif no_realtime:
+        logger.info("Step 1b: Skipping Hacker News (--no-realtime)")
+
     # Step 2: Process (clean + dedup)
     logger.info("Step 2/8: Processing articles")
     articles = process_articles(articles)
     logger.info(f"{len(articles)} articles after processing")
 
     if feeds_only:
-        print(f"\n--- Newsletters Only Mode ---")
+        print(f"\n--- Feeds Mode ---")
         print(f"Total articles: {len(articles)}\n")
-        for i, a in enumerate(articles[:20], 1):
-            print(f"{i}. [{a['source']}] {a['title']}")
+        for i, a in enumerate(articles[:30], 1):
+            source_tag = a.get("source", "Unknown")
+            rt = " [RT]" if a.get("source_type") == "realtime" else ""
+            print(f"{i}. [{source_tag}{rt}] {a['title']}")
         return
 
     # Step 3: Categorise and score (7 criteria)
@@ -70,12 +89,13 @@ def run_pipeline(dry_run=False, feeds_only=False, forced_format=None):
             f"(score: {article.get('total_score')}/70) -> {persona}"
         )
 
-    # Step 5: Generate format-specific drafts
-    logger.info("Step 5/8: Generating format-specific drafts with Sonnet")
+    # Step 5: Generate format-specific drafts (4 article-based + 1 original prompt)
+    logger.info("Step 5/8: Generating drafts with Sonnet (4 article + 1 original)")
     drafts = generate_drafts(selected, personas)
     if not drafts:
         logger.error("No drafts generated")
         sys.exit(1)
+    logger.info(f"Generated {len(drafts)} drafts ({sum(1 for d in drafts if d.get('content_format') != 'original')} article-based, {sum(1 for d in drafts if d.get('content_format') == 'original')} original)")
 
     # Step 6: Score hooks and rank
     logger.info("Step 6/8: Scoring hooks and ranking drafts")
@@ -93,11 +113,14 @@ def run_pipeline(dry_run=False, feeds_only=False, forced_format=None):
     format_dist = get_format_distribution(history)
     output_drafts(drafts, category_dist, format_dist, dry_run=dry_run)
 
-    # Step 8: Update history (with format)
+    # Step 8: Update history (with format) - only record article-based drafts
+    # Original prompts aren't recorded until Russell actually writes and posts them
     logger.info("Step 8/8: Updating history")
     if not dry_run:
         today = datetime.now().isoformat()[:10]
         for draft in drafts:
+            if draft.get("content_format") == "original":
+                continue  # don't record unwritten prompts
             article = draft["article"]
             record_post(
                 history,
@@ -271,6 +294,11 @@ def main():
         action="store_true",
         help="Backfill all post history into Obsidian vault post logs",
     )
+    parser.add_argument(
+        "--no-realtime",
+        action="store_true",
+        help="Skip Hacker News real-time feed (newsletters only)",
+    )
     args = parser.parse_args()
 
     if args.sync_obsidian:
@@ -309,6 +337,7 @@ def main():
         dry_run=args.dry_run,
         feeds_only=args.feeds_only,
         forced_format=args.format,
+        no_realtime=args.no_realtime,
     )
 
 

@@ -59,6 +59,36 @@
       "url": "https://www.behavioralscientist.org/feed/",
       "name": "Behavioral Scientist",
       "category_hint": "Behavioural Science"
+    },
+    {
+      "url": "https://newsletter.outbound.kitchen/feed",
+      "name": "Outbound Kitchen",
+      "category_hint": "Sales"
+    },
+    {
+      "url": "https://salesman.com/feed/",
+      "name": "Salesman.com (Will Barron)",
+      "category_hint": "Sales"
+    },
+    {
+      "url": "https://blog.jbarrows.com/feed/",
+      "name": "JBarrows (John Barrows)",
+      "category_hint": "Sales"
+    },
+    {
+      "url": "https://www.cognism.com/blog/rss.xml",
+      "name": "Cognism",
+      "category_hint": "Sales"
+    },
+    {
+      "url": "https://jed.substack.com/feed",
+      "name": "Practical Prospecting (Jed Mahrle)",
+      "category_hint": "Sales"
+    },
+    {
+      "url": "https://feeds.megaphone.fm/30mpc",
+      "name": "30 Minutes to President's Club",
+      "category_hint": "Sales"
     }
   ]
 }

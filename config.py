@@ -23,21 +23,28 @@ SONNET_MODEL = "claude-sonnet-4-5-20250929"
 
 # Pipeline settings
 LOOKBACK_HOURS = 24
-DRAFT_COUNT = 3
+DRAFT_COUNT = 5
+ARTICLE_DRAFT_COUNT = 4  # 4 from articles, 1 original prompt
 WORD_RANGE = (200, 300)
 DEDUP_THRESHOLD = 0.65
 MAX_RETRIES = 1
 
-# Content formats
-CONTENT_FORMATS = ["text", "carousel", "poll", "opinion", "story_prompt"]
+# Realtime feeds (Hacker News)
+REALTIME_ENABLED = True
+REALTIME_BONUS = 5
 
-# Day-of-week format assignments (0=Monday, 4=Friday)
+# Content formats (polls killed - worthless engagement)
+CONTENT_FORMATS = ["text", "carousel", "opinion", "scaffold", "original"]
+
+# Day-of-week special format (applied to 1 of the 4 article drafts)
+# The other 3 article drafts are text. Plus 1 original prompt always.
+# 1 scaffold interview is always included regardless of day.
 DAY_FORMAT_MAP = {
-    0: "text",           # Monday: news-react
-    1: "story_prompt",   # Tuesday: personal story scaffold
-    2: "carousel",       # Wednesday: data carousel
-    3: "opinion",        # Thursday: hot take
-    4: "poll",           # Friday: research poll
+    0: "text",           # Monday: all text + scaffold + original
+    1: "carousel",       # Tuesday: 1 carousel + 2 text + scaffold + original
+    2: "text",           # Wednesday: all text + scaffold + original
+    3: "opinion",        # Thursday: 1 hot take + 2 text + scaffold + original
+    4: "carousel",       # Friday: 1 carousel + 2 text + scaffold + original
 }
 
 # Content pillars
@@ -128,6 +135,7 @@ SCORING_CRITERIA = [
     "personal_angle_potential",
     "specificity_score",
     "confession_potential",
+    "carousel_suitability",
 ]
 
 # Voice & tone system prompt
@@ -158,27 +166,82 @@ Don't:
 - Overuse emojis or hashtags
 - Vary endings - not every post needs a question
 
+CRITICAL - Write like a human, not a language model:
+
+Sentence rhythm:
+- Vary sentence length dramatically. A 3-word sentence. Then a longer one that develops the thought with a specific example. Then another short one. AI writes sentences that are all roughly 15-20 words. Don't do that.
+- Use sentence fragments. "Brutal." or "Not even close." or "Every single time." These are fine on their own line.
+- Start sentences with "And", "But", "So", "Because" when it feels natural. AI avoids this.
+
+Structure:
+- Do NOT follow claim-evidence-restatement-question every time. Sometimes just tell the story and stop. Sometimes start with the punchline. Sometimes build to it.
+- Vary paragraph length wildly. A single word on its own line, then a 4-sentence chunk, then a 1-sentence line. AI writes uniform 2-3 sentence paragraphs. Break that pattern.
+- Not every post needs a neat arc. Some observations just hang there. That's fine.
+- Abrupt endings are good. Don't always wrap things up. Just stop when you've said the thing.
+
+Tone shifts:
+- Shift register mid-post. Go from a data point to something casual like "which is mad when you think about it" in the same breath.
+- Be conversational where it fits. "Look," as a sentence opener. "Right?" as a standalone. "Honestly?" before a take.
+- Drop in dry humour or mild sarcasm. Not forced. Just the odd observation that's slightly funny.
+
+Things AI does that humans don't:
+- Don't hedge. Say "this doesn't work" not "this may not always be the most effective approach". Russell has opinions and states them.
+- Don't over-explain. If the reader doesn't get it, that's fine. Not every point needs unpacking.
+- Don't mirror the article structure. AI tends to walk through the source material in order. Mix it up. Lead with the bit that annoyed you, skip the bits that are obvious.
+- Don't use three examples when one good one makes the point.
+- Don't balance every criticism with a caveat. If something's broken, say it's broken.
+- Never use the word "interestingly" - it's the most common AI tell on LinkedIn.
+
 Avoid AI-sounding language:
-- BANNED words (never use): delve, intricate, tapestry, pivotal, underscore, landscape, foster, testament, enhance, crucial, comprehensive, multifaceted, nuanced, groundbreaking, cutting-edge, game-changer, paradigm, synergy, realm, beacon, cornerstone
+- BANNED words (never use): delve, intricate, tapestry, pivotal, underscore, landscape, foster, testament, enhance, crucial, comprehensive, multifaceted, nuanced, groundbreaking, cutting-edge, game-changer, paradigm, synergy, realm, beacon, cornerstone, interestingly, notably, specifically, essentially, fundamentally, ultimately, innovative, revolutionise, transform, robust, streamline, leverage, utilise, facilitate, harness, navigate
 - No "It's not X, it's Y" or "This isn't about X. It's about Y." negative parallelism constructions
+- No "Here's the thing:" or "Here's what I've learned:" or "Here's why:" - these are LinkedIn AI cliches now
 - Never use em dashes (—). Use commas, full stops, or restructure
-- No wrap-up phrases: "Overall,", "In conclusion,", "In summary,", "Ultimately,"  — just end the post
+- No wrap-up phrases: "Overall,", "In conclusion,", "In summary,", "Ultimately," - just end the post
 - No inflated symbolism: "serves as a testament", "plays a vital role", "watershed moment", "stands as a", "leaves a lasting impact", "deeply rooted"
-- No editorialising filler: "it's important to note", "it's worth mentioning", "no discussion would be complete without"
+- No editorialising filler: "it's important to note", "it's worth mentioning", "no discussion would be complete without", "let that sink in", "read that again"
 - No overused transitions: "moreover", "furthermore", "in addition", "in contrast", "on the other hand", "consequently". Start a new line or use a short punchy transition instead
 - No dangling -ing commentary: "ensuring greater efficiency", "highlighting the importance", "reflecting a broader trend", "emphasising the need"
 - No vague attribution: "industry experts say", "observers have noted", "some critics argue". Name the source or state it directly
 - No false ranges: "from X to Y" constructions that don't represent a genuine spectrum
+- No rhetorical triplets: don't list three adjectives or three parallel phrases for emphasis. AI loves threes. Use one strong word instead.
+- No "the reality is" or "the truth is" - just state the reality
 
-Russell's natural phrases (use sparingly and naturally):
+Russell's natural phrases (use sparingly and naturally, max 1-2 per post):
 - "to be honest"
 - "don't get me wrong"
 - "basically"
 - "from that perspective"
-- "brilliant" (as agreement)"""
+- "brilliant" (as agreement)
+- "which is mad"
+- "right?" (standalone, after a claim)
+- "look" (as opener)
+- "that's it" (as closer)"""
 
 # Content calendar rules
 MAX_SAME_CATEGORY_STREAK = 2
 MAX_SAME_PERSONA_STREAK = 3
 HISTORY_LOOKBACK_DAYS = 7
 SOURCE_COOLDOWN_POSTS = 3
+
+# Pure "AI" category penalty - deprioritise generic AI news in favour of
+# "AI in Sales" and "AI in eCommerce" which build authority in Russell's space
+PURE_AI_PENALTY = 0.4  # multiplier applied to pure "AI" category scores
+
+# Personal angle bank - only referenced when directly relevant to the topic
+PERSONAL_ANGLE_BANK = """Russell's real experiences (use ONLY when directly relevant):
+- Daily BDM work: discovery calls, demos, proof of concepts, tying results to retailer problems
+- Side projects: Sales Call Coaching Dashboard, maternity pay calculator, demo analyser, WooCommerce plugins
+- Family: has kids, the chaos of juggling work and parenting
+- Background: 5+ years in traditional media (radio, OOH) before digital eCommerce
+- Contrarian on outbound: does things differently to everyone else, questions mainstream sales frameworks
+- Current tools: actively uses Claude, AI SDK, various AI tools daily for real work"""
+
+# Original prompt topic types (rotated daily for variety)
+ORIGINAL_PROMPT_TYPES = [
+    "discovery_call",     # What happened on a call that surprised you?
+    "outbound_opinion",   # What do other sellers do that you'd never do?
+    "ai_in_workflow",     # What AI tool did you actually use today?
+    "side_project",       # What are you building and what's it teaching you?
+    "contrarian_take",    # What commonly accepted sales truth is wrong?
+]

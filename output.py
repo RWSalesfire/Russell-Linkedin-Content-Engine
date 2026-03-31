@@ -7,11 +7,15 @@ from config import ENGAGEMENT_TARGETS, GOOGLE_DOC_ID
 logger = logging.getLogger(__name__)
 
 # Colour palette (RGB 0-1 scale)
-BLUE = {"red": 0.0, "green": 0.4, "blue": 0.8}
-DARK_GREY = {"red": 0.42, "green": 0.46, "blue": 0.49}
-GREEN = {"red": 0.16, "green": 0.65, "blue": 0.27}
-AMBER_BG = {"red": 1.0, "green": 0.95, "blue": 0.8}
-RED_BG = {"red": 1.0, "green": 0.9, "blue": 0.9}
+CHARCOAL = {"red": 0.2, "green": 0.2, "blue": 0.2}
+MID_GREY = {"red": 0.55, "green": 0.55, "blue": 0.55}
+LIGHT_GREY = {"red": 0.85, "green": 0.85, "blue": 0.85}
+TEAL = {"red": 0.0, "green": 0.59, "blue": 0.53}
+TEAL_LIGHT = {"red": 0.91, "green": 0.97, "blue": 0.96}
+AMBER = {"red": 0.85, "green": 0.55, "blue": 0.0}
+AMBER_BG = {"red": 1.0, "green": 0.96, "blue": 0.88}
+RED_BG = {"red": 1.0, "green": 0.93, "blue": 0.93}
+WHITE = {"red": 1.0, "green": 1.0, "blue": 1.0}
 
 
 class DocBuilder:
@@ -30,6 +34,7 @@ class DocBuilder:
         return start, self.cursor
 
     def add_heading1(self, text):
+        """Main title - large, dark, with subtle bottom border."""
         if not text:
             return
         s, e = self._append(text + "\n")
@@ -37,44 +42,138 @@ class DocBuilder:
             "range": {"startIndex": s, "endIndex": e},
             "paragraphStyle": {
                 "namedStyleType": "HEADING_1",
-                "borderBottom": {
-                    "color": {"color": {"rgbColor": BLUE}},
-                    "width": {"magnitude": 2, "unit": "PT"},
-                    "padding": {"magnitude": 6, "unit": "PT"},
-                    "dashStyle": "SOLID",
-                },
-                "spaceBelow": {"magnitude": 14, "unit": "PT"},
+                "spaceBelow": {"magnitude": 8, "unit": "PT"},
             },
-            "fields": "namedStyleType,borderBottom,spaceBelow",
+            "fields": "namedStyleType,spaceBelow",
         }})
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e - 1},
-            "textStyle": {"foregroundColor": {"color": {"rgbColor": BLUE}}},
-            "fields": "foregroundColor",
+            "textStyle": {
+                "foregroundColor": {"color": {"rgbColor": CHARCOAL}},
+                "fontSize": {"magnitude": 20, "unit": "PT"},
+            },
+            "fields": "foregroundColor,fontSize",
         }})
 
-    def add_heading2(self, text):
+    def add_date_subtitle(self, text):
+        """Date line below the title - grey, smaller."""
+        if not text:
+            return
+        s, e = self._append(text + "\n")
+        self.format_requests.append({"updateTextStyle": {
+            "range": {"startIndex": s, "endIndex": e - 1},
+            "textStyle": {
+                "foregroundColor": {"color": {"rgbColor": MID_GREY}},
+                "fontSize": {"magnitude": 11, "unit": "PT"},
+            },
+            "fields": "foregroundColor,fontSize",
+        }})
+        self.format_requests.append({"updateParagraphStyle": {
+            "range": {"startIndex": s, "endIndex": e},
+            "paragraphStyle": {
+                "spaceBelow": {"magnitude": 16, "unit": "PT"},
+            },
+            "fields": "spaceBelow",
+        }})
+
+    def add_section_heading(self, text):
+        """Section heading - teal, uppercase feel, with left accent bar."""
         if not text:
             return
         s, e = self._append(text + "\n")
         self.format_requests.append({"updateParagraphStyle": {
             "range": {"startIndex": s, "endIndex": e},
             "paragraphStyle": {
-                "namedStyleType": "HEADING_2",
+                "namedStyleType": "HEADING_3",
                 "borderLeft": {
-                    "color": {"color": {"rgbColor": BLUE}},
-                    "width": {"magnitude": 3, "unit": "PT"},
-                    "padding": {"magnitude": 8, "unit": "PT"},
+                    "color": {"color": {"rgbColor": TEAL}},
+                    "width": {"magnitude": 4, "unit": "PT"},
+                    "padding": {"magnitude": 10, "unit": "PT"},
                     "dashStyle": "SOLID",
                 },
-                "spaceAbove": {"magnitude": 16, "unit": "PT"},
+                "spaceAbove": {"magnitude": 20, "unit": "PT"},
+                "spaceBelow": {"magnitude": 8, "unit": "PT"},
             },
-            "fields": "namedStyleType,borderLeft,spaceAbove",
+            "fields": "namedStyleType,borderLeft,spaceAbove,spaceBelow",
         }})
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e - 1},
-            "textStyle": {"foregroundColor": {"color": {"rgbColor": BLUE}}},
-            "fields": "foregroundColor",
+            "textStyle": {
+                "foregroundColor": {"color": {"rgbColor": TEAL}},
+                "bold": True,
+                "fontSize": {"magnitude": 11, "unit": "PT"},
+            },
+            "fields": "foregroundColor,bold,fontSize",
+        }})
+
+    def add_draft_heading(self, draft_num, fmt, persona, category):
+        """Draft header - clean card-style with teal background strip."""
+        label = f"DRAFT {draft_num}"
+        detail = f"  {fmt.upper()}  \u00b7  {persona}  \u00b7  {category}"
+        s, e = self._append(label + detail + "\n")
+
+        # Teal background strip
+        self.format_requests.append({"updateParagraphStyle": {
+            "range": {"startIndex": s, "endIndex": e},
+            "paragraphStyle": {
+                "namedStyleType": "NORMAL_TEXT",
+                "shading": {
+                    "backgroundColor": {"color": {"rgbColor": TEAL_LIGHT}}
+                },
+                "indentStart": {"magnitude": 8, "unit": "PT"},
+                "indentEnd": {"magnitude": 8, "unit": "PT"},
+                "spaceAbove": {"magnitude": 24, "unit": "PT"},
+                "spaceBelow": {"magnitude": 6, "unit": "PT"},
+                "borderTop": {
+                    "color": {"color": {"rgbColor": TEAL}},
+                    "width": {"magnitude": 2, "unit": "PT"},
+                    "padding": {"magnitude": 6, "unit": "PT"},
+                    "dashStyle": "SOLID",
+                },
+            },
+            "fields": "namedStyleType,shading.backgroundColor,indentStart,indentEnd,spaceAbove,spaceBelow,borderTop",
+        }})
+        # "DRAFT N" in bold teal
+        self.format_requests.append({"updateTextStyle": {
+            "range": {"startIndex": s, "endIndex": s + len(label)},
+            "textStyle": {
+                "bold": True,
+                "foregroundColor": {"color": {"rgbColor": TEAL}},
+                "fontSize": {"magnitude": 12, "unit": "PT"},
+            },
+            "fields": "bold,foregroundColor,fontSize",
+        }})
+        # Detail in grey
+        self.format_requests.append({"updateTextStyle": {
+            "range": {"startIndex": s + len(label), "endIndex": e - 1},
+            "textStyle": {
+                "foregroundColor": {"color": {"rgbColor": MID_GREY}},
+                "fontSize": {"magnitude": 10, "unit": "PT"},
+            },
+            "fields": "foregroundColor,fontSize",
+        }})
+
+    def add_source_line(self, text):
+        """Source attribution - small grey text."""
+        if not text:
+            return
+        s, e = self._append(text + "\n")
+        self.format_requests.append({"updateTextStyle": {
+            "range": {"startIndex": s, "endIndex": e - 1},
+            "textStyle": {
+                "foregroundColor": {"color": {"rgbColor": MID_GREY}},
+                "fontSize": {"magnitude": 9, "unit": "PT"},
+                "italic": True,
+            },
+            "fields": "foregroundColor,fontSize,italic",
+        }})
+        self.format_requests.append({"updateParagraphStyle": {
+            "range": {"startIndex": s, "endIndex": e},
+            "paragraphStyle": {
+                "spaceBelow": {"magnitude": 10, "unit": "PT"},
+                "indentStart": {"magnitude": 8, "unit": "PT"},
+            },
+            "fields": "spaceBelow,indentStart",
         }})
 
     def add_bold(self, text):
@@ -83,8 +182,26 @@ class DocBuilder:
         s, e = self._append(text)
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e},
-            "textStyle": {"bold": True},
-            "fields": "bold",
+            "textStyle": {
+                "bold": True,
+                "foregroundColor": {"color": {"rgbColor": CHARCOAL}},
+            },
+            "fields": "bold,foregroundColor",
+        }})
+
+    def add_label(self, text):
+        """Small bold label - for 'Alternative Hooks:', 'Image Prompt:', etc."""
+        if not text:
+            return
+        s, e = self._append(text)
+        self.format_requests.append({"updateTextStyle": {
+            "range": {"startIndex": s, "endIndex": e},
+            "textStyle": {
+                "bold": True,
+                "foregroundColor": {"color": {"rgbColor": MID_GREY}},
+                "fontSize": {"magnitude": 9, "unit": "PT"},
+            },
+            "fields": "bold,foregroundColor,fontSize",
         }})
 
     def add_italic(self, text):
@@ -104,7 +221,7 @@ class DocBuilder:
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e},
             "textStyle": {
-                "foregroundColor": {"color": {"rgbColor": DARK_GREY}},
+                "foregroundColor": {"color": {"rgbColor": MID_GREY}},
                 "fontSize": {"magnitude": 9, "unit": "PT"},
             },
             "fields": "foregroundColor,fontSize",
@@ -114,31 +231,37 @@ class DocBuilder:
         self._append(text)
 
     def add_post_block(self, text):
-        """Add post content with green left border and italic styling."""
+        """Post content - normal weight, left border in teal, comfortable reading size."""
         if not text:
             return
+        # Split into paragraphs and apply border to each
         s, e = self._append(text + "\n")
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e - 1},
-            "textStyle": {"italic": True},
-            "fields": "italic",
+            "textStyle": {
+                "foregroundColor": {"color": {"rgbColor": CHARCOAL}},
+                "fontSize": {"magnitude": 11, "unit": "PT"},
+            },
+            "fields": "foregroundColor,fontSize",
         }})
         self.format_requests.append({"updateParagraphStyle": {
             "range": {"startIndex": s, "endIndex": e},
             "paragraphStyle": {
-                "indentStart": {"magnitude": 14, "unit": "PT"},
+                "indentStart": {"magnitude": 16, "unit": "PT"},
+                "indentEnd": {"magnitude": 16, "unit": "PT"},
                 "borderLeft": {
-                    "color": {"color": {"rgbColor": GREEN}},
+                    "color": {"color": {"rgbColor": TEAL}},
                     "width": {"magnitude": 3, "unit": "PT"},
-                    "padding": {"magnitude": 8, "unit": "PT"},
+                    "padding": {"magnitude": 12, "unit": "PT"},
                     "dashStyle": "SOLID",
                 },
+                "lineSpacing": 130,
             },
-            "fields": "indentStart,borderLeft",
+            "fields": "indentStart,indentEnd,borderLeft,lineSpacing",
         }})
 
     def add_recommendation(self, text):
-        """Add recommendation with amber background."""
+        """Recommendation callout - amber accent."""
         if not text:
             return
         s, e = self._append(text + "\n")
@@ -148,21 +271,31 @@ class DocBuilder:
                 "shading": {
                     "backgroundColor": {"color": {"rgbColor": AMBER_BG}}
                 },
+                "borderLeft": {
+                    "color": {"color": {"rgbColor": AMBER}},
+                    "width": {"magnitude": 4, "unit": "PT"},
+                    "padding": {"magnitude": 10, "unit": "PT"},
+                    "dashStyle": "SOLID",
+                },
                 "indentStart": {"magnitude": 8, "unit": "PT"},
                 "indentEnd": {"magnitude": 8, "unit": "PT"},
-                "spaceAbove": {"magnitude": 4, "unit": "PT"},
-                "spaceBelow": {"magnitude": 4, "unit": "PT"},
+                "spaceAbove": {"magnitude": 8, "unit": "PT"},
+                "spaceBelow": {"magnitude": 8, "unit": "PT"},
             },
-            "fields": "shading.backgroundColor,indentStart,indentEnd,spaceAbove,spaceBelow",
+            "fields": "shading.backgroundColor,borderLeft,indentStart,indentEnd,spaceAbove,spaceBelow",
         }})
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e - 1},
-            "textStyle": {"bold": True},
-            "fields": "bold",
+            "textStyle": {
+                "bold": True,
+                "foregroundColor": {"color": {"rgbColor": CHARCOAL}},
+                "fontSize": {"magnitude": 10, "unit": "PT"},
+            },
+            "fields": "bold,foregroundColor,fontSize",
         }})
 
     def add_story_prompt_block(self, text):
-        """Add story prompt content with red/amber background to highlight it needs input."""
+        """Story prompt - red-tinted callout to flag it needs input."""
         if not text:
             return
         s, e = self._append(text + "\n")
@@ -172,22 +305,51 @@ class DocBuilder:
                 "shading": {
                     "backgroundColor": {"color": {"rgbColor": RED_BG}}
                 },
-                "indentStart": {"magnitude": 14, "unit": "PT"},
-                "indentEnd": {"magnitude": 8, "unit": "PT"},
+                "indentStart": {"magnitude": 16, "unit": "PT"},
+                "indentEnd": {"magnitude": 16, "unit": "PT"},
+                "lineSpacing": 130,
             },
-            "fields": "shading.backgroundColor,indentStart,indentEnd",
+            "fields": "shading.backgroundColor,indentStart,indentEnd,lineSpacing",
         }})
 
-    def add_separator(self):
-        """Add a thin styled separator line."""
-        s, e = self._append("\u2501" * 60 + "\n")
+    def add_bullet(self, text):
+        """A clean bullet point."""
+        if not text:
+            return
+        s, e = self._append(text + "\n")
         self.format_requests.append({"updateTextStyle": {
             "range": {"startIndex": s, "endIndex": e - 1},
             "textStyle": {
-                "foregroundColor": {"color": {"rgbColor": DARK_GREY}},
-                "fontSize": {"magnitude": 5, "unit": "PT"},
+                "foregroundColor": {"color": {"rgbColor": CHARCOAL}},
+                "fontSize": {"magnitude": 10, "unit": "PT"},
             },
             "fields": "foregroundColor,fontSize",
+        }})
+        self.format_requests.append({"updateParagraphStyle": {
+            "range": {"startIndex": s, "endIndex": e},
+            "paragraphStyle": {
+                "indentStart": {"magnitude": 18, "unit": "PT"},
+                "indentFirstLine": {"magnitude": 8, "unit": "PT"},
+                "spaceBelow": {"magnitude": 2, "unit": "PT"},
+            },
+            "fields": "indentStart,indentFirstLine,spaceBelow",
+        }})
+
+    def add_separator(self):
+        """Clean thin horizontal line."""
+        s, e = self._append("\n")
+        self.format_requests.append({"updateParagraphStyle": {
+            "range": {"startIndex": s, "endIndex": e},
+            "paragraphStyle": {
+                "borderBottom": {
+                    "color": {"color": {"rgbColor": LIGHT_GREY}},
+                    "width": {"magnitude": 0.5, "unit": "PT"},
+                    "padding": {"magnitude": 12, "unit": "PT"},
+                    "dashStyle": "SOLID",
+                },
+                "spaceBelow": {"magnitude": 4, "unit": "PT"},
+            },
+            "fields": "borderBottom,spaceBelow",
         }})
 
     def build(self):
@@ -232,10 +394,8 @@ def format_draft_content(draft, doc_builder=None, plain_lines=None):
 
     if content_format == "carousel":
         _render_carousel(draft, doc_builder, plain_lines)
-    elif content_format == "poll":
-        _render_poll(draft, doc_builder, plain_lines)
-    elif content_format == "story_prompt":
-        _render_story_prompt(draft, doc_builder, plain_lines)
+    elif content_format in ("scaffold", "original"):
+        _render_scaffold(draft, doc_builder, plain_lines)
     elif content_format == "opinion":
         _render_opinion(draft, doc_builder, plain_lines)
     else:
@@ -247,11 +407,11 @@ def _render_text(draft, doc, lines):
     if doc:
         doc.add_post_block(draft.get("post", ""))
         doc.add_text("\n")
-        doc.add_bold("Alternative Hooks:\n")
-        doc.add_text(f"1. {draft.get('alt_hook_1', '')}\n")
-        doc.add_text(f"2. {draft.get('alt_hook_2', '')}\n")
+        doc.add_label("ALTERNATIVE HOOKS\n")
+        doc.add_bullet(f"1.  {draft.get('alt_hook_1', '')}")
+        doc.add_bullet(f"2.  {draft.get('alt_hook_2', '')}")
         doc.add_text("\n")
-        doc.add_bold("Image Prompt: ")
+        doc.add_label("IMAGE PROMPT\n")
         doc.add_grey(f"{draft.get('image_prompt', '')}\n")
     if lines is not None:
         lines.append(draft.get("post", ""))
@@ -266,21 +426,21 @@ def _render_text(draft, doc, lines):
 def _render_carousel(draft, doc, lines):
     """Render carousel slides."""
     slides = []
-    for i in range(1, 7):
+    for i in range(1, 11):
         slide = draft.get(f"slide_{i}", "")
         if slide:
             slides.append(slide)
 
     if doc:
-        doc.add_bold("CAROUSEL - Paste into aiCarousels.com\n")
+        doc.add_label("CAROUSEL - Paste into aiCarousels.com\n")
         doc.add_text("\n")
         for i, slide in enumerate(slides, 1):
-            doc.add_bold(f"Slide {i}:\n")
+            doc.add_label(f"Slide {i}\n")
             doc.add_post_block(slide)
             doc.add_text("\n")
         caption = draft.get("caption", "")
         if caption:
-            doc.add_bold("LinkedIn Caption:\n")
+            doc.add_label("LINKEDIN CAPTION\n")
             doc.add_post_block(caption)
     if lines is not None:
         lines.append("[CAROUSEL - Paste into aiCarousels.com]")
@@ -293,46 +453,19 @@ def _render_carousel(draft, doc, lines):
             lines.append(f"LinkedIn Caption: {caption}")
 
 
-def _render_poll(draft, doc, lines):
-    """Render poll with context, question, and options."""
-    context = draft.get("context", "")
-    question = draft.get("question", "")
-    options = [draft.get(f"option_{i}", "") for i in range(1, 5)]
-
-    if doc:
-        doc.add_bold("POLL\n")
-        doc.add_text("\n")
-        if context:
-            doc.add_post_block(context)
-            doc.add_text("\n")
-        doc.add_bold(f"Question: {question}\n")
-        doc.add_text("\n")
-        for i, opt in enumerate(options, 1):
-            if opt:
-                doc.add_text(f"  {i}. {opt}\n")
-    if lines is not None:
-        lines.append("[POLL]")
-        lines.append("")
-        if context:
-            lines.append(f"Context: {context}")
-            lines.append("")
-        lines.append(f"Question: {question}")
-        lines.append("")
-        for i, opt in enumerate(options, 1):
-            if opt:
-                lines.append(f"  {i}. {opt}")
-
-
-def _render_story_prompt(draft, doc, lines):
-    """Render story prompt scaffold with highlight."""
+def _render_scaffold(draft, doc, lines):
+    """Render scaffold interview prompt or original prompt with highlight."""
     scaffold = draft.get("story_scaffold", "")
+    content_format = draft.get("content_format", "scaffold")
+
+    label = "ORIGINAL POST PROMPT" if content_format == "original" else "SCAFFOLD - Pick an angle"
 
     if doc:
-        doc.add_bold("WRITING PROMPT - Needs Russell's input\n")
+        doc.add_label(f"{label} - Needs Russell's input\n")
         doc.add_text("\n")
         doc.add_story_prompt_block(scaffold)
     if lines is not None:
-        lines.append("[WRITING PROMPT - NEEDS RUSSELL'S INPUT]")
+        lines.append(f"[{label} - NEEDS RUSSELL'S INPUT]")
         lines.append("")
         lines.append(scaffold)
 
@@ -340,14 +473,14 @@ def _render_story_prompt(draft, doc, lines):
 def _render_opinion(draft, doc, lines):
     """Render opinion/hot take post."""
     if doc:
-        doc.add_bold("HOT TAKE\n")
+        doc.add_label("HOT TAKE\n")
         doc.add_text("\n")
         doc.add_post_block(draft.get("post", ""))
         doc.add_text("\n")
         if draft.get("alt_hook_1"):
-            doc.add_bold("Alternative Hooks:\n")
-            doc.add_text(f"1. {draft.get('alt_hook_1', '')}\n")
-            doc.add_text(f"2. {draft.get('alt_hook_2', '')}\n")
+            doc.add_label("ALTERNATIVE HOOKS\n")
+            doc.add_bullet(f"1.  {draft.get('alt_hook_1', '')}")
+            doc.add_bullet(f"2.  {draft.get('alt_hook_2', '')}")
     if lines is not None:
         lines.append("[HOT TAKE]")
         lines.append("")
@@ -366,20 +499,20 @@ def build_formatted_doc(drafts, category_distribution, format_distribution=None)
     now = datetime.now()
     date_str = now.strftime("%A, %d %B %Y")
 
-    # Title
-    doc.add_heading1(f"Daily LinkedIn Drafts - {date_str}")
-    doc.add_text("\n")
+    # Title and date
+    doc.add_heading1("Daily LinkedIn Drafts")
+    doc.add_date_subtitle(date_str)
+    doc.add_separator()
 
     # Sources summary
-    doc.add_heading2("\U0001f4f0  Today's Sources")
+    doc.add_section_heading("TODAY'S SOURCES")
     for draft in drafts:
         article = draft["article"]
         score = article.get("total_score", 0)
         fmt = draft.get("content_format", "text")
         hook_score = draft.get("hook_score", "-")
-        doc.add_text(f"\u2022 [{fmt.upper()}] {article['title']} ({article['source']}) - Score: {score}/70 | Hook: {hook_score}\n")
+        doc.add_bullet(f"[{fmt.upper()}]  {article['title']}  -  Score: {score}/70  |  Hook: {hook_score}")
     doc.add_text("\n")
-    doc.add_separator()
 
     # Each draft
     for i, draft in enumerate(drafts, 1):
@@ -387,22 +520,20 @@ def build_formatted_doc(drafts, category_distribution, format_distribution=None)
         fmt = draft.get("content_format", "text")
         composite = draft.get("composite_score", "-")
 
-        doc.add_heading2(
-            f"Draft {i}  |  {fmt.upper()}  |  {draft.get('persona', '')}  |  {article.get('category', 'General')}"
-        )
-        doc.add_grey(f"Source: {article['title']} ({article['source']}) | Composite: {composite}\n")
-        doc.add_text("\n")
+        doc.add_draft_heading(i, fmt, draft.get("persona", ""), article.get("category", "General"))
+        doc.add_source_line(f"Source: {article['title']} ({article['source']})  |  Composite: {composite}")
 
         # Format-specific rendering
         format_draft_content(draft, doc_builder=doc)
 
         doc.add_text("\n")
-        doc.add_separator()
+
+    doc.add_separator()
 
     # Recommendation (weighted scoring)
     if drafts:
         best = max(drafts, key=lambda d: d.get("composite_score", 0))
-        doc.add_heading2("\U0001f3af  Recommendation")
+        doc.add_section_heading("RECOMMENDATION")
         doc.add_recommendation(
             f"Draft by {best.get('persona', '')} [{best.get('content_format', 'text').upper()}] on \"{best['article']['title']}\" "
             f"- composite score {best.get('composite_score', 0)} (article: {best['article'].get('total_score', 0)}/70, hook: {best.get('hook_score', 0)}/100)"
@@ -410,27 +541,24 @@ def build_formatted_doc(drafts, category_distribution, format_distribution=None)
         doc.add_text("\n")
 
     # Content balance
-    doc.add_heading2("\U0001f4ca  Content Balance (Last 7 Days)")
+    doc.add_section_heading("CONTENT BALANCE  (Last 7 Days)")
     for cat, count in category_distribution.items():
-        doc.add_text(f"\u2022 {cat}: {count} posts\n")
+        doc.add_bullet(f"{cat}: {count} posts")
     if format_distribution:
         doc.add_text("\n")
-        doc.add_bold("Format Distribution:\n")
+        doc.add_label("FORMAT DISTRIBUTION\n")
         for fmt, count in format_distribution.items():
-            doc.add_text(f"\u2022 {fmt}: {count}\n")
+            doc.add_bullet(f"{fmt}: {count}")
     doc.add_text("\n")
-    doc.add_separator()
 
     # Engagement plan
-    doc.add_heading2("\U0001f4ac  Today's Engagement Plan")
+    doc.add_section_heading("TODAY'S ENGAGEMENT PLAN")
     targets = get_todays_engagement_targets()
-    doc.add_bold("Comment on these accounts BEFORE posting:\n")
+    doc.add_label("Comment on these accounts BEFORE posting:\n")
     for t in targets:
-        doc.add_text(f"\u2022 {t['name']} ({t['niche']}) [{t['priority']}]\n")
+        doc.add_bullet(f"{t['name']}  ({t['niche']})  [{t['priority']}]")
     doc.add_text("\n")
-    doc.add_italic("Reminder: Reply to every comment within 60 minutes of posting.\n")
-    doc.add_text("\n")
-    doc.add_separator()
+    doc.add_grey("Reminder: Reply to every comment within 60 minutes of posting.\n")
     doc.add_text("\n")
 
     return doc.build()
@@ -565,6 +693,20 @@ def output_drafts(drafts, category_distribution, format_distribution=None, dry_r
     """Format and output drafts to Google Doc or fallback to markdown."""
     text = format_drafts(drafts, category_distribution, format_distribution)
 
+    # Generate carousel PDFs for any carousel drafts
+    for draft in drafts:
+        if draft.get("content_format") == "carousel":
+            try:
+                from carousel_builder import build_carousel_pdf
+                pdf_path = build_carousel_pdf(draft)
+                if pdf_path:
+                    draft["carousel_pdf"] = pdf_path
+                    logger.info(f"Carousel PDF generated: {pdf_path}")
+                    if dry_run:
+                        print(f"\nCarousel PDF: {pdf_path}")
+            except Exception as e:
+                logger.warning(f"Carousel PDF generation failed (non-fatal): {e}")
+
     if dry_run:
         print(text)
         return text
@@ -580,7 +722,7 @@ def output_drafts(drafts, category_distribution, format_distribution=None, dry_r
         sync_post_log(drafts, datetime.now())
         update_content_calendar(drafts, datetime.now())
         for draft in drafts:
-            if draft.get("content_format") == "story_prompt":
+            if draft.get("content_format") in ("scaffold", "original"):
                 write_story_scaffold(draft)
     except Exception as e:
         logger.warning(f"Obsidian sync failed (non-fatal): {e}")
