@@ -576,6 +576,38 @@
       "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
       "angle": "1970s Duke research reveals sharing weaknesses upfront can build credibility.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-04-01",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "The Rundown AI",
+      "angle": "OpenAI's $1B Disney deal represents major strategic shift in AI partnership landscape.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-04-01",
+      "category": "AI in eCommerce",
+      "persona": "The Honest AI User",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Claude Cowork Starter Pack guide for eCommerce sellers using AI collaboration tools.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-01",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "Anthropic releases Claude Code with computer use capability for autonomous coding tasks.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-01",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Marketing Week",
+      "angle": "Expedia Group aims to differentiate its travel brands in competitive market.",
+      "content_format": "text"
     }
   ]
 }
