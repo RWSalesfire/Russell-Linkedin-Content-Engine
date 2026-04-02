@@ -608,6 +608,38 @@
       "source": "Marketing Week",
       "angle": "Expedia Group aims to differentiate its travel brands in competitive market.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-04-02",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Open-source AI workflows for marketing/sales systems saved $500K in costs.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-04-02",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "Claude Code leak, Veo 3.1 Lite, and 1-bit AI models announced; thousands analyzing codebase.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-02",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "PPC Ninja",
+      "angle": "AI tool creates animated explainer videos without video editing software.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-04-02",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Marketing Week",
+      "angle": "Starling Bank launches largest campaign to improve consumer money relationships.",
+      "content_format": "text"
     }
   ]
 }
