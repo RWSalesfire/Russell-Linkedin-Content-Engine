@@ -640,6 +640,38 @@
       "source": "Marketing Week",
       "angle": "Starling Bank launches largest campaign to improve consumer money relationships.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-04-03",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "SaaStr AI Intelligence",
+      "angle": "SaaStr.ai Index up 1.21% with 20 of 25 SaaS stocks gaining on April 2, 2026.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-03",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (armand farrokh <boringemails@30mpc.com>)",
+      "angle": "Sales content strategist hiring announcement with insights on demo and sales tactics.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-04-03",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (retail brew <retailbrew@morningbrew.com>)",
+      "angle": "Article examines whether resale market cannibalizes new product sales for retailers.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-03",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Marketing Week",
+      "angle": "Starling Bank launches biggest campaign targeting improved UK relationship with money.",
+      "content_format": "carousel"
     }
   ]
 }
