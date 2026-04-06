@@ -672,6 +672,38 @@
       "source": "Marketing Week",
       "angle": "Starling Bank launches biggest campaign targeting improved UK relationship with money.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-04-06",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Nashville event reveals exact systems: TikTok generates 2.8x Amazon sales; AI audit uncovers $357/week profit.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-06",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Marketing Week",
+      "angle": "Tom Roach challenges AI narrative: shift focus from efficiency gains to effectiveness outcomes.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-04-06",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Medical breakthrough: gene therapy reverses deafness for first time in 50 years.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-06",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "Insufficient content to analyse.",
+      "content_format": "text"
     }
   ]
 }
