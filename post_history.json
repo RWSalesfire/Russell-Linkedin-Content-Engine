@@ -704,6 +704,38 @@
       "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
       "angle": "Insufficient content to analyse.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-04-07",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI search easily gamed with fake credentials; short-term tactics will fail like early SEO.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-04-07",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Close Sales",
+      "angle": "Five sales use cases for AI voice agents to automate customer conversations.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-07",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "Anthropic shifts Claude Code pricing from subscriptions to pay-as-you-go for tools.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-07",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "24-minute guide to psychological pricing tactics for sales and negotiation.",
+      "content_format": "carousel"
     }
   ]
 }
