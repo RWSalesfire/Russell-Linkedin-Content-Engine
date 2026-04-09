@@ -768,6 +768,38 @@
       "source": "PPC Ninja",
       "angle": "PPC Ninja re-engagement email highlighting AI tools and strategies for eCommerce brands.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-04-09",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Ten AI tools in 2026 saving businesses time on writing, meetings, and content creation tasks.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-09",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Six AI prompts and security setup guide inspired by Vitalik Buterin for responsible AI tool use.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-04-09",
+      "category": "AI in eCommerce",
+      "persona": "The Sales Realist",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Shopify enables AI to make every store globally shoppable through new integration capability.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-04-09",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Marketing Week",
+      "angle": "Holland & Barrett launches rebrand campaign positioning itself as transformative brand reinvention.",
+      "content_format": "text"
     }
   ]
 }
