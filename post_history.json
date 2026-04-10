@@ -800,6 +800,38 @@
       "source": "Marketing Week",
       "angle": "Holland & Barrett launches rebrand campaign positioning itself as transformative brand reinvention.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-04-10",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Zapier achieved 97% company-wide AI adoption via hackathon playbook methodology.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-10",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Creator-driven AI strategy compressed 6-month competitor ranking wins; stagnation risks obsolescence.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-04-10",
+      "category": "AI in eCommerce",
+      "persona": "The Sales Realist",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Amazon sellers splitting: AI-enabled automation vs. manual labor creating competitive divide.",
+      "content_format": "carousel"
+    },
+    {
+      "date": "2026-04-10",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (retail brew <retailbrew@morningbrew.com>)",
+      "angle": "Email rendering error; content inaccessible.",
+      "content_format": "text"
     }
   ]
 }
