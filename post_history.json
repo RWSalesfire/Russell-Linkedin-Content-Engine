@@ -832,6 +832,38 @@
       "source": "Unknown Newsletter (retail brew <retailbrew@morningbrew.com>)",
       "angle": "Email rendering error; content inaccessible.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-04-13",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Marketing Week",
+      "angle": "Beauty brand Cosnova ran 15 AI trials over 18 months to identify what actually works.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-13",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (armand farrokh <boringemails@30mpc.com>)",
+      "angle": "Top reps book 8x more meetings through better playbook, not higher volume.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-04-13",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Marketing Week",
+      "angle": "Holland & Barrett shifts brand strategy from reactive to preventative health positioning.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-04-13",
+      "category": "Behavioural Science",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Psychology insights from studying chat-up lines reveal hidden persuasion principles.",
+      "content_format": "text"
     }
   ]
 }
