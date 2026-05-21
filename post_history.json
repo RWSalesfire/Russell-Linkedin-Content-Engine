@@ -864,6 +864,38 @@
       "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
       "angle": "Psychology insights from studying chat-up lines reveal hidden persuasion principles.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-05-21",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Ten free AI agents can reduce manual work by up to 80% without subscriptions.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-05-21",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Google's AI agents at I/O 2026 will disrupt organic search and eCommerce traffic fundamentally.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-05-21",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI agents need mission-driven goals, not step-by-step prompts, to drive business forward.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-05-21",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Weekly sales recap with tactical resources for closing deals.",
+      "content_format": "text"
     }
   ]
 }
