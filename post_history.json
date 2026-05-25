@@ -896,6 +896,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Weekly sales recap with tactical resources for closing deals.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-05-25",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Ten affordable AI APIs for testing in 2026 without breaking budgets.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-05-25",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Browser automation saves vendor portal hours but risks automation errors.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-05-25",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Octopus Energy used psychological principles to design recognizable logos.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-05-25",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Promotional content for Dataiku's AI confessions CEO report.",
+      "content_format": "text"
     }
   ]
 }
