@@ -928,6 +928,38 @@
       "source": "Superhuman AI",
       "angle": "Promotional content for Dataiku's AI confessions CEO report.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-05-26",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Big Four consulting firms standardize AI agent deployment playbooks with massive scale and ROI results.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-05-26",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Teams still use AI reactively; closing the loop requires integration, not just faster outputs.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-05-26",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Cold email breakdown reveals step-by-step approach to nearly-winning sales outreach.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-05-26",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "Litmus",
+      "angle": "Five email design lessons from Litmus team for improving campaign performance.",
+      "content_format": "carousel"
     }
   ]
 }
