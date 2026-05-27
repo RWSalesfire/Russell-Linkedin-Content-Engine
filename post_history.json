@@ -960,6 +960,38 @@
       "source": "Litmus",
       "angle": "Five email design lessons from Litmus team for improving campaign performance.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-05-27",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Show rate problems stem from poor meeting quality, not scheduling\u2014ABM must act faster.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-05-27",
+      "category": "AI in Sales",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Use AI to profile VIP prospects instead of manual LinkedIn research to close deals faster.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-05-27",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Step-by-step guide to setting up ChatGPT Ads for eCommerce and Amazon sellers.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-05-27",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "AI threatens traditional consulting business model by automating expert knowledge work.",
+      "content_format": "text"
     }
   ]
 }
