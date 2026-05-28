@@ -992,6 +992,38 @@
       "source": "Superhuman AI",
       "angle": "AI threatens traditional consulting business model by automating expert knowledge work.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-05-28",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Token maxing AI spending without outputs is wasteful; tie metrics to business outcomes.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-05-28",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Superhuman AI",
+      "angle": "Agentic coding models overstated in benchmarks; reality differs from frontier lab claims.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-05-28",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "AI adoption dividing ecommerce sellers into winners and those getting left behind.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-05-28",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Content marketing agency recruiting sales-to-content creators with unspecified details.",
+      "content_format": "text"
     }
   ]
 }
