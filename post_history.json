@@ -1024,6 +1024,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Content marketing agency recruiting sales-to-content creators with unspecified details.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-05-29",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Most Claude users miss 90% of capability by ignoring advanced settings and features.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-05-29",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "eCommerce teams are deploying AI agents as autonomous employees for operational tasks.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-05-29",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Most course creators build backwards; AI reveals flawed thinking fast via strategic prompts.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-05-29",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Anthropic reveals programmers at 75% Claude exposure; AI labor displacement underreported.",
+      "content_format": "carousel"
     }
   ]
 }
