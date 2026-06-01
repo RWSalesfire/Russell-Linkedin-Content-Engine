@@ -1056,6 +1056,38 @@
       "source": "Substack Digest",
       "angle": "Anthropic reveals programmers at 75% Claude exposure; AI labor displacement underreported.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-06-01",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Master negotiation framework to stop discounting and protect sales margins.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-01",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "$320M marketing stunt promoting performance drugs backfires spectacularly.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-01",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "AI companies mining apartment data for next-gen model training datasets.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-01",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "Blue Origin's New Glenn rocket explosion derails Bezos space ambitions temporarily.",
+      "content_format": "text"
     }
   ]
 }
