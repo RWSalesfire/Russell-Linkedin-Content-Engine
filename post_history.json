@@ -1088,6 +1088,38 @@
       "source": "Superhuman AI",
       "angle": "Blue Origin's New Glenn rocket explosion derails Bezos space ambitions temporarily.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-06-02",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "2x unicorn founder shares how enterprises actually experience AI tools.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-02",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "AI agents vulnerable to prompt injection attacks; databases at risk in 2026.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-02",
+      "category": "Email Marketing",
+      "persona": "The Sales Realist",
+      "source": "Litmus",
+      "angle": "Email planning template helps avoid common mistakes with easy steps.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-02",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "AI tools transform developer workflows from coding basics to full app building.",
+      "content_format": "carousel"
     }
   ]
 }
