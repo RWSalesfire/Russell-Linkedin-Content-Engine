@@ -1120,6 +1120,38 @@
       "source": "Substack Digest",
       "angle": "AI tools transform developer workflows from coding basics to full app building.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-06-03",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Use Claude to automate Amazon competitor analysis for eCommerce and seller strategy.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-03",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "Anthropic files for IPO, OpenAI partners with AWS, Perplexity releases search code.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-03",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "Nvidia releases new superchip for Windows PCs to power AI applications.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-03",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Live webinar announcement with Alex Lieberman discussing AI applications in business.",
+      "content_format": "text"
     }
   ]
 }
