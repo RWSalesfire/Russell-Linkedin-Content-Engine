@@ -1152,6 +1152,38 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "Live webinar announcement with Alex Lieberman discussing AI applications in business.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-06-04",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "2026 B2B mobile data benchmark with 1,400+ contacts analyzed across 10 platforms.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-04",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "AI-generated ad images win initially but diminish in effectiveness over time for eCommerce.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-06-04",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Nine underutilized NotebookLM tricks unlock research, podcast, and content creation features.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-04",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Upcoming masterclass on handling pricing objections with VP of Sales Todd Caponi.",
+      "content_format": "text"
     }
   ]
 }
