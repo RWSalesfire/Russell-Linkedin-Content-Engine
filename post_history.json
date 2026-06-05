@@ -1184,6 +1184,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Upcoming masterclass on handling pricing objections with VP of Sales Todd Caponi.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-06-05",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "DeepSeek raises $7B with founder committing $2.8B; Meta delays models; Gemma 4 12B released.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-05",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Surveyors added fake precision to measurements to appear more credible\u2014a bias affecting business decisions.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-05",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "Litmus",
+      "angle": "Litmus newsletter digest covering email audience perceptions and enterprise insights.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-05",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "SaaStr AI operates with 3 humans and 21+ agents; insights on token burn and AI compliance design.",
+      "content_format": "carousel"
     }
   ]
 }
