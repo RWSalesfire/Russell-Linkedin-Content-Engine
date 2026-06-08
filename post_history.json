@@ -1216,6 +1216,38 @@
       "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
       "angle": "SaaStr AI operates with 3 humans and 21+ agents; insights on token burn and AI compliance design.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-06-08",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "Anthropic targets $1T valuation while Vercel automates 96% marketing and 93% support.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-08",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "High-performing BDRs generate $144M revenue using real-time signal aggregation tools.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-08",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Uber's rapid AI budget burn signals market shift from adoption to cost control.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-08",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Founders need mental frameworks beyond task management to prevent burnout tied to metrics.",
+      "content_format": "scaffold"
     }
   ]
 }
