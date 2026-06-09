@@ -1248,6 +1248,38 @@
       "source": "Substack Digest",
       "angle": "Founders need mental frameworks beyond task management to prevent burnout tied to metrics.",
       "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-09",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "TLDR AI",
+      "angle": "OpenAI exploring government stake, Google-compute deal, Microsoft Scout launch.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-09",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Unified team processes matter more than tools for scaling productivity.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-09",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Octopus Energy scaled to \u00a312B using behavioral nudges and gamification.",
+      "content_format": "carousel"
+    },
+    {
+      "date": "2026-06-09",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "Litmus",
+      "angle": "Litmus offers free email personalization course for marketers.",
+      "content_format": "text"
     }
   ]
 }
