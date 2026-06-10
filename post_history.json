@@ -1280,6 +1280,38 @@
       "source": "Litmus",
       "angle": "Litmus offers free email personalization course for marketers.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-06-10",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "Anthropic could hit $1T valuation in 5 years as AI agents overtake human token usage.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-10",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "$2 trillion software market cap loss signals AI-driven SaaS consolidation wave.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-10",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Build Claude brand skills to communicate in your brand voice automatically.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-10",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "8 AI prompts transform rough ideas into persuasive business cases in one hour.",
+      "content_format": "scaffold"
     }
   ]
 }
