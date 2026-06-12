@@ -1344,6 +1344,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Todd Caponi launches negotiation course with early-bird discount before June 22.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-06-12",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "Older B2B leaders face competitive disadvantage as AI commoditizes services and shifts value chains.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-12",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "AI inbox managers risk over-engineering simple problems; sometimes deletion beats automation.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-12",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Halo effect shapes World Cup kit perception more than actual design quality.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-12",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "eCommerce sellers struggle to operationalize AI tools despite attending webinars and learning frameworks.",
+      "content_format": "carousel"
     }
   ]
 }
