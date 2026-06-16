@@ -1408,6 +1408,38 @@
       "source": "Substack Digest",
       "angle": "Unified outreach platform consolidates email, LinkedIn, and WhatsApp to simplify sales workflows.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-06-16",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "100+ security experts argue Fable 5 ban creates unintended consequences.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-16",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Channel selection matters less than detecting buyer signals and champion movement.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-16",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "Litmus",
+      "angle": "Litmus email deliverability guide with best practices for inbox placement.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-16",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Ten AI prompts to generate proposals that improve close rates.",
+      "content_format": "carousel"
     }
   ]
 }
