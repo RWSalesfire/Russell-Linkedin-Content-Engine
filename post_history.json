@@ -1440,6 +1440,38 @@
       "source": "Substack Digest",
       "angle": "Ten AI prompts to generate proposals that improve close rates.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-06-17",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "AI SDRs deploy in 2 weeks; chat preferred over voice by sales teams.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-17",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Checklist guide for eCommerce sites preparing for AI agent compatibility.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-17",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "OpenAI and Anthropic face legal challenges amid IPO excitement.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-17",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "Meta AI Mode, Factory 2.0, and Sakana's autonomous researcher launched.",
+      "content_format": "text"
     }
   ]
 }
