@@ -1504,6 +1504,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Todd Caponi negotiation course launching in 4 days with $100 pre-order discount.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-06-19",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Amazon sellers lose money through unused search term insights; AI reveals hidden opportunities.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-19",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Negative framing and reverse psychology boost ad memorability through negativity bias.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-19",
+      "category": "Email Marketing",
+      "persona": "The Sales Realist",
+      "source": "Litmus",
+      "angle": "Litmus covers email checklist, DMARC updates, and AI email summary best practices.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-19",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "B2B founders must monitor AI and human agents to maintain brand voice consistency.",
+      "content_format": "carousel"
     }
   ]
 }
