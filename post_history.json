@@ -1536,6 +1536,38 @@
       "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
       "angle": "B2B founders must monitor AI and human agents to maintain brand voice consistency.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-06-22",
+      "category": "Behavioural Science",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "2018 Gatwick drone incident may have been mass expectation effect, not real threat.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-22",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "18 AI tools help teachers automate lesson planning, grading, and student feedback work.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-22",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Six AI prompts help professionals navigate difficult client conversations and scope creep.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-22",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "Top job candidates fail to articulate learnings after 10 interviews, signaling poor preparation.",
+      "content_format": "text"
     }
   ]
 }
