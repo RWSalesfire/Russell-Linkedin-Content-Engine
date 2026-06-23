@@ -1568,6 +1568,38 @@
       "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
       "angle": "Top job candidates fail to articulate learnings after 10 interviews, signaling poor preparation.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-06-23",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Ecommerce founder 13x'd revenue by simply implementing expert advice without gimmicks.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-23",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "Nobel laureate John Jumper leaves DeepMind for Anthropic after nine-year tenure.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-23",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "The Rundown AI",
+      "angle": "Google's Nobel Prize-winning researcher moves to Anthropic in major AI talent shift.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-23",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Fragmented AI tools fail without unified company memory; integration key to sales productivity.",
+      "content_format": "carousel"
     }
   ]
 }
