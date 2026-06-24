@@ -1600,6 +1600,38 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "Fragmented AI tools fail without unified company memory; integration key to sales productivity.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-06-24",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Perplexity CEO argues model-as-product model wrong; real AI value in infrastructure, not user scale.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-24",
+      "category": "AI in eCommerce",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Brands must optimize for AI discovery channels or risk invisibility as user discovery shifts from Google.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-24",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Micro-SaaS founder uses Gemini Canvas to build quote tool solving lead loss for service businesses.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-24",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "No content provided.",
+      "content_format": "text"
     }
   ]
 }
