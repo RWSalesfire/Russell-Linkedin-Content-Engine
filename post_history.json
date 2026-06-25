@@ -1632,6 +1632,38 @@
       "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
       "angle": "No content provided.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-06-25",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI agents are replacing traditional search; rebuild SEO around agent-readable content.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-06-25",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "Claude Tag, Seedance 2.5, and Mistral OCR 4 introduce new AI workflow capabilities.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-25",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "eCommerce AI agents face unsustainable economics; unit economics need rethinking.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-25",
+      "category": "eCommerce",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "eCommerce event in Austin offers unexpected value despite high price point.",
+      "content_format": "scaffold"
     }
   ]
 }
