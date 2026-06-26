@@ -1664,6 +1664,38 @@
       "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
       "angle": "eCommerce event in Austin offers unexpected value despite high price point.",
       "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-26",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Use AI as adversarial thinking partner to expose flaws before execution rather than just agreement.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-26",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Executive recruiter used AI to identify blind spots after market collapse forced business pivot.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-26",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Chinese knockoffs eliminated two US companies, highlighting eCommerce vulnerability to competition.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-26",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "ElevenLabs increased pipeline from 5% to 30% using AI-powered outbound with 71% interaction rates.",
+      "content_format": "carousel"
     }
   ]
 }
