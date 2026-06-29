@@ -1696,6 +1696,38 @@
       "source": "Substack Digest",
       "angle": "ElevenLabs increased pipeline from 5% to 30% using AI-powered outbound with 71% interaction rates.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-06-29",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "AI-native companies are reshaping enterprise sales with direct PLG motion.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-29",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Expert reveals habit-change strategies in 39-minute podcast episode.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-29",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Florin Tatulea shares strategies for scaling SDR teams effectively.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-29",
+      "category": "Sales",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Millionaire shares exact strategies for starting a business from scratch today.",
+      "content_format": "scaffold"
     }
   ]
 }
