@@ -1728,6 +1728,38 @@
       "source": "Substack Digest",
       "angle": "Millionaire shares exact strategies for starting a business from scratch today.",
       "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-30",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Claude Slack integration enables multi-player AI workflows integrated with HubSpot and Gong.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-06-30",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "OpenAI's strongest model restricted to government-vetted partners only, raising access concerns.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-30",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "TLDR AI",
+      "angle": "OpenAI releases GPT-5.6 preview models, Grok 4.5 beta, and Google limits Meta access.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-06-30",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Close deals early by pretending quarter ends a week sooner to avoid EOQ stress.",
+      "content_format": "carousel"
     }
   ]
 }
