@@ -1760,6 +1760,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Close deals early by pretending quarter ends a week sooner to avoid EOQ stress.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-07-01",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Service providers must extract unique frameworks or risk commodification by ChatGPT-empowered clients.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-01",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Ten AI prompts help sales professionals decline client requests professionally and protect margins.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-01",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Consistent writing compounds into relationships and startup opportunities over three years.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-01",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Guide for iterative Claude prompting to improve output quality for eCommerce sellers.",
+      "content_format": "text"
     }
   ]
 }
