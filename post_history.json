@@ -1792,6 +1792,38 @@
       "source": "AI for eCommerce Newsletter",
       "angle": "Guide for iterative Claude prompting to improve output quality for eCommerce sellers.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-07-02",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Command by negation rule unblocks AI teams from approval bottlenecks.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-07-02",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "TLDR AI",
+      "angle": "Anthropic launches Claude Sonnet 5 with improved agentic performance and lower cost.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-02",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Amazon introduces Alexa+ agentic ads feature for eCommerce advertising.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-02",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Weekly newsletter roundup with NYC rooftop sales mixer event announcement.",
+      "content_format": "text"
     }
   ]
 }
