@@ -1824,6 +1824,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Weekly newsletter roundup with NYC rooftop sales mixer event announcement.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-07-03",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Harvey added $100M revenue by making every feature callable by AI agents, not hiring sales.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-03",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Use AI to extract content ideas from YouTube comments; honest feedback at scale.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-03",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Negative reviews hurt\u2014but flipping them as social proof works better than hiding them.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-03",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Six AI prompts to standardize brand voice across team communication and content.",
+      "content_format": "carousel"
     }
   ]
 }
