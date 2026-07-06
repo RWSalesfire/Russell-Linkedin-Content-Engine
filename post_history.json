@@ -1856,6 +1856,38 @@
       "source": "Substack Digest",
       "angle": "Six AI prompts to standardize brand voice across team communication and content.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-07-06",
+      "category": "AI in Sales",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Snowflake achieved 15x reply increase using AI-powered end-to-end outbound automation.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-06",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "24 Amazon hacks compiled from three years of summits and community calls.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-06",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "Contact forms may be friction points destroying deal opportunities in sales funnels.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-06",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Neuralink advances brain surgery safety through bioengineering innovation.",
+      "content_format": "text"
     }
   ]
 }
