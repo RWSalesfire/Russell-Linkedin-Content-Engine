@@ -1888,6 +1888,38 @@
       "source": "Superhuman AI",
       "angle": "Neuralink advances brain surgery safety through bioengineering innovation.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-07-07",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "UK's under-16 social media ban explores psychology of restrictions and behavioral friction.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-07",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Autonomous agent sprawl wastes time; consolidate parallel threads to reduce cognitive load.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-07",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "TLDR AI",
+      "angle": "ByteDance launches Seedance 2.5 video model; OpenAI preps GPT-5.6; IBM releases Bob code tool.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-07",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Build world-class sales onboarding to help reps finish H2 strong.",
+      "content_format": "carousel"
     }
   ]
 }
