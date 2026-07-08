@@ -1920,6 +1920,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Build world-class sales onboarding to help reps finish H2 strong.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-07-08",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Inference costs dropping 90,000x in 36 months reframes AGI economics entirely.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-08",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Employee fear of AI displacement is the hidden cost of automation tools.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-08",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Alexa Shopping drives $12B+ in traffic with exclusive early-mover data available.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-08",
+      "category": "AI in eCommerce",
+      "persona": "The Sales Realist",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Automate competitor price tracking with AI to stay ahead on pricing strategy.",
+      "content_format": "text"
     }
   ]
 }
