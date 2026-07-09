@@ -1952,6 +1952,38 @@
       "source": "AI for eCommerce Newsletter",
       "angle": "Automate competitor price tracking with AI to stay ahead on pricing strategy.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-07-09",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "Musk's Grok AI model aims to reduce AI infrastructure costs for users.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-09",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Agencies repricing models as AI commoditizes traditional eCommerce service offerings.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-07-09",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "TLDR AI",
+      "angle": "OpenAI launches GPT-5.6 variants; Claude and Gemini release new agent capabilities.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-09",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Summer Sales Camp offers prospecting-to-close sales training program.",
+      "content_format": "scaffold"
     }
   ]
 }
