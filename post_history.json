@@ -1984,6 +1984,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Summer Sales Camp offers prospecting-to-close sales training program.",
       "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-10",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Cialdini's waiter study reveals counterintuitive tactic for boosting tips through ordering influence.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-10",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Sales compensation blueprint for high-performing teams with structured compensation strategy.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-10",
+      "category": "Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Live demo of revenue loops including AEO, CRO, and sponsorship optimization.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-10",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "24 Amazon growth hacks with step-by-step SOPs from top sellers and summits.",
+      "content_format": "carousel"
     }
   ]
 }
