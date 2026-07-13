@@ -2016,6 +2016,38 @@
       "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
       "angle": "24 Amazon growth hacks with step-by-step SOPs from top sellers and summits.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-07-13",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Live masterclass on fixing cold outreach and email processes for sales reps.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-13",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Six life lessons from 30s that become clear by 43, non-prescriptive reflection.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-13",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "China's space breakthrough challenges SpaceX dominance with new competition.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-13",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "AI sales agents should outperform your best sales representatives.",
+      "content_format": "text"
     }
   ]
 }
