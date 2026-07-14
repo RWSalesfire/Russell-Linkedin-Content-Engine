@@ -2048,6 +2048,14 @@
       "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
       "angle": "AI sales agents should outperform your best sales representatives.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-07-14",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Anthropic strategically recruiting compute talent from AI leaders signals major infrastructure shift.",
+      "content_format": "carousel"
     }
   ]
 }
