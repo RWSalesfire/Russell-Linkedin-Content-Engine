@@ -2056,6 +2056,38 @@
       "source": "Substack Digest",
       "angle": "Anthropic strategically recruiting compute talent from AI leaders signals major infrastructure shift.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-07-15",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Generate eCommerce product images directly in Claude using Nano Banana integration.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-15",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "The Rundown AI",
+      "angle": "Economists quantify AI's job displacement timeline and magnitude with research data.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-15",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "xAI's Grok CLI uploads unredacted codebases\u2014security implications for developers.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-15",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "Don't deploy AI to hot leads\u2014challenges conventional wisdom on sales automation.",
+      "content_format": "scaffold"
     }
   ]
 }
