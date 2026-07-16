@@ -2088,6 +2088,38 @@
       "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
       "angle": "Don't deploy AI to hot leads\u2014challenges conventional wisdom on sales automation.",
       "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-16",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Gamifying business dashboards reveals metrics visually, turning real-time data into actionable insights.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-07-16",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "AI research agents replace manual data digestion, freeing billable hours for small businesses.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-16",
+      "category": "AI in eCommerce",
+      "persona": "The Human",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Meta leverages 3B users to compete with Google as a search engine for eCommerce discovery.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-16",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Substack digest notification with no substantive content.",
+      "content_format": "text"
     }
   ]
 }
