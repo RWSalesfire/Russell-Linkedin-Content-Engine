@@ -2120,6 +2120,38 @@
       "source": "Substack Digest",
       "angle": "Substack digest notification with no substantive content.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "Running top AI agent for one hour costs $13.42, revealing operational economics.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "World Cup athletes reveal psychological pressures behind elite performance and superstition.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Summer Sales Camp Week 2 highlights essential metrics dashboard for sales teams.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "AI in Sales",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Use AI prompt reframing to silence inner critic before high-stakes sales calls.",
+      "content_format": "carousel"
     }
   ]
 }
