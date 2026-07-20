@@ -2152,6 +2152,38 @@
       "source": "Substack Digest",
       "angle": "Use AI prompt reframing to silence inner critic before high-stakes sales calls.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-07-20",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Businesses waste $60/month on AI tools they only use for spell-checking instead of real work.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-20",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Open-weight models like Inkling offer cost control and customization beyond renting closed-source APIs.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-20",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Digest headline warns against wasting 12 months on audience building without strategic focus.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-20",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Japan successfully lands reusable rocket, advancing space technology capabilities.",
+      "content_format": "text"
     }
   ]
 }
