@@ -2184,6 +2184,38 @@
       "source": "Superhuman AI",
       "angle": "Japan successfully lands reusable rocket, advancing space technology capabilities.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-07-21",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Google search changed; no-click searches rose from 58.5% to 83%, impacting Amazon seller traffic.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-21",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Brand expectations shape perception; Harvard study shows balsamic vinegar beer preference influenced by labeling.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-21",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "VP of Sales playbooks from summer sales camp; unclear details on specific changes made.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-21",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Use Fable to audit existing systems for revenue leaks before building new features.",
+      "content_format": "carousel"
     }
   ]
 }
