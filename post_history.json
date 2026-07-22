@@ -2216,6 +2216,38 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "Use Fable to audit existing systems for revenue leaks before building new features.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-07-22",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Forward Deployed Engineers model growing across YC startups; Palantir's playbook revealed.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-22",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Six-step guide to run AI agents better than 99% of eCommerce teams.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-22",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Business needs self-updating instruction manuals to keep AI prompts current with changes.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-22",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Claude Skills feature replaces repetitive setup prompts for freelance copywriters.",
+      "content_format": "text"
     }
   ]
 }
