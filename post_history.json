@@ -2248,6 +2248,38 @@
       "source": "Substack Digest",
       "angle": "Claude Skills feature replaces repetitive setup prompts for freelance copywriters.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-07-23",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Most users waste 90% of AI agent potential by stopping at answers instead of artifacts.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-23",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "AI runs 10-40+ hidden sub-queries behind single questions; ranking requires optimizing for discovery.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-07-23",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "TLDR AI",
+      "angle": "Google releases Gemini 3.6 Flash and 3.5 Flash-Lite; shift from tokenmaxxing to valuemaxxing.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-23",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "The Rundown AI",
+      "angle": "Google's fastest models expose a pro-tier gap in Gemini's lineup strategy.",
+      "content_format": "text"
     }
   ]
 }
