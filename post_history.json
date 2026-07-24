@@ -2280,6 +2280,38 @@
       "source": "The Rundown AI",
       "angle": "Google's fastest models expose a pro-tier gap in Gemini's lineup strategy.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-07-24",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Travis Kalanick's 8-year stealth startup reveals Uber playbooks and expansion rules.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-24",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "AI agents can fake progress; detect and prevent superficial task completion.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-24",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Merge switched from enterprise-first to PLG; framework for GTM pivots shared.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-24",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Writing 'actual size' on product ads increases perceived value and sales intent.",
+      "content_format": "carousel"
     }
   ]
 }
