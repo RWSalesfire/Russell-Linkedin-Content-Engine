@@ -2312,6 +2312,38 @@
       "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
       "angle": "Writing 'actual size' on product ads increases perceived value and sales intent.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-07-27",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Move from chatting with AI to implementing it; 90% of business value untapped.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-27",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Nine major AI breakthroughs this week: math problems solved, faster models, security incidents.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-27",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (saastr <ai@saastrinc.com>)",
+      "angle": "20-minute test as a VP hiring evaluation framework for leadership recruitment.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-27",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Two marketers reveal viral band manipulation tactics at SXSW, sparking industry debate.",
+      "content_format": "text"
     }
   ]
 }
