@@ -2408,6 +2408,38 @@
       "source": "AI for eCommerce Newsletter",
       "angle": "Maximize Claude API value for eCommerce without wasting credits or credits.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-07-30",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "27 non-obvious Claude tips from 1,800+ hours of real usage.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-07-30",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "14-hour AI tool outage locked founder from client database, exposing dependency risk.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-07-30",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "1,000+ frontier AI staffers demand safety measures, signaling internal industry concerns.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-07-30",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "TikTok expands into agency services, positioning itself as end-to-end commerce partner.",
+      "content_format": "text"
     }
   ]
 }
