@@ -2472,6 +2472,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Fragment of a sales training recap newsletter with incomplete content and broken references.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-03",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Ramp shut down AI SDR program; cautionary tale about AI sales automation limitations.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-03",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "AI wealth-building spam doesn't work; trust-building through real solutions matters most.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-03",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Fear-based persuasion is overrated; understand when and why it fails in sales.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-03",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "The Rundown expands AI workflows section based on user survey feedback.",
+      "content_format": "text"
     }
   ]
 }
