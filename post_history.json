@@ -2504,6 +2504,38 @@
       "source": "The Rundown AI",
       "angle": "The Rundown expands AI workflows section based on user survey feedback.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-04",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "OpenAI's Astra breakthrough solves 10 previously unsolved mathematical problems.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-04",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Over-reliance on AI assistants may degrade critical thinking and problem-solving skills.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-04",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Fear-based persuasion is overused and less effective than alternative psychological approaches.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-04",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "10 affordable AI APIs for 2026 enable budget-conscious developers to test agents without expensive costs.",
+      "content_format": "carousel"
     }
   ]
 }
