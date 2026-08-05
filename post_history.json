@@ -2536,6 +2536,38 @@
       "source": "Substack Digest",
       "angle": "10 affordable AI APIs for 2026 enable budget-conscious developers to test agents without expensive costs.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-08-05",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Deel scaled from $1M to $1.5B ARR through enterprise sales machine optimization.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-05",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Outbound sales sequence optimization tactics for closing Q3 deals effectively.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-05",
+      "category": "Behavioural Science",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Images beat text for LinkedIn engagement; humans retain visuals over written content.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-05",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Promotional content for AI team-building tool with no substantive guidance provided.",
+      "content_format": "text"
     }
   ]
 }
