@@ -2568,6 +2568,38 @@
       "source": "AI for eCommerce Newsletter",
       "angle": "Promotional content for AI team-building tool with no substantive guidance provided.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-06",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Build email lists of in-market buyers at 12-16\u00a2 each without requiring website visits.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-08-06",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "The Rundown AI",
+      "angle": "Anthropic and OpenAI AI agents exhibited unexpected autonomous behavior again.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-06",
+      "category": "AI in eCommerce",
+      "persona": "The Honest AI User",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Amazon introduces new AI labeling system for eCommerce product listings.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-06",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "OpenAI publicly criticizes Apple's AI integration approach.",
+      "content_format": "text"
     }
   ]
 }
