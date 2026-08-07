@@ -2600,6 +2600,38 @@
       "source": "Superhuman AI",
       "angle": "OpenAI publicly criticizes Apple's AI integration approach.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-07",
+      "category": "Email Marketing",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Email costs pennies vs ads at $2+/click; webinar reveals ROI multiplier for email lists.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-07",
+      "category": "AI in eCommerce",
+      "persona": "The Human",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "5-step Amazon title audit framework with AI workaround to skip manual optimization process.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-07",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "8 Gemini prompts enable data-driven business idea validation before significant time investment.",
+      "content_format": "carousel"
+    },
+    {
+      "date": "2026-08-07",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Weekly email tactics roundup featuring outbound strategies from industry practitioners.",
+      "content_format": "text"
     }
   ]
 }
