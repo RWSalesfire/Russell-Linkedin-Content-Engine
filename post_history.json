@@ -2632,6 +2632,30 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Weekly email tactics roundup featuring outbound strategies from industry practitioners.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-10",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "ASD-STE100 prompt eliminates AI's verbose writing style in five words.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-10",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Three AI prompts automate lead qualification, replacing manual LinkedIn screening.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-10",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Not relevant to AI, Sales, or eCommerce audience.",
+      "content_format": "text"
     }
   ]
 }
