@@ -2656,6 +2656,38 @@
       "source": "Substack Digest",
       "angle": "Not relevant to AI, Sales, or eCommerce audience.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-11",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Temptation bundling can increase exercise duration by 55% through behavioral design.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-11",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Use AI prompts to diagnose and fix sales funnel bottlenecks systematically.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-11",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Grok Imagine 2.0 emerges as second-ranked image generation model.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-11",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "12 trending AI tools across coding, design, ads, and productivity for August 2026.",
+      "content_format": "carousel"
     }
   ]
 }
