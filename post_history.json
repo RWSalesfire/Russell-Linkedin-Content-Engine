@@ -2688,6 +2688,38 @@
       "source": "Substack Digest",
       "angle": "12 trending AI tools across coding, design, ads, and productivity for August 2026.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-08-12",
+      "category": "AI in Sales",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Define what AI agents actually are versus hype-filled claims.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-12",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Remove AI stink from outbound emails to maintain human credibility.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-12",
+      "category": "AI in eCommerce",
+      "persona": "The Honest AI User",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Optimize product visibility for AI search using Google's new impressions data.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-12",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "The Rundown AI",
+      "angle": "Meta returns to open-source leadership in AI model development.",
+      "content_format": "text"
     }
   ]
 }
