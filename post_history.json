@@ -2720,6 +2720,38 @@
       "source": "The Rundown AI",
       "angle": "Meta returns to open-source leadership in AI model development.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-13",
+      "category": "AI in Sales",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Building Reddit marketing agents that scale outreach without spam or bans.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-08-13",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Free products as research tools: Eric Siu's skills dojo reveals customer insights.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-13",
+      "category": "AI in eCommerce",
+      "persona": "The Human",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "ChatGPT now drives measurable traffic to eCommerce stores.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-13",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "Anthropic embeds invisible watermarks in Claude outputs for authentication.",
+      "content_format": "text"
     }
   ]
 }
