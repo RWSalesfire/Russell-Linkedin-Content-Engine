@@ -2752,6 +2752,38 @@
       "source": "The Rundown AI",
       "angle": "Anthropic embeds invisible watermarks in Claude outputs for authentication.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-14",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Companies ship AI features faster than customers can adopt them; adoption gap widening.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-14",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Amazon product ranking driven by external demand signals, not ad spend alone.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-14",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Grok achieves frontier intelligence with competitive pricing; xAI advances leaderboard position.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-14",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Built local AI bot replacing $800/month enterprise tools; practical DIY alternative.",
+      "content_format": "carousel"
     }
   ]
 }
