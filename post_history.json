@@ -2784,6 +2784,38 @@
       "source": "Substack Digest",
       "angle": "Built local AI bot replacing $800/month enterprise tools; practical DIY alternative.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-08-17",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Cold outreach fails when product demo doesn't match claims; personalization must be genuine.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-17",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Automation that sounds human requires balance between efficiency and authentic connection.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-17",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Apple's AI capabilities are underestimated despite dominant market position.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-17",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "Unrelated content about bullet train discovery; not relevant to target audience.",
+      "content_format": "text"
     }
   ]
 }
