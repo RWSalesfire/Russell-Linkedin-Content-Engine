@@ -2816,6 +2816,38 @@
       "source": "Superhuman AI",
       "angle": "Unrelated content about bullet train discovery; not relevant to target audience.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-18",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Harvard research: strategic honesty with coworkers increases likability and hireability.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-18",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Anthropic CEO addresses critics in timely statement about AI competition landscape.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-18",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "The Rundown AI",
+      "angle": "Dario Amodei responds to Anthropic critics in real-time engagement.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-18",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "How to pay 5-20x performers: lessons from athlete contracts and leadership value.",
+      "content_format": "carousel"
     }
   ]
 }
