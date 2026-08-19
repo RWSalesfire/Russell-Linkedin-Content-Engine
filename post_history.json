@@ -2848,6 +2848,38 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "How to pay 5-20x performers: lessons from athlete contracts and leadership value.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-08-19",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Seven A/B testing techniques using Claude and AI to optimize eCommerce conversion rates.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-19",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Global AI race expands beyond US-China with 10 powerful regional models emerging in 2026.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-19",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Use AI prompts to critically evaluate marketing offers and avoid impulse purchases.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-19",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Prompt engineering techniques become outdated as LLMs evolve faster than best practices.",
+      "content_format": "text"
     }
   ]
 }
