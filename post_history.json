@@ -2880,6 +2880,38 @@
       "source": "Substack Digest",
       "angle": "Prompt engineering techniques become outdated as LLMs evolve faster than best practices.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-20",
+      "category": "AI in eCommerce",
+      "persona": "The Human",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "AI-generated traffic quality shifts from worthless to becoming high-value customer source.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-20",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Sales leader stopped traditional sales execution, likely pivoting to AI-driven approach.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-08-20",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Use AI to track email sentiment patterns for early churn detection signals.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-20",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Firefox enters competitive AI browser market alongside established players.",
+      "content_format": "text"
     }
   ]
 }
