@@ -2912,6 +2912,38 @@
       "source": "Superhuman AI",
       "angle": "Firefox enters competitive AI browser market alongside established players.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-21",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "300M Alexa users shop 2.74x more via AI\u2014eCommerce must adapt to voice-first buyers.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-21",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Tactfully rejecting bad client ideas preserves relationships better than technical correctness alone.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-21",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Stripe joins singularity conversation, challenging AI lab monopoly on capability claims.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-21",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Different AI models produce vastly different website outputs from identical prompts.",
+      "content_format": "carousel"
     }
   ]
 }
