@@ -2944,6 +2944,30 @@
       "source": "Substack Digest",
       "angle": "Different AI models produce vastly different website outputs from identical prompts.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-08-24",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Great content alone won't grow your newsletter; distribution and audience strategy matter more.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-24",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "Incomplete news digest header about medical innovation and space tech, lacking substance.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-24",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Substack digest header with minimal substantive content.",
+      "content_format": "text"
     }
   ]
 }
