@@ -2968,6 +2968,38 @@
       "source": "Substack Digest",
       "angle": "Substack digest header with minimal substantive content.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-25",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "AI agents can't run your business autopilot; gurus oversell autonomous capabilities.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-25",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Psychological tactics Sebastian Sawe used to break the 2-hour marathon barrier.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-25",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "AI models remain biased and tell you what you want to hear despite improvements.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-25",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Start with connectors your business actually uses, not a blank slate, when setting up AI agents.",
+      "content_format": "carousel"
     }
   ]
 }
