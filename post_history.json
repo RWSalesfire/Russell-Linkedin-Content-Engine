@@ -3000,6 +3000,38 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "Start with connectors your business actually uses, not a blank slate, when setting up AI agents.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-08-26",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Build an AI-powered business intelligence layer to optimize content strategy for eCommerce.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-26",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "AI browser-use agents automate tedious multi-step web portal tasks without APIs.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-26",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Alibaba issues $10B in stock to fund creative AI ambitions amid competitive funding race.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-26",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Top 1% of sellers employ specific strategies that differentiate them from average performers.",
+      "content_format": "text"
     }
   ]
 }
