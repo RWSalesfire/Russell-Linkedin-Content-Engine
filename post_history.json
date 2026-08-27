@@ -3032,6 +3032,38 @@
       "source": "Substack Digest",
       "angle": "Top 1% of sellers employ specific strategies that differentiate them from average performers.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-27",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI agent autonomously sourced four sales meetings from existing HubSpot database.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-08-27",
+      "category": "AI in eCommerce",
+      "persona": "The Human",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Claude AI skill reduced Amazon advertising ACoS from 27% to 18% through hourly analysis.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-27",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "The Rundown AI",
+      "angle": "New AI mystery model revealed with breakthrough capabilities.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-27",
+      "category": "Email Marketing",
+      "persona": "The eCommerce Observer",
+      "source": "Litmus",
+      "angle": "Email marketing newsletter roundup with new data and AI commentary.",
+      "content_format": "text"
     }
   ]
 }
