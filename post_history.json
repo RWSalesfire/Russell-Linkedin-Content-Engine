@@ -3064,6 +3064,38 @@
       "source": "Litmus",
       "angle": "Email marketing newsletter roundup with new data and AI commentary.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-08-28",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Superhuman AI",
+      "angle": "Nvidia acquires Hugging Face for $13B, reshaping AI model distribution landscape.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-28",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "AI workflow reduces status report time from one hour to ten minutes with citations.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-28",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Menu design using social proof measurably changes customer ordering behavior.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-28",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Replaced helpdesk with 5 AI prompts, reducing support costs and response time.",
+      "content_format": "carousel"
     }
   ]
 }
