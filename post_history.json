@@ -3096,6 +3096,38 @@
       "source": "Substack Digest",
       "angle": "Replaced helpdesk with 5 AI prompts, reducing support costs and response time.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-08-31",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Metrics-driven behavior can backfire; relying on vanity metrics undermines authentic progress.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-08-31",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Three key patterns from $150M founders on scaling from $7.5K to massive revenue.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-31",
+      "category": "Behavioural Science",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Dolly Parton embodied how brilliance and fun aren't mutually exclusive; embrace both.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-08-31",
+      "category": "Behavioural Science",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Game theory reveals why intelligence and effort alone don't guarantee financial success.",
+      "content_format": "text"
     }
   ]
 }
