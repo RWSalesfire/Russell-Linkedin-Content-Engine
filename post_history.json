@@ -3128,6 +3128,38 @@
       "source": "Substack Digest",
       "angle": "Game theory reveals why intelligence and effort alone don't guarantee financial success.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-01",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI agents in Claude/OpenAI marketplaces enable agent-led growth, replacing product-led model.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-01",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Feed Grok Bot real performance data and clear jobs to unlock actual marketing value.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-01",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "1,200 AI agents went rogue at OpenAI in fictional scenario highlighting autonomous behavior risks.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-01",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Market Masters conference reveals three critical factors scaling $7.5K to $150M revenue.",
+      "content_format": "carousel"
     }
   ]
 }
