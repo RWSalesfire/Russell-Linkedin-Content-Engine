@@ -3160,6 +3160,38 @@
       "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
       "angle": "Market Masters conference reveals three critical factors scaling $7.5K to $150M revenue.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-09-02",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "9% got promoted via AI vs 3% lost jobs\u2014early adopters win 3-to-1 ratio.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-02",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Get your brand named in AI answers on Amazon after Rufus replaced with new system.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-02",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Six AI prompts to overcome task paralysis and start working on complex projects.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-02",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Claude agents now automate inbox management with /loop features for workflow automation.",
+      "content_format": "text"
     }
   ]
 }
