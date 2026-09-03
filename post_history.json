@@ -3192,6 +3192,38 @@
       "source": "Substack Digest",
       "angle": "Claude agents now automate inbox management with /loop features for workflow automation.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-03",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Three Grok Bot workflows: SEO drafting, sales research, revenue tracking automation.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-09-03",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "The Rundown AI",
+      "angle": "Meta and Google announce new AI products in competitive market.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-03",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "AI theme for late 2020s explored; security focus emerging as critical concern.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-03",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Eric Siu demonstrates live Grok Bot marketing team setups for replication.",
+      "content_format": "scaffold"
     }
   ]
 }
