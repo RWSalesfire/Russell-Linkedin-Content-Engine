@@ -3224,6 +3224,38 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "Eric Siu demonstrates live Grok Bot marketing team setups for replication.",
       "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-04",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Top BFCM winners lock creator partnerships 90 days early; 61.8% of creators book by October.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-04",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "AI prompts help overthinkers finish drafts by breaking perfectionism paralysis and shipping work faster.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-04",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Money-back guarantees stand out because customers expect false promises from brands.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-04",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "One in five job listings are fake; AI can help job seekers beat ghost jobs with a 4-prompt strategy.",
+      "content_format": "carousel"
     }
   ]
 }
