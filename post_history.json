@@ -3256,6 +3256,38 @@
       "source": "Substack Digest",
       "angle": "One in five job listings are fake; AI can help job seekers beat ghost jobs with a 4-prompt strategy.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-09-07",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "8 research hacks transform Claude from search engine to powerful research partner.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-07",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "3 specific workflows to delegate to GPT-6 Astra for solo founders and small teams.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-07",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "76% of entrepreneurs make same pitch mistake; showing flaws increases funding likelihood 6x.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-07",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Astra's launch video generated 128M views, signaling rapid AI progress momentum.",
+      "content_format": "text"
     }
   ]
 }
