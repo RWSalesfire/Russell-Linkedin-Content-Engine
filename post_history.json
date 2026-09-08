@@ -3288,6 +3288,38 @@
       "source": "Superhuman AI",
       "angle": "Astra's launch video generated 128M views, signaling rapid AI progress momentum.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-08",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "AI helps consultants productize repetitive expertise, escaping time-for-money trap.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-08",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "AI-generated article spam won't rank; search engines detect repetitive content patterns.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-08",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Amazon reviews disappearing without explanation, impacting seller visibility and social proof.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-08",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Seven AI prompts compress half-day sector research into 20 minutes with actionable structure.",
+      "content_format": "carousel"
     }
   ]
 }
