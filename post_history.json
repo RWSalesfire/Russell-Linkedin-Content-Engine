@@ -3320,6 +3320,38 @@
       "source": "Substack Digest",
       "angle": "Seven AI prompts compress half-day sector research into 20 minutes with actionable structure.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-09-09",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Eight AI browser plugins reclaim 5-10 weekly hours by automating email and task switching.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-09",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Train Claude once on eCommerce workflows to automate repetitive explanations permanently.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-09",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Live demo: building AI-powered revenue stack with GPT-6 Astra and Grok Bot agents.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-09",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Decide which work tasks to delegate to Astra while retaining control over decisions.",
+      "content_format": "text"
     }
   ]
 }
