@@ -3352,6 +3352,38 @@
       "source": "Substack Digest",
       "angle": "Decide which work tasks to delegate to Astra while retaining control over decisions.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-10",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Overcomplicating closing documents kills deals; author lost retainer through complex payment friction.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-09-10",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "AI disrupting retail model; article title promises insight but content not fully visible in excerpt.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-10",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Enterprise outbound case study highlights standout sales tactics beyond typical hacks and myths.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-10",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Breaking AI news on major releases and emerging controversies in the industry this week.",
+      "content_format": "text"
     }
   ]
 }
