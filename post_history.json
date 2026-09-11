@@ -3384,6 +3384,38 @@
       "source": "Superhuman AI",
       "angle": "Breaking AI news on major releases and emerging controversies in the industry this week.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-11",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Amazon account suspension cost seller $35M revenue and $6M debt.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-11",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Superhuman AI",
+      "angle": "Apple's major AI launch event under new CEO Jo Ive.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-11",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "British vs Japanese retail shop designs reveal cultural differences in customer behavior.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-11",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "Anthropic releases report documenting global attempts to misuse Claude AI.",
+      "content_format": "carousel"
     }
   ]
 }
