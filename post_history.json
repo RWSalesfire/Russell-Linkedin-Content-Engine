@@ -3416,6 +3416,38 @@
       "source": "The Rundown AI",
       "angle": "Anthropic releases report documenting global attempts to misuse Claude AI.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-09-14",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Rebuild flawed AI Council prompts into rigorous Decision Council framework for better outputs.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-14",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Replace $99 copywriting tool with four Claude prompts\u2014confession-driven cost-saving hack.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-14",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Eight AI video tools democratize cinematic content creation without expensive equipment.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-14",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Sometimes not reacting to disrespect is wiser than defending yourself.",
+      "content_format": "text"
     }
   ]
 }
