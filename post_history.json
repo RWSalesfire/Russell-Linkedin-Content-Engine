@@ -3448,6 +3448,38 @@
       "source": "Substack Digest",
       "angle": "Sometimes not reacting to disrespect is wiser than defending yourself.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-15",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <kevin.king@mail.billiondollarsellers.com>)",
+      "angle": "Vine reviewers systematically tank eCommerce product ratings through coordinated tactics.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-15",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Superhuman AI",
+      "angle": "Anthropic CEO Amodei makes controversial industry call amid OpenAI rivalry intensification.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-15",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "The Rundown AI",
+      "angle": "Trump and China policies counter predictions of AI market slowdown.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-15",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI agents now qualify and book leads via voice calls within 60 seconds automatically.",
+      "content_format": "carousel"
     }
   ]
 }
