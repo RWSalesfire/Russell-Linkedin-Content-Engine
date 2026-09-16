@@ -3480,6 +3480,38 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "AI agents now qualify and book leads via voice calls within 60 seconds automatically.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-09-16",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "More AI tools won't grow revenue\u2014strategic execution and sales fundamentals do.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-16",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Replace $120/month support seat with AI email classifier using Make and Airtable.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-16",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "AI evolves from answering questions to autonomously executing tasks across domains.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-16",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Use AI to prepare for and navigate difficult conversations with clarity.",
+      "content_format": "text"
     }
   ]
 }
