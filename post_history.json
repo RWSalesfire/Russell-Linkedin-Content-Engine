@@ -3512,6 +3512,38 @@
       "source": "Substack Digest",
       "angle": "Use AI to prepare for and navigate difficult conversations with clarity.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-17",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Superhuman AI",
+      "angle": "ChatGPT co-inventor unveils new model class eliminating hallucination problem.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-09-17",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI bot calls leads back in under a minute, powered by Grok.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-17",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "The Rundown AI",
+      "angle": "Mark Zuckerberg's Meta appears positioned differently amid AI industry slowdown.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-17",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Meta Muse enables agentic shopping experiences for eCommerce platforms.",
+      "content_format": "text"
     }
   ]
 }
