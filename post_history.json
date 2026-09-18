@@ -3544,6 +3544,38 @@
       "source": "AI for eCommerce Newsletter",
       "angle": "Meta Muse enables agentic shopping experiences for eCommerce platforms.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Study of 318k Reddit posts proves AI homogenizes writing style, reducing uniqueness.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "AI-driven SDR experiment tripled demo rates, generating $2M pipeline in one month.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Five AI prompts replace $80/month social media schedulers with free Make + Airtable.",
+      "content_format": "carousel"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "Behavioural Science",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Limiting beliefs about capability may be self-imposed psychological barriers, not reality.",
+      "content_format": "text"
     }
   ]
 }
