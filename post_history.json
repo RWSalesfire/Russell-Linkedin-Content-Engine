@@ -3576,6 +3576,38 @@
       "source": "Substack Digest",
       "angle": "Limiting beliefs about capability may be self-imposed psychological barriers, not reality.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Use Gemini to automatically extract action items from lengthy meeting transcripts efficiently.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Major restaurant chains disguise themselves as independents to deceive consumers online.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "Behavioural Science",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Digest of personal habits and lessons from successful entrepreneurs and business leaders.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "OpenAI security breach highlights vulnerability of AI companies to hacking threats.",
+      "content_format": "text"
     }
   ]
 }
