@@ -3608,6 +3608,38 @@
       "source": "The Rundown AI",
       "angle": "OpenAI security breach highlights vulnerability of AI companies to hacking threats.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-22",
+      "category": "Email Marketing",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Four AI prompts plan a month of newsletters in one session using markdown.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-22",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "AI companions address modern loneliness; nuanced alternative to dismissive discourse.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-22",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "The Rundown AI",
+      "angle": "Amazon removes Meta's Muse from marketplace in competitive AI move.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-22",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Marketing engineering: automate weekly tasks with AI agents across paid, SEO, outbound.",
+      "content_format": "carousel"
     }
   ]
 }
