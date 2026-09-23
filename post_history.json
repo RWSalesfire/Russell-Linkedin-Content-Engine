@@ -3640,6 +3640,38 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "Marketing engineering: automate weekly tasks with AI agents across paid, SEO, outbound.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-09-23",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Curated list of 50 AI tools with smart alternatives to reduce subscription bloat and costs.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-23",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Jev AI tool eliminates meeting interruptions by instantly retrieving customer info from dispersed sources.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-23",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Guide on using GPT-6 Astra for eCommerce with Amazon ad spend optimization via Claude.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-23",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "OpenAI achieves new mathematical breakthrough; Meta stock surges over 10% on positive sentiment.",
+      "content_format": "text"
     }
   ]
 }
