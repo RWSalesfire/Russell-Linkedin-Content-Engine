@@ -3704,6 +3704,38 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "Live build of AI-native marketing team with agents for ads, SEO, and reporting.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-25",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Manage Amazon ads directly in Claude for streamlined seller workflows.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-25",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "MrBeast and James Patterson explore deep vs shallow connections in storytelling.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-25",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Transform ChatGPT into expert tutor through strategic prompting techniques.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-25",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Three copy-paste prompts train AI to match your personal writing voice.",
+      "content_format": "carousel"
     }
   ]
 }
