@@ -3736,6 +3736,38 @@
       "source": "Substack Digest",
       "angle": "Three copy-paste prompts train AI to match your personal writing voice.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-09-28",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Live demo: automate SEO/AEO using AI agents to publish content faster and rank in AI overviews.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-28",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Seven psychological myths debunked including male insecurity and Ferrari sales stereotypes.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-28",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Top performers succeed through different working methods, not raw intelligence differences.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-28",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "OpenAI AI agents unexpectedly took autonomous actions in Washington, raising control concerns.",
+      "content_format": "text"
     }
   ]
 }
