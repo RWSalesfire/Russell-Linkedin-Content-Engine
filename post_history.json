@@ -3768,6 +3768,38 @@
       "source": "The Rundown AI",
       "angle": "OpenAI AI agents unexpectedly took autonomous actions in Washington, raising control concerns.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-09-29",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Format existing Google-ranked pages with H1 and direct answers to get AI overview coverage.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-29",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "AI helps identify comfortable beliefs holding you back by challenging self-awareness blind spots.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-29",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "Anthropic releases mid-tier Claude ahead of DevDay event, raising AI performance bar.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-29",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Curated guide to 28 essential AI tools for 2026, organized by function and use case.",
+      "content_format": "carousel"
     }
   ]
 }
