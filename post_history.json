@@ -3800,6 +3800,38 @@
       "source": "Substack Digest",
       "angle": "Curated guide to 28 essential AI tools for 2026, organized by function and use case.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-09-30",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "ChatGPT Images 2.5 guides eCommerce sellers to create ship-ready product images.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-30",
+      "category": "AI in Sales",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "$2B CMO trained 50% of org to build agents in 2.5 weeks; case study inside.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-09-30",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "AI's explosive growth continues despite bubble concerns; agentic traffic security matters.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-09-30",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Newsletter promotes 4-week tactical social selling course with expert Sam McKenna.",
+      "content_format": "text"
     }
   ]
 }
