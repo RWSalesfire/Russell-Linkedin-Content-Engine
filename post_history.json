@@ -3832,6 +3832,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Newsletter promotes 4-week tactical social selling course with expert Sam McKenna.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-10-01",
+      "category": "Email Marketing",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Use AI to reverse-engineer successful newsletter structures to break through growth plateaus.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-10-01",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "13 LinkedIn Sales Nav search tactics to generate warm leads faster than traditional prospecting.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-01",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "The Rundown AI",
+      "angle": "Google launches Gemini 4 to reclaim AI frontier leadership against competitors.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-01",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Live webinar showcasing full SEO/AEO system with AI agents handling drafting and research.",
+      "content_format": "text"
     }
   ]
 }
