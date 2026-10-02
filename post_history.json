@@ -3864,6 +3864,38 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "Live webinar showcasing full SEO/AEO system with AI agents handling drafting and research.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-10-02",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "RS Metrics sells 67,000 daily satellite parking lot photos revealing retail earnings patterns.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-02",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Google's Gemini returns after months without frontier model releases.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-02",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "AI Agents V2 helps Amazon sellers optimize inbox management for Black Friday.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-02",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "19 practical AI tools that solve real problems, not 50 mediocre ones.",
+      "content_format": "carousel"
     }
   ]
 }
