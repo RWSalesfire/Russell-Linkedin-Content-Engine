@@ -3896,6 +3896,38 @@
       "source": "Substack Digest",
       "angle": "19 practical AI tools that solve real problems, not 50 mediocre ones.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-10-05",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "OpenAI safety insider reveals broken internal culture; credibility crisis for AI leader.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-05",
+      "category": "Behavioural Science",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Man drives 3 years Netherlands to Australia; explores psychology of extreme dedication.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-05",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Using wrong approach makes life hard; reframe your strategy for better outcomes.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-05",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Superhuman AI",
+      "angle": "Nvidia-backed startup launches two popular AI tools; minimal substance in snippet.",
+      "content_format": "text"
     }
   ]
 }
