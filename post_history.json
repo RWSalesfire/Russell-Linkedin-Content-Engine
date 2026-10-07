@@ -3960,6 +3960,38 @@
       "source": "Substack Digest",
       "angle": "Eight Claude research hacks beyond basic Q&A unlock document analysis and insight generation.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-10-07",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Legora scaled from $3.5M to $200M+ ARR in 2 years via direct sales motion.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-07",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "ChatGPT costs less but Claude delivers more value per dollar\u2014counterintuitive pricing reality.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-07",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "AI decisions hide real costs\u2014force models to calculate trade-offs before recommending options.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-07",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Guide for eCommerce teams implementing ChatGPT Dots for workflow automation.",
+      "content_format": "text"
     }
   ]
 }
