@@ -3992,6 +3992,38 @@
       "source": "AI for eCommerce Newsletter",
       "angle": "Guide for eCommerce teams implementing ChatGPT Dots for workflow automation.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Meta's Muse AI tool expands into business operations management for eCommerce.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "LinkedIn Sales Nav can identify warm leads through exec job changes when used strategically.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "The Rundown AI",
+      "angle": "AI is expanding into cellular biology research, marking a new frontier.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Live webinar building an AI-native marketing stack with Eric Siu.",
+      "content_format": "text"
     }
   ]
 }
