@@ -4024,6 +4024,38 @@
       "source": "Leveling Up (Eric Siu)",
       "angle": "Live webinar building an AI-native marketing stack with Eric Siu.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-10-09",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "5-step Q4 outbound system; AI CRM customer saved $50K annually on tools.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-09",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Build AI chief of staff using priorities file and standing instructions to filter requests.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-09",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "AI agents now handle routine phone calls; replaces frustrating customer service interactions.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-09",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "E.T. product placement failure teaches marketing lesson: Reese's Pieces saw 65% sales lift.",
+      "content_format": "carousel"
     }
   ]
 }
