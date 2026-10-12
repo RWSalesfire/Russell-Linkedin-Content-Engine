@@ -4056,6 +4056,38 @@
       "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
       "angle": "E.T. product placement failure teaches marketing lesson: Reese's Pieces saw 65% sales lift.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-10-12",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Flexport's Director of SDR shares how they built AI-powered outbound sales operations.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-12",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "6-prompt sequence extracts actionable frameworks from 300-page business books in 20 minutes.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-12",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Four AI tools enable building functional apps in a weekend without coding experience.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-12",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Sam Altman's celebrity strategy for AI CEO leadership differs from typical corporate profiles.",
+      "content_format": "scaffold"
     }
   ]
 }
