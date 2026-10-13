@@ -4088,6 +4088,38 @@
       "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
       "angle": "Sam Altman's celebrity strategy for AI CEO leadership differs from typical corporate profiles.",
       "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-13",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AEO without SEO fails; AI overviews require Google foundation for visibility.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-13",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Only 20M people building substantially with AI; learning gap remains massive.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-13",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Meta restructures AI division again; unclear strategic direction despite investment.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-13",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "AI-powered decision records prevent decisions from being forgotten between meetings.",
+      "content_format": "carousel"
     }
   ]
 }
