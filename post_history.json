@@ -4120,6 +4120,38 @@
       "source": "Substack Digest",
       "angle": "AI-powered decision records prevent decisions from being forgotten between meetings.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-10-14",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Only 20M people build substantially with AI; interactive tools bridge gap between possibility and skill.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-14",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Guide for eCommerce founders to start with personal AI agents; analytics blind to AI visibility.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-14",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Claude's motion feature commoditizes design work; half of 2022 freelancer-hiring companies stopped.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-14",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "OpenAI engineer allegedly bugged executives; corporate security breach at major AI lab.",
+      "content_format": "text"
     }
   ]
 }
