@@ -4152,6 +4152,38 @@
       "source": "The Rundown AI",
       "angle": "OpenAI engineer allegedly bugged executives; corporate security breach at major AI lab.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Four critical questions determine which tasks should stay human, not go to AI.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Small businesses show real AI wins beyond vendor hype and enterprise budgets.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "TikTok integrates agentic AI into commerce, automating shopping decisions for users.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "OpenAI employee allegedly planted recording device; Apple launches HomeView.",
+      "content_format": "scaffold"
     }
   ]
 }
