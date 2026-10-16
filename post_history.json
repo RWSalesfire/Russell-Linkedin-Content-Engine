@@ -4184,6 +4184,38 @@
       "source": "Superhuman AI",
       "angle": "OpenAI employee allegedly planted recording device; Apple launches HomeView.",
       "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "AI in eCommerce",
+      "persona": "The Honest AI User",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "AI drives 105.5% order growth but recommends out-of-stock products, causing fulfillment chaos.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Companies rebrand as 'AI-powered' to capitalize on hype, echoing dot-com bubble tactics.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Four essential questions filter tasks unsuitable for AI, with real legal precedent from High Court.",
+      "content_format": "carousel"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "AI startup claims to undercut Walmart, Amazon, and Costco pricing models.",
+      "content_format": "text"
     }
   ]
 }
