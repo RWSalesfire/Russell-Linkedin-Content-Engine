@@ -4216,6 +4216,38 @@
       "source": "Superhuman AI",
       "angle": "AI startup claims to undercut Walmart, Amazon, and Costco pricing models.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Google AI prioritizes third-party citations over agency websites, reshaping SEO strategy.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Market overreaction to unrelated events reveals psychology behind stock movements.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Poker pro builds $100M AI accounts receivable automation company.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "The Rundown AI",
+      "angle": "Anthropic launches public pricing model for API access.",
+      "content_format": "text"
     }
   ]
 }
