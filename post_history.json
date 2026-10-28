@@ -4248,6 +4248,38 @@
       "source": "The Rundown AI",
       "angle": "Anthropic launches public pricing model for API access.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (russell westgarth <russell.westgarth@salesfire.com>)",
+      "angle": "Claude Code enables 5-step TikTok/Reels editing workflow; eCommerce Black Friday stats included.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "26 free AI tools ranked by category (video, music, audio, design, websites, editing).",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "OpenAI advances show AI becoming cheaper and stronger simultaneously.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "AI in eCommerce",
+      "persona": "The Sales Realist",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Guide shows eCommerce sellers how to edit social content with Claude Code.",
+      "content_format": "scaffold"
     }
   ]
 }
