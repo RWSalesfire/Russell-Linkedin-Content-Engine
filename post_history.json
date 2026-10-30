@@ -4312,6 +4312,38 @@
       "source": "The Rundown AI",
       "angle": "Google Gemini 4 Carbon leads AI model benchmarks in latest rankings.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Claude-Opus-5.5 challenges perception that AI-generated websites are slop; award-winning test case.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Confession: AI adoption feels overwhelming; confess you're doing it wrong, not discovering unique value.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Reconsider SDR hiring; optimize account prioritization strategy before scaling sales team.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Two behavioural science biases (mystery gifts example) that eCommerce marketers can apply today.",
+      "content_format": "carousel"
     }
   ]
 }
