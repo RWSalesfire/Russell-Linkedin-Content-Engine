@@ -4344,6 +4344,38 @@
       "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
       "angle": "Two behavioural science biases (mystery gifts example) that eCommerce marketers can apply today.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Psychology of financial bubbles explains why smart people make dumb money decisions.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "Growing AI backlash emerging as political issue heading into major election cycle.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Weekly roundup of trending GitHub repositories with practical implementation guidance.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Language model critique of English language quirks through playful AI perspective.",
+      "content_format": "scaffold"
     }
   ]
 }
