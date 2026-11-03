@@ -4376,6 +4376,38 @@
       "source": "Substack Digest",
       "angle": "Language model critique of English language quirks through playful AI perspective.",
       "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "AI-generated status updates waste time; Microsoft study shows 28% of workday spent updating.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Test if AI catches conflicting data; run a 20-minute verification prompt on supplier briefs.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "New AI startup launches wearable glasses that capture whispered commands; trending story.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-03",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Sales enablement operating rhythms and toolkits from VP of Enablement for quota success.",
+      "content_format": "carousel"
     }
   ]
 }
