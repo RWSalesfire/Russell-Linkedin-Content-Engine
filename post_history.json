@@ -4408,6 +4408,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Sales enablement operating rhythms and toolkits from VP of Enablement for quota success.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "10 free and low-cost APIs enable AI agent building for startups without major investment.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Deploy AI agents to ad accounts while maintaining budget control and preventing overspend.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Writer reflects on over-relying on AI agents, rediscovering value of manual note-taking.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "DeepSeek now allows custom plugin creation, expanding AI model flexibility and personalization.",
+      "content_format": "text"
     }
   ]
 }
