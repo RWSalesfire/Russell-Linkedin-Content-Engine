@@ -4440,6 +4440,38 @@
       "source": "Superhuman AI",
       "angle": "DeepSeek now allows custom plugin creation, expanding AI model flexibility and personalization.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "AI in eCommerce",
+      "persona": "The Human",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "AI-generated ads diverge from approved versions, exposing quality control risks for eCommerce.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Sales enablement leaders juggle competing organizational demands while driving performance.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "AI agents can now autonomously make phone calls, automating a core sales activity.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Superhuman AI",
+      "angle": "Netflix uses AI to personalize content recommendations and streamline viewer decision-making.",
+      "content_format": "text"
     }
   ]
 }
