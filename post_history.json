@@ -4472,6 +4472,38 @@
       "source": "Superhuman AI",
       "angle": "Netflix uses AI to personalize content recommendations and streamline viewer decision-making.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "\u00a34B founder writes 500 handwritten letters weekly to show staff they're valued.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "AI's tendency to praise plans masks flaws; use specific prompts to find real risks.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Language model analyzes 2026 midterms, revealing fractured consensus on voter intent.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <billiondollarsellers@mail.beehiiv.com>)",
+      "angle": "Six Amazon EEO myths debunked for eCommerce brands seeking growth leverage.",
+      "content_format": "carousel"
     }
   ]
 }
