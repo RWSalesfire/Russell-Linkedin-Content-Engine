@@ -4504,6 +4504,38 @@
       "source": "Unknown Newsletter (kevin king <billiondollarsellers@mail.beehiiv.com>)",
       "angle": "Six Amazon EEO myths debunked for eCommerce brands seeking growth leverage.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-11-09",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (the code <superhumancode@news.codenewsletter.ai>)",
+      "angle": "Three workflows to reduce AI token costs as companies cap spending on coding agents.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-09",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Seventeen emerging social platforms offer alternatives for creators and merchants beyond mainstream networks.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-09",
+      "category": "AI in Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Leverage AI tools to generate qualified pipeline from trade show attendance efficiently.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-09",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Lottery winners reveal surprising psychology: sudden wealth creates imbalance before meaning.",
+      "content_format": "scaffold"
     }
   ]
 }
