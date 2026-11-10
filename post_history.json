@@ -4536,6 +4536,38 @@
       "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
       "angle": "Lottery winners reveal surprising psychology: sudden wealth creates imbalance before meaning.",
       "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Buyers need painful problems, not just product interest, to close deals; Jen Allen-Knuth shares diagnostic questions.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Unconventional objection handling techniques from sales trainer Giulio Segantini challenge vanilla sales playbooks.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "The Rundown AI",
+      "angle": "Anthropic releases Claude 3.5 Sonnet with incremental improvements, signals measured AI development pace.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Define pass/fail criteria before AI experiments to avoid moving goalposts and prove real results.",
+      "content_format": "carousel"
     }
   ]
 }
