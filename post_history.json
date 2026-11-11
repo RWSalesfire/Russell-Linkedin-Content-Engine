@@ -4568,6 +4568,38 @@
       "source": "Substack Digest",
       "angle": "Define pass/fail criteria before AI experiments to avoid moving goalposts and prove real results.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI SDR workflow automates prospect research, verification, and outreach preparation.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "AI in eCommerce",
+      "persona": "The Sales Realist",
+      "source": "The Rundown AI",
+      "angle": "OpenAI enables brands to sell products directly within ChatGPT interface.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Substack Digest",
+      "angle": "Newsletter pricing increased from $200 to $400 yearly; early subscribers get discount.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "Sales",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Biggest deals often stall undetected; diagnostic masterclass reveals hidden pipeline blockers.",
+      "content_format": "text"
     }
   ]
 }
