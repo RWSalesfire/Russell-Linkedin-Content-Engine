@@ -4600,6 +4600,38 @@
       "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
       "angle": "Biggest deals often stall undetected; diagnostic masterclass reveals hidden pipeline blockers.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "AI Mode outcompetes Google; Amazon BFCM hacks workshop available.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Year-end sprint: workshop to unstick stalled deals before holiday deadline.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Unknown Newsletter (the code <superhumancode@news.codenewsletter.ai>)",
+      "angle": "Google releases decision model for developers following industry trend.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Superhuman AI",
+      "angle": "Nvidia CEO Jensen Huang allegedly facing termination over personal conduct allegations.",
+      "content_format": "text"
     }
   ]
 }
