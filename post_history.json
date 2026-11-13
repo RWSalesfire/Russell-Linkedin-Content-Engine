@@ -4632,6 +4632,38 @@
       "source": "Superhuman AI",
       "angle": "Nvidia CEO Jensen Huang allegedly facing termination over personal conduct allegations.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Claude can build a $500 CRM replacement in minutes\u2014community support accelerates AI skill adoption.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "One Claude prompt generates a 60-second animated explainer video with captions and audio.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Should you admit CV lies in job interviews? Research shows strategic honesty impacts outcomes.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "85% of AI brand mentions come from third-party reviews, not product pages\u2014AEO strategy needed.",
+      "content_format": "carousel"
     }
   ]
 }
