@@ -4664,6 +4664,38 @@
       "source": "AI for eCommerce Newsletter",
       "angle": "85% of AI brand mentions come from third-party reviews, not product pages\u2014AEO strategy needed.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (kevin king <billiondollarsellers@mail.beehiiv.com>)",
+      "angle": "Amazon reviews reveal buyer personas; use off-platform ads for targeted messaging.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "97.4% of people avoid pointing out awkward physical issues in others.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "eCommerce",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Weekly digest compilation featuring multiple business and monetization posts.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Full guide to outbound planning for 2027 using AI-powered tools.",
+      "content_format": "text"
     }
   ]
 }
