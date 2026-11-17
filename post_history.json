@@ -4696,6 +4696,38 @@
       "source": "Substack Digest",
       "angle": "Full guide to outbound planning for 2027 using AI-powered tools.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "AI agents repeatedly ask same questions; solution needed for persistent context.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (armand farrokh <boringemails@30mpc.com>)",
+      "angle": "Traditional sales training fails; new done-for-you in-house trainer service launched.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (the code <superhumancode@news.codenewsletter.ai>)",
+      "angle": "170+ tech giants breached; decision models emerge as Silicon Valley's new trend.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "AI workflow from competitor research to Instagram ad creative for eCommerce.",
+      "content_format": "carousel"
     }
   ]
 }
