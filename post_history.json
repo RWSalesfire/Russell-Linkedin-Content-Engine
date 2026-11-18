@@ -4728,6 +4728,38 @@
       "source": "AI for eCommerce Newsletter",
       "angle": "AI workflow from competitor research to Instagram ad creative for eCommerce.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Negotiating discounts badly signals weak initial pricing; use strategic tactics instead.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "GTM teams adopted AI but lacked context; rebuild workflows with proper data foundation.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "Ask AI for failure scenarios first to unlock better ideation than generic prompts.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Amazon fee changes and ad lawsuit impact seller strategy and pricing.",
+      "content_format": "text"
     }
   ]
 }
