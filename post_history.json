@@ -4760,6 +4760,38 @@
       "source": "AI for eCommerce Newsletter",
       "angle": "Amazon fee changes and ad lawsuit impact seller strategy and pricing.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Substack Digest",
+      "angle": "AI over-helps by doing extras; set clear task boundaries instead of asking brevity.",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "Workshop offers 7 AI hacks for scaling Amazon and TikTok Shop sellers.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "Sales",
+      "persona": "The Sales Realist",
+      "source": "Unknown Newsletter (nick cegelski <boringemails@30mpc.com>)",
+      "angle": "Sales training service offers done-for-you model to handle rep coaching.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "New startup revisits Theranos-like blood testing idea amid AI IPO wave.",
+      "content_format": "text"
     }
   ]
 }
