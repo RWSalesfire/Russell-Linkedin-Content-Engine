@@ -4792,6 +4792,38 @@
       "source": "Superhuman AI",
       "angle": "New startup revisits Theranos-like blood testing idea amid AI IPO wave.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "Anthropic's Claude IPO: $17B quarterly revenue in 2026 exceeds all combined SaaS companies.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Superhuman AI",
+      "angle": "Alljoined's new AI model can read and interpret human brainwaves directly.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "ChatGPT Business Profiles pricing and cost implications for eCommerce sellers.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "2024 study reveals psychological barriers that make it difficult to decline requests from others.",
+      "content_format": "carousel"
     }
   ]
 }
