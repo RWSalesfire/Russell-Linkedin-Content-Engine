@@ -4824,6 +4824,38 @@
       "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
       "angle": "2024 study reveals psychological barriers that make it difficult to decline requests from others.",
       "content_format": "carousel"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Handwriting effort signals value; small gestures like smileys boost perceived worth significantly.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Superhuman AI",
+      "angle": "Claude AI achieves breakthrough in solving a major mathematical problem.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "AI likely solved the Riemann hypothesis; implications explored for business leaders.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "AI",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (the code <superhumancode@news.codenewsletter.ai>)",
+      "angle": "AI models now run directly on MacBooks, bringing local computing to users.",
+      "content_format": "text"
     }
   ]
 }
