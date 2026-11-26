@@ -4920,6 +4920,38 @@
       "source": "Substack Digest",
       "angle": "Thanksgiving recipes from bestselling cookbook author for holiday meal planning.",
       "content_format": "text"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "AI in Sales",
+      "persona": "The Honest AI User",
+      "source": "Leveling Up (Eric Siu)",
+      "angle": "Sales bot tested internally first before scaling to best leads; lessons from cautious rollout",
+      "content_format": "opinion"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "AI for eCommerce Newsletter",
+      "angle": "AI fails for Amazon sellers without connected data and business context",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Superhuman AI",
+      "angle": "Startup claims AI 'time machine' breakthrough using historical insights strategy",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "AI",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (the code <superhumancode@news.codenewsletter.ai>)",
+      "angle": "Karpathy builds digital America using public data; password manager security concerns",
+      "content_format": "text"
     }
   ]
 }
