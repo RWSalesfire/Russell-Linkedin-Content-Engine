@@ -4952,6 +4952,38 @@
       "source": "Unknown Newsletter (the code <superhumancode@news.codenewsletter.ai>)",
       "angle": "Karpathy builds digital America using public data; password manager security concerns",
       "content_format": "text"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "Behavioural Science",
+      "persona": "The Human",
+      "source": "Unknown Newsletter (phill agnew <phill@nudgepodcast.com>)",
+      "angle": "Contrarian ads leveraging negativity bias generate attention; 52M Facebook interactions prove effectiveness.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "AI",
+      "persona": "The Honest AI User",
+      "source": "Substack Digest",
+      "angle": "Reading Claude outputs becomes productivity bottleneck; summarization tactics fail for complex reasoning.",
+      "content_format": "scaffold"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "AI in eCommerce",
+      "persona": "The eCommerce Observer",
+      "source": "Unknown Newsletter (the code <superhumancode@news.codenewsletter.ai>)",
+      "angle": "Cloudflare enables AI agents to search websites efficiently, reducing crawl errors.",
+      "content_format": "text"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "AI",
+      "persona": "The Sales Realist",
+      "source": "Substack Digest",
+      "angle": "12 AI tools beyond ChatGPT for automation, design, and coding tasks.",
+      "content_format": "carousel"
     }
   ]
 }
